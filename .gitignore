@@ -12,3 +12,4 @@ rclone.conf
 *rclone*.conf
 __pycache__/
 .pytest_cache/
+client_secret*.json
