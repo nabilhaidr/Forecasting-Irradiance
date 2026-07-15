@@ -1,0 +1,14 @@
+raw_data/
+spec raw/
+data/
+outbox/
+build/
+*.grib
+*.grib2
+*.parquet
+.env
+.env.*
+rclone.conf
+*rclone*.conf
+__pycache__/
+.pytest_cache/
