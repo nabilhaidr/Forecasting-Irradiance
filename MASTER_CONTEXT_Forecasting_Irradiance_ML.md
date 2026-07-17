@@ -947,7 +947,7 @@ deployment:
 
 ### 18.1 Sprint 0 checklist
 
-> **Snapshot:** 2026-07-17 15:10 UTC. Legend: ✅ complete · 🟡 in progress · ⏭️ ready to start · ⬜ not started. Do not promote 🟡 to ✅ on implementation evidence alone when an operational acceptance gate remains.
+> **Snapshot:** 2026-07-17 15:17 UTC. Legend: ✅ complete · 🟡 in progress · ⏭️ ready to start · ⬜ not started. Do not promote 🟡 to ✅ on implementation evidence alone when an operational acceptance gate remains.
 
 | # | Task | Status | Evidence, gap, and next action | Owner |
 |---|---|---|---|---|

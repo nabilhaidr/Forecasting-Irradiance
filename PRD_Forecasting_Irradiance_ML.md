@@ -2261,7 +2261,7 @@ Sequence models · TFT / NHITS · satellite · array-as-sensor · NWP *modelling
 
 ### 42.5 Sprint 0 Execution Status — 2026-07-17
 
-> **Operational snapshot:** 2026-07-17 15:10 UTC. Status legend: ✅ complete · 🟡 in progress · ⏭️ ready to start · ⬜ not started. A task receives ✅ only when its stated deliverable and acceptance evidence both exist.
+> **Operational snapshot:** 2026-07-17 15:17 UTC. Status legend: ✅ complete · 🟡 in progress · ⏭️ ready to start · ⬜ not started. A task receives ✅ only when its stated deliverable and acceptance evidence both exist.
 
 | ID | Status | Progress and evidence | Remaining before ✅ |
 |---|---|---|---|
