@@ -5,3 +5,4 @@ PyYAML==6.0.3
 pytest==9.0.3
 nbformat==5.10.4
 nbclient==0.10.2
+ipykernel==7.3.0
