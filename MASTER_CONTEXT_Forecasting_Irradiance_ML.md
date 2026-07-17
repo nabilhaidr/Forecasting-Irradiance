@@ -751,8 +751,8 @@ sensors:
 #  See docs/phase0_cov_characterisation.md
 # ----------------------------------------------------------------------------
 cov:
-  canonical_freq: "1min"              # TBC — JUSTIFY from measured inter-arrival stats.
-                                      #       If median inter-arrival is 4 min, 1min is a fiction.
+  canonical_freq: "1min"              # S0-2 measured: slowest five-channel median active p50 = 26.401 s.
+                                      # Evidence: docs/phase0_cov_characterisation.md
   resample_method: "zoh"              # "zoh" (default, matches COV semantics) | "trapezoid"
   deadband_wm2:                       # TBC — MEASURED per tag, from the floor of the |delta| distribution
     ghi: null
@@ -946,19 +946,19 @@ deployment:
 
 ### 18.1 Sprint 0 checklist
 
-> **Snapshot:** 2026-07-17 05:55 UTC. Legend: ✅ complete · 🟡 in progress · ⏭️ ready to start · ⬜ not started. Do not promote 🟡 to ✅ on implementation evidence alone when an operational acceptance gate remains.
+> **Snapshot:** 2026-07-17 08:18 UTC. Legend: ✅ complete · 🟡 in progress · ⏭️ ready to start · ⬜ not started. Do not promote 🟡 to ✅ on implementation evidence alone when an operational acceptance gate remains.
 
 | # | Task | Status | Evidence, gap, and next action | Owner |
 |---|---|---|---|---|
 | **S0-1** | **Start the NWP archiver** (ECMWF Open Data → Parquet, every cycle) | 🟡 **Implementation/activation complete; observation open** | Code, schema, active workflow, **117 passing tests**, successful smoke/full/catch-up, and **11 IFS + 11 AIFS** production issue cycles in the Shared Drive are verified. The schema keeps `issue_time_utc`, `valid_time_utc`, and `retrieved_at_utc` separate. Scheduler gate is `true` and destination is `gdrive:nwp`. **Still required:** two successive issue cycles written by scheduled events after the 2026-07-17 05:40 UTC cutover/enable. | Data Eng |
-| **S0-2** | COV characterisation → `docs/phase0_cov_characterisation.md`; set a **justified** `canonical_freq` | ⏭️ **Ready / GO now** | **145 ZIPs / 170 CSV entries** are readable; 163 CSVs contain data, 7 are empty, and 136 unique tags cover EMI01–EMI05. Compute deadband, p50/p90/p99 inter-arrival, maximum gap, and heartbeat per tag; document empty-file exceptions; derive `canonical_freq` from those measurements. | Data Eng |
+| **S0-2** | COV characterisation → `docs/phase0_cov_characterisation.md`; set a **justified** `canonical_freq` | 🟡 **Measured deliverables complete; historian confirmation open** | Strict run matched **145/145 ZIPs** and all **170 CSV entries** (163 populated, 7 empty). The parser confirmed tag-in-header/value-in-row-column-B semantics. **2,656,231** rows became **2,640,992** events after **15,239** exact duplicates; 12 order inversions and no malformed/conflicting rows were retained in evidence. The 136 tags split into **26 instantaneous**, **76 accumulation**, and **34 meteorological**. Five-channel median active p50 values (18 supported tags) give `canonical_freq`: **1min** from a slowest median of 26.401 s; one DNIcosZ tag has active p50 69.416 s. All heartbeat candidates are unresolved and configured max-report-time is `unknown`. Naive fractional timestamps and the substantial 06:00–18:00 window are consistent with naive WITA, not historian proof. Full CLI/notebook hashes match. **Remaining:** obtain historian timestamp and configured max-report-time/deadband evidence. | Data Eng |
 | **S0-3** | The `dni_cosz` test: is `GHI − DHI − DNI·cosZ` ≈ 0 to machine precision? → `sensor_metadata.is_derived_tag` | ⬜ **Not started** | Required channels exist, but no historical residual/zenith plot or metadata boolean exists yet. | Perf Eng |
 | **S0-4** | Site metadata audit → populate `site_configuration` + `sensor_metadata` | 🟡 **Partial** | Coordinates, elevation, timezone, fixed tilt, tilt/azimuth, POA co-planarity, row geometry, height ranges, no-albedometer status, sensor families, and source specifications were supplied. Repository config currently contains only lat/lon/elevation/timezone. Consolidate all supplied facts; calculate/record GCR and bifaciality; enter RSI mounting and per-sensor class/serial/calibration details; assign owner/date to every null. | Perf Eng / O&M |
 | **S0-5** | Historical coverage audit → `docs/phase0_data_audit.md` | ⬜ **Not started** | Raw history exists, but coverage, gaps, maintenance/outage/curtailment intervals, and empirical monthly `k_c`/regime distributions have not been derived. Never substitute an assumed Indonesian monsoon calendar. | Data Eng |
-| **S0-6** | Repo skeleton + CI + **the leakage harness** | 🟡 **Partial** | Skeleton and NWP-specific tests are green (**117 passed**). General CI and required `tests/leakage/test_no_future_leakage.py` are absent; add them and obtain a green CI run. | ML Eng |
+| **S0-6** | Repo skeleton + CI + **the leakage harness** | 🟡 **Partial** | Skeleton plus NWP/COV tests are green (**166 passed**). General CI and required `tests/leakage/test_no_future_leakage.py` are absent; add them and obtain a green CI run. | ML Eng |
 | **S0-7** | Escalate OD-1 (data path) to OT security | ⬜ **Not started / unresolved** | Manual SCADA export is known, but no written production path/cadence/latency decision or dated decision commitment is recorded. | Product |
 
-**M0 remains open: 0/7 tasks are fully accepted. S0-2 may start; Phase 1 and all modelling may not.**
+**M0 remains open: 0/7 tasks are fully accepted. S0-2 is evidence-complete but remains 🟡 on historian confirmation. NO-GO for Phase 1 and all modelling.**
 
 > **No model is built in Sprint 0. Not even persistence.**
 > The most common failure mode in projects like this is to start with LightGBM on whatever CSV is lying around, and discover four months later that the timestep was fiction, the DNI channel was derived, and the array is on trackers.

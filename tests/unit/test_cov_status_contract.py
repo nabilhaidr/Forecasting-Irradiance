@@ -1,0 +1,53 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import yaml
+
+
+ROOT = Path(__file__).resolve().parents[2]
+NORMATIVE_DOCS = (
+    ROOT / "PRD_Forecasting_Irradiance_ML.md",
+    ROOT / "MASTER_CONTEXT_Forecasting_Irradiance_ML.md",
+    ROOT / "ROADMAP_Forecasting_Irradiance_ML.md",
+)
+
+
+def test_measured_cov_decision_is_consistent_across_config_and_ledgers() -> None:
+    decision = json.loads(
+        (ROOT / "artifacts/phase0_cov/canonical_frequency_decision.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    site = yaml.safe_load(
+        (ROOT / "configs/site_plts-ikn.yaml").read_text(encoding="utf-8")
+    )["site"]
+    report = (ROOT / "docs/phase0_cov_characterisation.md").read_text(
+        encoding="utf-8"
+    )
+
+    assert decision["canonical_freq"] == "1min"
+    assert site["canonical_freq"] == decision["canonical_freq"]
+    assert "S0-2 acceptance status: **YELLOW**" in report
+    assert "configured historian max-report-time is not confirmed" in report
+
+    for path in NORMATIVE_DOCS:
+        text = path.read_text(encoding="utf-8")
+        s0_2_status_lines = [
+            line
+            for line in text.splitlines()
+            if line.startswith("| **S0-2** |") and "🟡" in line
+        ]
+        assert s0_2_status_lines
+        assert "`canonical_freq`: **1min**" in text
+        assert "2,640,992" in text
+        assert "15,239" in text
+        assert "26 instantaneous" in text
+        assert "76 accumulation" in text
+        assert "34 meteorological" in text
+        assert "configured max-report-time" in text
+        assert "`unknown`" in text
+        assert "0/7" in text
+        assert "NO-GO for Phase 1" in text
+        assert "docs/phase0_cov_characterisation.md" in text

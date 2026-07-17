@@ -4,3 +4,4 @@ site:
   longitude_deg: 116.63811127764585
   elevation_m: 85.0
   timezone: "Asia/Makassar"
+  canonical_freq: "1min"  # S0-2 measured decision; see docs/phase0_cov_characterisation.md
