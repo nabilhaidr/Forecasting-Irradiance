@@ -60,5 +60,9 @@ def test_measured_dni_cosz_decision_is_consistent_across_evidence_and_ledgers() 
         assert "319,332" in text
         assert "`sensor_metadata.is_derived_tag=false`" in text
         assert "29589030480" in text
-        assert "**S0-4 decision: GO now.**" in text
+        assert (
+            "**S0-4 decision: consolidation delivered; 🟡 pending "
+            "serial/calibration certificates and mapping/geometry "
+            "confirmations.**" in text
+        )
         assert "NO-GO for Phase 1" in text

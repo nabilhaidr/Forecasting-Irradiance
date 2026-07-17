@@ -1,0 +1,51 @@
+{
+  "albedo_tmy_summary": {
+    "annual_mean": 0.152975,
+    "maximum": 0.166,
+    "minimum": 0.134,
+    "sample_count": 35040
+  },
+  "derived_geometry": {
+    "formula": "row_pitch_m = collector_width_m * cos(tilt) + front_clear_gap_m; gcr = collector_width_m / row_pitch_m",
+    "gcr": 0.6735,
+    "gcr_at_9deg_tilt": 0.6722,
+    "inputs": {
+      "collector_width_m": 5.0,
+      "front_clear_gap_m": 2.5,
+      "nominal_tilt_deg": 10.0,
+      "survey_measured_tilt_deg_range": [
+        9.0,
+        10.0
+      ]
+    },
+    "module_height_m": {
+      "method": "mean of the surveyed module-edge heights at the RSI mounting points (pyranometer height + 29 cm gap equals the module rear surface at that point)",
+      "range_m": [
+        0.97,
+        1.96
+      ],
+      "sample_count": 12,
+      "value": 1.46
+    },
+    "rejected_interpretation": "Reading the 2.50 m front spacing as centre-to-centre pitch would give gcr = 2.0 (> 1), which is physically impossible; the survey value is therefore interpreted as the clear gap between rows.",
+    "row_pitch_m": 7.424
+  },
+  "rsi_sensor_count": 12,
+  "rsi_sensors_without_height_record": [
+    "WS3.1",
+    "WS3.2",
+    "WS3.3",
+    "WS4.3"
+  ],
+  "source_files": [
+    "spec raw/1005-016 - Weather Station Datasheet WS-5.pdf",
+    "spec raw/Backside Irradiance Sensor Data (raw).xlsx",
+    "spec raw/IKN Generation.xlsx",
+    "spec raw/IKN-CI-PP-MT-009\u00a0Material\u00a0Specification\u00a0for\u00a0Weather\u00a0Station WS-1 sampai WS-4.pdf",
+    "spec raw/Jinko Solar JKM625N 78HL4-BDV datasheet.pdf",
+    "spec raw/panel_spec.yaml",
+    "spec raw/strings.yaml",
+    "spec raw/Surface Albedo Forecast TMY NSRDB PLTS IKN.xlsx"
+  ],
+  "task": "S0-4 site metadata audit"
+}

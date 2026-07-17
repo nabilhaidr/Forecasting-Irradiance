@@ -53,7 +53,11 @@ def test_measured_cov_decision_is_consistent_across_config_and_ledgers() -> None
         assert "docs/phase0_cov_characterisation.md" in text
         assert "Sprint 0 acceptance checklist" in text
         assert "**S0-3 decision: COMPLETE.**" in text
-        assert "**S0-4 decision: GO now.**" in text
+        assert (
+            "**S0-4 decision: consolidation delivered; 🟡 pending "
+            "serial/calibration certificates and mapping/geometry "
+            "confirmations.**" in text
+        )
         assert "observation **1/2**" in text
         assert "historian timestamp semantics, configured max-report-time, and configured deadband" in text
 

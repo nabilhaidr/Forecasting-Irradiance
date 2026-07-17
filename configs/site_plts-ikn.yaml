@@ -1,12 +1,104 @@
+# Canonical PLTS-IKN site + sensor metadata (single source of truth).
+# S0-4 audit evidence: docs/phase0_site_metadata_audit.md and
+# artifacts/phase0_site_metadata/. Per-field provenance lives in the
+# `provenance:` section below; unresolved critical fields carry an owner,
+# reason, and due date in `unresolved_metadata:`. Never default a missing
+# value here — FR-004 requires the physics layer to refuse to start instead.
+
 site:
   site_id: "PLTS-IKN"
+  name: "PLTS IKN 10MW"
   latitude_deg: -0.9911713315158186
   longitude_deg: 116.63811127764585
-  elevation_m: 85.0
+  elevation_m: 85.0  # §29.12 altitude_m; this key predates S0-4 and is kept stable
   timezone: "Asia/Makassar"
   canonical_freq: "1min"  # S0-2 measured decision; see docs/phase0_cov_characterisation.md
+  racking_type: "fixed"
+  surface_tilt_deg: 10.0  # nominal design; survey measured 9-10 deg at RSI strings
+  surface_azimuth_deg: 0.0
+  surface_azimuth_convention: "pvlib: 0=N, 90=E, 180=S, 270=W"
+  poa_is_coplanar_with_modules: true
+  collector_width_m: 5.00
+  row_clear_gap_front_m: 2.50
+  row_pitch_m: 7.424  # derived: collector_width_m * cos(tilt) + front clear gap
+  gcr: 0.6735  # derived: collector_width_m / row_pitch_m (0.6722 at 9 deg tilt)
+  module_height_m: 1.46  # survey mean at 12 RSI points; range 0.97-1.96 m
+  bifaciality_factor: 0.80  # datasheet 80% +/- 5%
+  albedo_default: 0.153  # NSRDB TMY modelled annual mean; NOT a site measurement
+  has_albedometer: false
+  # Modelling-policy fields deliberately deferred to Phase 1 (see unresolved_metadata):
+  horizons_min: null
+  daylight_elev_threshold_deg: null
+  clearsky_model: null
+  nrmse_denominator: null
+  valid_from: "2026-07-17"
+  valid_to: null  # open row of the slowly-changing dimension (PRD §29.12)
+
+array_geometry:
+  phase_1:
+    sts_scope: "STS 1-2"
+    table_length_m: 14.0
+    table_width_m: 5.0
+    post_spacing_m: 3.0
+    side_clear_gap_m: 2.0
+    front_clear_gap_m: 2.5
+  phase_2:
+    sts_scope: "STS 3-10"
+    table_length_m: 16.0
+    table_width_m: 5.0
+    post_spacing_m: 3.3
+    side_clear_gap_m: 2.75
+    front_clear_gap_m: 2.5
+
+pv_module:
+  manufacturer: "Jinko Solar"
+  model: "JKM625N-78HL4-BDV"
+  technology: "N-type mono-crystalline (Tiger Neo, bifacial, dual-glass)"
+  pmax_stc_w: 625
+  dimensions_mm: [2465, 1134, 30]
+  bifacial_factor: 0.80
+  bifacial_factor_tolerance: 0.05
+
+weather_stations:
+  ws1_ws4:
+    station_ids: ["WS-1", "WS-2", "WS-3", "WS-4"]
+    specification: "IKN-CI-PP-MT-009 Material Specification for Weather Station WS-1 sampai WS-4"
+    pyranometer: {manufacturer: "Hukseflux", model: "SR20-D2", iso9060_class: "secondary standard (Class A)"}
+    pyrheliometer: {manufacturer: "Hukseflux", model: "DR20", iso9060_class: null}
+    sun_tracker: {model: "HQB-TG1"}
+    ambient_temp_rh_sensor: {model: "HQC-EA1"}
+    wind_speed_sensor: {model: "HQC-FS1"}
+    wind_direction_sensor: {model: "HQC-FX1"}
+    module_temp_sensor: {model: "HQC-WT1"}
+    environment_monitor: {model: "HQY-DZG1"}
+    rain_gauge: {model: "HQC-YF12"}
+  ws5:
+    station_ids: ["WS-5"]
+    specification: "ISPP-PSC-SPC-1005-016 Rev 2 Weather Station Datasheet (as-built 2024-02-25)"
+    pyranometer: {manufacturer: "Hukseflux", model: "SR30-M2-D1", iso9060_class: "Class A (spectrally flat)"}
+    measurements: ["irradiance", "temperature", "humidity", "wind direction", "wind speed"]
 
 sensor_metadata:
+  ghi:
+    canonical_name: "Global Horizontal Irradiance (GHI)"
+    instrument_type: "pyranometer"
+    mounting_position: "horizontal"
+    stations: {ws1_ws4: "SR20-D2", ws5: "SR30-M2-D1"}
+    serial: null
+    calibration_date: null
+    calibration_due: null
+    calibration_factor: null
+    operational_notes:
+      - "WS-3 GHI pyranometer reported shut down from March 2026; under troubleshooting around 2026-06-25 (survey workbook remark)."
+  dhi:
+    canonical_name: "Diffuse Horizontal Irradiance (DHI)"
+    instrument_type: "pyranometer (shaded)"
+    mounting_position: "horizontal, on sun-tracker shading assembly (configuration unconfirmed)"
+    stations: {ws1_ws4: "SR20-D2 (assumed from BOM)", ws5: null}
+    serial: null
+    calibration_date: null
+    calibration_due: null
+    calibration_factor: null
   dni_cosz:
     canonical_name: "Direct Horizontal Irradiance (DNIcosZ)"
     is_derived_tag: false
@@ -14,3 +106,110 @@ sensor_metadata:
     decision_artifact: "artifacts/phase0_dni_cosz/residual_summary.json"
     timestamp_semantics_status: "unconfirmed"
     zenith_interpretation_status: "provisional"
+    instrument_type: "pyrheliometer on automatic sun tracker"
+    manufacturer: "Hukseflux"
+    model: "DR20"
+    tracker_model: "HQB-TG1"
+    iso9060_class: null
+    serial: null
+    calibration_date: null
+    calibration_due: null
+    calibration_factor: null
+  poa:
+    canonical_name: "Plane-of-Array Irradiance (POA front)"
+    instrument_type: "pyranometer"
+    mounting_position: "co-planar with modules (WS1.4-WS4.4)"
+    mounting_tilt_deg: 10.0
+    mounting_azimuth_deg: 0.0
+    stations: {ws1_ws4: "SR20-D2 (assumed from BOM)"}
+    sensor_count: 4
+    serial: null
+    calibration_date: null
+    calibration_due: null
+    calibration_factor: null
+  rsi:
+    canonical_name: "Rear-Side Irradiance (RSI)"
+    instrument_type: "pyranometer (rear-facing)"
+    mounting_position: "29 cm below module rear surface, on racking structure"
+    model_status: "unconfirmed (BOM lists only SR20 pyranometers for WS-1..WS-4)"
+    sensor_count: 12
+    representativeness_caveat: "single-point sensors; NOT array-average rear irradiance (FR-020)"
+    serial: null
+    calibration_date: null
+    calibration_due: null
+    calibration_factor: null
+    sensors:
+      - {sensor_id: "WS1.1", channel: "RSI 01", string: "WB09-INV07-ST15", module_edge_height_m: 1.76, height_agl_m: 1.47, mounting_tilt_deg: 9.0}
+      - {sensor_id: "WS1.2", channel: "RSI 02", string: "WB09-INV07-ST15", module_edge_height_m: 1.96, height_agl_m: 1.67, mounting_tilt_deg: 9.0}
+      - {sensor_id: "WS1.3", channel: "RSI 03", string: "WB09-INV07-ST15", module_edge_height_m: 1.74, height_agl_m: 1.45, mounting_tilt_deg: 9.0}
+      - {sensor_id: "WS2.1", channel: "RSI 01", string: "WB05-INV02-ST13", module_edge_height_m: 1.22, height_agl_m: 0.93, mounting_tilt_deg: 10.0}
+      - {sensor_id: "WS2.2", channel: "RSI 02", string: "WB05-INV02-ST13", module_edge_height_m: 1.25, height_agl_m: 0.96, mounting_tilt_deg: 10.0}
+      - {sensor_id: "WS2.3", channel: "RSI 03", string: "WB05-INV02-ST13", module_edge_height_m: 1.30, height_agl_m: 1.01, mounting_tilt_deg: 10.0}
+      - {sensor_id: "WS3.1", channel: "RSI 01", string: "WB06-INV18-ST01", module_edge_height_m: 1.71, height_agl_m: null, mounting_tilt_deg: 10.0, status_note: "reported removed around 2026-06-25 during WS-3 GHI troubleshooting"}
+      - {sensor_id: "WS3.2", channel: "RSI 02", string: "WB06-INV18-ST01", module_edge_height_m: 1.73, height_agl_m: null, mounting_tilt_deg: 10.0, status_note: "pyranometer height not recorded in survey"}
+      - {sensor_id: "WS3.3", channel: "RSI 03", string: "WB06-INV18-ST01", module_edge_height_m: 1.73, height_agl_m: null, mounting_tilt_deg: 10.0, status_note: "pyranometer height not recorded in survey"}
+      - {sensor_id: "WS4.1", channel: "RSI 01", string: "WB04-INV15-ST11", module_edge_height_m: 1.11, height_agl_m: 0.82, mounting_tilt_deg: 9.0}
+      - {sensor_id: "WS4.2", channel: "RSI 02", string: "WB04-INV15-ST11", module_edge_height_m: 1.04, height_agl_m: 0.75, mounting_tilt_deg: 9.0}
+      - {sensor_id: "WS4.3", channel: "RSI 03", string: "WB04-INV15-ST11", module_edge_height_m: 0.97, height_agl_m: null, mounting_tilt_deg: 9.0, status_note: "reported moved to replace failed WS-5 pyranometer, then failed again after an STS-2 overcurrent event"}
+
+scada_tag_mapping:
+  status: "unconfirmed"
+  hypothesis: "SCADA prefixes EMI01..EMI05 correspond to weather stations WS-1..WS-5"
+  supporting_evidence: "EMI05 lacks the GHI/DHI/DNIcosZ triplet (S0-3), consistent with the single-pyranometer WS-5 datasheet"
+
+provenance:
+  latitude_deg: {method: "supplied", source: "Product owner statement recorded in normative docs v1.3 (2026-07-17)", confidence: "medium"}
+  longitude_deg: {method: "supplied", source: "Product owner statement recorded in normative docs v1.3 (2026-07-17)", confidence: "medium"}
+  elevation_m: {method: "supplied", source: "Product owner statement (mean site elevation)", confidence: "medium"}
+  timezone: {method: "supplied", source: "Product owner statement (WITA); historian clock semantics remain unconfirmed (S0-2)", confidence: "high"}
+  canonical_freq: {method: "measured", source: "docs/phase0_cov_characterisation.md (S0-2)", confidence: "high"}
+  racking_type: {method: "supplied", source: "Product owner statement; consistent with fixed-tilt survey geometry", confidence: "high"}
+  surface_tilt_deg: {method: "supplied", source: "Product owner nominal 10 deg; survey measured 9-10 deg (artifacts/phase0_site_metadata/rsi_mounting_survey.csv)", confidence: "medium"}
+  surface_azimuth_deg: {method: "supplied", source: "Product owner statement (0 deg, pvlib convention)", confidence: "medium"}
+  poa_is_coplanar_with_modules: {method: "supplied", source: "Product owner statement; POA heads WS1.4-WS4.4 are mounted on array structures (survey workbook Sheet2)", confidence: "medium"}
+  collector_width_m: {method: "measured", source: "Survey workbook 'PV String' sheet (Lebar 500 cm, both phases)", confidence: "high"}
+  row_clear_gap_front_m: {method: "measured", source: "Survey workbook 'PV String' sheet (Jarak antar PV String depan 250 cm, both phases)", confidence: "high"}
+  row_pitch_m: {method: "calculated", source: "artifacts/phase0_site_metadata/site_metadata_audit.json (derived_geometry)", confidence: "medium"}
+  gcr: {method: "calculated", source: "artifacts/phase0_site_metadata/site_metadata_audit.json (derived_geometry)", confidence: "medium"}
+  module_height_m: {method: "calculated", source: "Mean of 12 surveyed module-edge heights (artifacts/phase0_site_metadata/rsi_mounting_survey.csv); range 0.97-1.96 m", confidence: "medium"}
+  bifaciality_factor: {method: "supplied", source: "Jinko JKM625N-78HL4-BDV datasheet (80% +/- 5%)", confidence: "high"}
+  albedo_default: {method: "supplied", source: "Surface Albedo Forecast TMY NSRDB workbook annual mean 0.152975 (modelled, not measured)", confidence: "low"}
+  has_albedometer: {method: "supplied", source: "Product owner statement (no albedometer installed)", confidence: "high"}
+  pv_module: {method: "supplied", source: "Jinko JKM625N-78HL4-BDV datasheet + spec raw/panel_spec.yaml", confidence: "high"}
+  weather_stations: {method: "supplied", source: "IKN-CI-PP-MT-009 BOM (WS-1..WS-4); ISPP-PSC-SPC-1005-016 (WS-5)", confidence: "high"}
+  rsi_sensors: {method: "measured", source: "Survey workbook Sheet1 (artifacts/phase0_site_metadata/rsi_mounting_survey.csv)", confidence: "high"}
+  scada_tag_mapping: {method: "assumed", source: "S0-3 EMI05 triplet exclusion vs WS-5 datasheet channel list", confidence: "low"}
+
+unresolved_metadata:
+  - field: "sensor_metadata.*.serial"
+    reason: "Per-unit serial numbers are not present in the available specification documents; calibration certificates are held with the instruments/O&M records."
+    owner: "O&M Engineering"
+    due_date: "2026-07-24"
+  - field: "sensor_metadata.*.calibration_date/calibration_due/calibration_factor"
+    reason: "Calibration certificates (date, due date, sensitivity/factor) were not among the supplied sources. Vendor guidance: 2-year recalibration interval (SR20-D2 manual, SR30 brochure)."
+    owner: "O&M Engineering"
+    due_date: "2026-07-24"
+  - field: "sensor_metadata.rsi.model"
+    reason: "The WS-1..WS-4 BOM lists only 'Pyranometer SR20'; whether the 12 rear sensors are SR20-class units or a different model is not documented."
+    owner: "O&M Engineering"
+    due_date: "2026-07-24"
+  - field: "sensor_metadata.dhi.mounting_position"
+    reason: "DHI shading configuration (shadow ball/ring on HQB-TG1 tracker) is implied by the BOM but not explicitly documented."
+    owner: "O&M Engineering"
+    due_date: "2026-07-24"
+  - field: "sensor_metadata.dni_cosz.iso9060_class"
+    reason: "The DR20 attachment pages in IKN-CI-PP-MT-009 are image scans; the pyrheliometer class was not extracted."
+    owner: "Performance Engineering"
+    due_date: "2026-07-24"
+  - field: "scada_tag_mapping"
+    reason: "EMI01..EMI05 to WS-1..WS-5 correspondence is a hypothesis; needs SCADA/historian configuration evidence."
+    owner: "Data Engineering"
+    due_date: "2026-07-24"
+  - field: "site.row_pitch_m/site.gcr (design confirmation)"
+    reason: "Values are derived from the field survey; the design racking drawing should confirm nominal pitch/GCR and the module-height design value."
+    owner: "Performance Engineering"
+    due_date: "2026-07-31"
+  - field: "site.horizons_min/site.daylight_elev_threshold_deg/site.clearsky_model/site.nrmse_denominator"
+    reason: "Modelling-policy fields deliberately deferred; they are Phase 1 decisions, not site facts."
+    owner: "ML Engineering"
+    due_date: "2026-08-07"

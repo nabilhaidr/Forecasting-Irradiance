@@ -1,0 +1,13 @@
+sensor_id,channel,string,module_edge_height_cm,pyranometer_height_cm,gap_below_array_cm,measured_tilt_deg,remark
+WS1.1,RSI 01,WB09-INV07-ST15,176,147,29.0,9,
+WS1.2,RSI 02,,196,167,29.0,9,
+WS1.3,RSI 03,,174,145,29.0,9,
+WS2.1,RSI 01,WB05-INV02-ST13,122,93,29.0,10,
+WS2.2,RSI 02,,125,96,29.0,10,
+WS2.3,RSI 03,,130,101,29.0,10,
+WS3.1,RSI 01,WB06-INV18-ST01,171,,,10,Pyranometer dicopot kyknya oleh SEPEC (big Zul) sekitar tgl 25 Juni pas troubleshooting pyrano GHI WS 3 yang shutdown dari Maret wkwkwk
+WS3.2,RSI 02,,173,,,10,
+WS3.3,RSI 03,,173,,,10,
+WS4.1,RSI 01,WB04-INV15-ST11,111,82,29.0,9,
+WS4.2,RSI 02,,104,75,29.0,9,
+WS4.3,RSI 03,,97,,,9,"Pyranometer dicopot untuk menggantikan pyranometer WS 5 yang rusak, kemudian pyrano itu rusak lagi karena gangguan overcurrent di STS 2 (karena busbar 1 sempat ilang tegangan 2 x dalam 1 hari pada waktu yang berdekatan)"

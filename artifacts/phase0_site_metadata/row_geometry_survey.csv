@@ -1,0 +1,3 @@
+phase,table_length_m,table_width_m,post_spacing_m,side_clear_gap_m,front_clear_gap_m
+Fase 1 (STS 1 dan 2),14.0,5.0,3.0,2.0,2.5
+Fase 2 (STS 3 - 10),16.0,5.0,3.3,2.75,2.5
