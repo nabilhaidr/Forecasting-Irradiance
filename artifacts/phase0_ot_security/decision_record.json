@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "task_id": "S0-7",
+  "decision_id": "OD-1",
+  "record_status": "pending",
+  "acceptance_evidence": false,
+  "created_at_utc": "2026-07-19T15:01:07Z",
+  "updated_at_utc": "2026-07-19T15:01:07Z",
+  "current_offline_path": {
+    "mode": "manual_scada_export",
+    "production_approved": false,
+    "cadence_seconds": null,
+    "latency_p95_seconds": null,
+    "evidence_basis": "The offline/manual export path is known. Production approval, configured cadence, and measured end-to-end latency are not recorded."
+  },
+  "raci": {
+    "accountable": "Product",
+    "responsible": "OT Security",
+    "consulted": [
+      "Data Engineering"
+    ],
+    "consulted_as_needed": [
+      "O&M",
+      "DevOps",
+      "Asset Owner"
+    ]
+  },
+  "escalation": {
+    "sent_at_utc": null,
+    "recipient_role": "OT Security",
+    "named_decision_owner": null,
+    "decision_due_date": null,
+    "external_evidence_refs": []
+  },
+  "decision": {
+    "selected_path": null,
+    "source_system": null,
+    "destination_system": null,
+    "boundary_or_dmz": null,
+    "direction": null,
+    "allowed_tags_or_data": [],
+    "format": null,
+    "timestamp_semantics": null,
+    "cadence_seconds": null,
+    "cadence_min_seconds": null,
+    "cadence_max_seconds": null,
+    "latency_nominal_seconds": null,
+    "latency_p95_seconds": null,
+    "latency_max_seconds": null,
+    "authentication": null,
+    "encryption": null,
+    "audit_mechanism": null,
+    "credential_owner": null,
+    "reliability": null,
+    "retry_policy": null,
+    "outage_handling": null,
+    "monitoring_owner": null,
+    "data_residency_conditions": null,
+    "approved_by": null,
+    "approved_at_utc": null,
+    "signoff_status": "pending",
+    "rejection_reason": null,
+    "served_horizons_min": []
+  },
+  "candidate_paths": [
+    {
+      "id": "manual_csv",
+      "label": "Manual CSV",
+      "review_status": "pending",
+      "read_only": true,
+      "one_way": true,
+      "source_system": null,
+      "destination_system": null,
+      "boundary_or_dmz": null,
+      "allowed_tags_or_data": [],
+      "format": null,
+      "timestamp_semantics": null,
+      "cadence_seconds": null,
+      "latency_p95_seconds": null,
+      "authentication": null,
+      "encryption": null,
+      "audit_mechanism": null,
+      "credential_owner": null,
+      "reliability_retry_outage_monitoring": null,
+      "rejection_reason": null,
+      "known_constraint": "Configured/observed cadence and latency are not recorded. If Manual CSV is selected permanently, the approved contingency requires every horizon below 360 minutes to remain served=false."
+    },
+    {
+      "id": "sftp_push",
+      "label": "Read-only SFTP push through the OT DMZ",
+      "review_status": "pending",
+      "read_only": true,
+      "one_way": true,
+      "source_system": null,
+      "destination_system": null,
+      "boundary_or_dmz": null,
+      "allowed_tags_or_data": [],
+      "format": null,
+      "timestamp_semantics": null,
+      "cadence_seconds": null,
+      "latency_p95_seconds": null,
+      "authentication": null,
+      "encryption": null,
+      "audit_mechanism": null,
+      "credential_owner": null,
+      "reliability_retry_outage_monitoring": null,
+      "rejection_reason": null,
+      "known_constraint": null
+    },
+    {
+      "id": "opcua_gateway",
+      "label": "Read-only OPC-UA through an OT-approved gateway",
+      "review_status": "pending",
+      "read_only": true,
+      "one_way": true,
+      "source_system": null,
+      "destination_system": null,
+      "boundary_or_dmz": null,
+      "allowed_tags_or_data": [],
+      "format": null,
+      "timestamp_semantics": null,
+      "cadence_seconds": null,
+      "latency_p95_seconds": null,
+      "authentication": null,
+      "encryption": null,
+      "audit_mechanism": null,
+      "credential_owner": null,
+      "reliability_retry_outage_monitoring": null,
+      "rejection_reason": null,
+      "known_constraint": null
+    },
+    {
+      "id": "other_one_way",
+      "label": "Other OT-approved one-way/read-only path",
+      "review_status": "pending",
+      "read_only": true,
+      "one_way": true,
+      "source_system": null,
+      "destination_system": null,
+      "boundary_or_dmz": null,
+      "allowed_tags_or_data": [],
+      "format": null,
+      "timestamp_semantics": null,
+      "cadence_seconds": null,
+      "latency_p95_seconds": null,
+      "authentication": null,
+      "encryption": null,
+      "audit_mechanism": null,
+      "credential_owner": null,
+      "reliability_retry_outage_monitoring": null,
+      "rejection_reason": null,
+      "known_constraint": null
+    }
+  ],
+  "candidate_freshness_budgets": [
+    {
+      "horizon_scope": "5_min",
+      "max_end_to_end_latency_seconds": 60,
+      "status": "evaluation_target_only"
+    },
+    {
+      "horizon_scope": "15_min",
+      "max_end_to_end_latency_seconds": 180,
+      "status": "evaluation_target_only"
+    },
+    {
+      "horizon_scope": "at_least_60_min",
+      "max_end_to_end_latency_seconds": 600,
+      "status": "evaluation_target_only"
+    }
+  ],
+  "horizon_servability": [
+    {
+      "horizon_minutes": 5,
+      "served": null,
+      "status": "provisional_pending_od1"
+    },
+    {
+      "horizon_minutes": 10,
+      "served": null,
+      "status": "provisional_pending_od1"
+    },
+    {
+      "horizon_minutes": 15,
+      "served": null,
+      "status": "provisional_pending_od1"
+    },
+    {
+      "horizon_minutes": 30,
+      "served": null,
+      "status": "provisional_pending_od1"
+    },
+    {
+      "horizon_minutes": 60,
+      "served": null,
+      "status": "provisional_pending_od1"
+    },
+    {
+      "horizon_minutes": 120,
+      "served": null,
+      "status": "provisional_pending_od1"
+    },
+    {
+      "horizon_minutes": 180,
+      "served": null,
+      "status": "provisional_pending_od1"
+    },
+    {
+      "horizon_minutes": 360,
+      "served": null,
+      "status": "provisional_pending_od1"
+    },
+    {
+      "horizon_minutes": 1440,
+      "served": null,
+      "status": "provisional_pending_od1"
+    },
+    {
+      "horizon_minutes": 2880,
+      "served": null,
+      "status": "provisional_pending_od1"
+    }
+  ],
+  "manual_csv_contingency": {
+    "if_selected_permanently": {
+      "horizons_below_minutes": 360,
+      "served": false,
+      "still_allowed": [
+        "backtesting",
+        "quality_control",
+        "sensor_health",
+        "intraday_research",
+        "day_ahead_research"
+      ]
+    }
+  },
+  "guardrails": {
+    "direction": "OT -> DMZ -> IT analytics host",
+    "read_only": true,
+    "writeback_allowed": false,
+    "reverse_path_allowed": false,
+    "ot_to_it_only": true,
+    "raw_plant_data_cloud_export_requires_residency_approval": true,
+    "credentials_committed_to_repository": false,
+    "raw_plant_data_committed_to_repository": false,
+    "sensitive_topology_committed_to_repository": false
+  },
+  "state_rules": {
+    "pending": "Internal preparation only. Does not satisfy S0-7.",
+    "scheduled": "Requires an external evidence reference, a named OT decision owner, and a written ISO target decision date.",
+    "decided": "Requires external evidence plus the approved/rejected path, measured or committed cadence and latency, approver, approval time, and horizon servability."
+  },
+  "acceptance_check": {
+    "path_cadence_latency_decision_recorded": false,
+    "named_owner_and_target_date_recorded": false,
+    "s0_7_accepted": false,
+    "m0_closeout_performed": false
+  },
+  "notes": [
+    "Do not store credentials, IP addresses, hostnames, firewall rules, sensitive topology, raw plant data, or personal contact details in this repository.",
+    "Use opaque ticket, minutes, or controlled-document references for external evidence."
+  ]
+}
