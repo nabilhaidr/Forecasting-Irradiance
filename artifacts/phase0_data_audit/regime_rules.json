@@ -1,0 +1,22 @@
+{
+  "kc_thresholds": {
+    "clear_min": 0.9,
+    "mostly_clear_min": 0.75,
+    "partly_cloudy_min": 0.45
+  },
+  "labels": [
+    "CLEAR",
+    "MOSTLY_CLEAR",
+    "PARTLY_CLOUDY",
+    "OVERCAST",
+    "HIGHLY_VARIABLE",
+    "UNKNOWN"
+  ],
+  "notes": "Deterministic audit-grade rule set (FR-026 MVP). Labels derive only from kc and its trailing-window variability; RAIN_DEGRADED requires rain-gauge semantics that are not audited in S0-5 and is therefore not emitted. The trailing window keeps the labelling backward-only.",
+  "variability": {
+    "min_periods": 15,
+    "std_threshold": 0.15,
+    "window_minutes": 30
+  },
+  "version": "s0-5-audit-v1"
+}

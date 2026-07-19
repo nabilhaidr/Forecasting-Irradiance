@@ -89,7 +89,7 @@ sensor_metadata:
     calibration_due: null
     calibration_factor: null
     operational_notes:
-      - "WS-3 GHI pyranometer reported shut down from March 2026; under troubleshooting around 2026-06-25 (survey workbook remark)."
+      - "WS-3 GHI pyranometer reported shut down from March 2025 and back to normal since 2025-06-25 (operator correction 2026-07-18; the earlier survey remark misdated this as March 2026). Maintenance record 2025-03-06 'Communication Loss' on Weather Station 3 corroborates the start."
   dhi:
     canonical_name: "Diffuse Horizontal Irradiance (DHI)"
     instrument_type: "pyranometer (shaded)"
@@ -145,12 +145,12 @@ sensor_metadata:
       - {sensor_id: "WS2.1", channel: "RSI 01", string: "WB05-INV02-ST13", module_edge_height_m: 1.22, height_agl_m: 0.93, mounting_tilt_deg: 10.0}
       - {sensor_id: "WS2.2", channel: "RSI 02", string: "WB05-INV02-ST13", module_edge_height_m: 1.25, height_agl_m: 0.96, mounting_tilt_deg: 10.0}
       - {sensor_id: "WS2.3", channel: "RSI 03", string: "WB05-INV02-ST13", module_edge_height_m: 1.30, height_agl_m: 1.01, mounting_tilt_deg: 10.0}
-      - {sensor_id: "WS3.1", channel: "RSI 01", string: "WB06-INV18-ST01", module_edge_height_m: 1.71, height_agl_m: null, mounting_tilt_deg: 10.0, status_note: "reported removed around 2026-06-25 during WS-3 GHI troubleshooting"}
-      - {sensor_id: "WS3.2", channel: "RSI 02", string: "WB06-INV18-ST01", module_edge_height_m: 1.73, height_agl_m: null, mounting_tilt_deg: 10.0, status_note: "pyranometer height not recorded in survey"}
-      - {sensor_id: "WS3.3", channel: "RSI 03", string: "WB06-INV18-ST01", module_edge_height_m: 1.73, height_agl_m: null, mounting_tilt_deg: 10.0, status_note: "pyranometer height not recorded in survey"}
-      - {sensor_id: "WS4.1", channel: "RSI 01", string: "WB04-INV15-ST11", module_edge_height_m: 1.11, height_agl_m: 0.82, mounting_tilt_deg: 9.0}
-      - {sensor_id: "WS4.2", channel: "RSI 02", string: "WB04-INV15-ST11", module_edge_height_m: 1.04, height_agl_m: 0.75, mounting_tilt_deg: 9.0}
-      - {sensor_id: "WS4.3", channel: "RSI 03", string: "WB04-INV15-ST11", module_edge_height_m: 0.97, height_agl_m: null, mounting_tilt_deg: 9.0, status_note: "reported moved to replace failed WS-5 pyranometer, then failed again after an STS-2 overcurrent event"}
+      - {sensor_id: "WS3.1", channel: "RSI 01", string: "WB06-INV18-ST01", module_edge_height_m: 1.71, height_agl_m: null, mounting_tilt_deg: 10.0, status_note: "reported removed 2025-06-30 (operator correction 2026-07-18; earlier remark misdated this as around 2026-06-25)"}
+      - {sensor_id: "WS3.2", channel: "RSI 02", string: "WB06-INV18-ST01", module_edge_height_m: 1.73, height_agl_m: null, mounting_tilt_deg: 10.0, status_note: "reported removed 2025-06-30 (operator correction 2026-07-18); pyranometer height not recorded in survey"}
+      - {sensor_id: "WS3.3", channel: "RSI 03", string: "WB06-INV18-ST01", module_edge_height_m: 1.73, height_agl_m: null, mounting_tilt_deg: 10.0, status_note: "reported removed 2025-06-30 (operator correction 2026-07-18); pyranometer height not recorded in survey"}
+      - {sensor_id: "WS4.1", channel: "RSI 01", string: "WB04-INV15-ST11", module_edge_height_m: 1.11, height_agl_m: 0.82, mounting_tilt_deg: 9.0, status_note: "reported removed 2025-09-01 (operator correction 2026-07-18)"}
+      - {sensor_id: "WS4.2", channel: "RSI 02", string: "WB04-INV15-ST11", module_edge_height_m: 1.04, height_agl_m: 0.75, mounting_tilt_deg: 9.0, status_note: "reported removed 2026-01-05 (operator correction 2026-07-18)"}
+      - {sensor_id: "WS4.3", channel: "RSI 03", string: "WB04-INV15-ST11", module_edge_height_m: 0.97, height_agl_m: null, mounting_tilt_deg: 9.0, status_note: "earlier record: moved to replace the failed WS-5 pyranometer, then failed after an STS-2 overcurrent event; operator correction 2026-07-18 instead lists WS4.1 (removed 2025-09-01) and WS4.2 (removed 2026-01-05) - which head served WS-5 is unresolved (owner: O&M)"}
 
 scada_tag_mapping:
   status: "unconfirmed"

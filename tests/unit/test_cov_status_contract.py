@@ -67,3 +67,18 @@ def test_measured_cov_decision_is_consistent_across_config_and_ledgers() -> None
             if line.startswith("| **S0-3** |") and "✅" in line
         ]
         assert s0_3_status_lines
+
+        # S0-5 must read identically as "delivered but not yet accepted" in all
+        # three normative documents, and must point at its deliverable.
+        assert (
+            "**S0-5 decision: audit delivered; 🟡 acceptance pending "
+            "full-history CI coverage refresh and historian timezone "
+            "confirmation**" in text
+        )
+        assert "docs/phase0_data_audit.md" in text
+        s0_5_status_lines = [
+            line
+            for line in text.splitlines()
+            if line.startswith("| **S0-5** |") and "🟡" in line
+        ]
+        assert s0_5_status_lines

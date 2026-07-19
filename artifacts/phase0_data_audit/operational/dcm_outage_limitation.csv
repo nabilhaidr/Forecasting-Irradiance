@@ -1,0 +1,1785 @@
+source_sheet,date,kind,start_time,restoration_time,equipment,panel,minute_lost
+Outage & Limitation,2024-12-05,outage,18:24:00,18:54:00,,,0.0
+Outage & Limitation,2024-12-28,limitation,06:00:00,18:00:00,STS 6,J11,
+Outage & Limitation,2024-12-29,limitation,06:00:00,18:00:00,STS 2 and STS 6,"J03, J11",
+Outage & Limitation,2024-12-30,limitation,06:00:00,18:00:00,STS 6,J11,
+Outage & Limitation,2024-12-31,outage,08:12:00,08:26:00,OG1,J02-J04,14.0
+Outage & Limitation,2024-12-31,outage,08:12:00,08:26:00,OG2,J02-J04,14.0
+Outage & Limitation,2025-01-02,outage,11:30:00,17:40:00,"OG1, STS 1 - STS 5, Busbar 1 MV Switchgear",J02-J08,370.0
+Outage & Limitation,2025-01-02,limitation,11:30:00,17:40:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-01-02,outage,11:30:00,17:40:00,"OG2,  STS 1 - STS 5, Busbar 1 MV Switchgear",J03-J08,370.0
+Outage & Limitation,2025-01-05,outage,06:20:00,07:10:00,OG1,J02,50.0
+Outage & Limitation,2025-01-13,outage,14:13:00,00:21:00,OG4,J13,227.0
+Outage & Limitation,2025-01-14,outage,10:12:00,11:26:00,"STS 1- 5, OG1","J02, J08, J04-PH",74.0
+Outage & Limitation,2025-01-14,limitation,10:12:00,11:26:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-01-14,outage,10:12:00,11:26:00,"STS 1- 5, OG2","J03, J08, J04-PH",74.0
+Outage & Limitation,2025-01-16,outage,17:06:00,20:54:00,OG4,J13,54.0
+Outage & Limitation,2025-01-16,limitation,11:55:00,20:54:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-01-23,outage,12:04:00,13:46:00,"OG1, Busbar 1 Powerhouse","J02, J03, J04",102.0
+Outage & Limitation,2025-01-23,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-01-23,outage,13:02:00,18:00:00,OG2,J03,298.0
+Outage & Limitation,2025-01-24,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-01-24,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-01-25,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-01-25,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-01-26,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-01-26,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-01-27,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-01-27,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-01-28,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-01-28,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-01-28,outage,15:15:00,17:55:00,OG1,J02,160.0
+Outage & Limitation,2025-01-29,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-01-29,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-01-29,outage,14:07:00,15:00:00,OG3,J14,53.0
+Outage & Limitation,2025-01-30,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-01-30,limitation,06:00:00,18:00:00,STS 3 - STS 10,"J07, J08, J10, J11, J12",
+Outage & Limitation,2025-01-30,outage,12:12:00,18:00:00,OG4,J13,348.0
+Outage & Limitation,2025-01-31,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-01-31,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-02-01,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-02-01,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-02-02,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-02-02,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-02-03,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-02-03,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-02-03,outage,10:44:00,14:08:00,OG3,J14,204.0
+Outage & Limitation,2025-02-03,outage,10:44:00,14:08:00,OG4,J13,204.0
+Outage & Limitation,2025-02-04,limitation,06:00:00,18:00:00,STS 3 - STS 10,"J07, J08, J10, J11, J12",
+Outage & Limitation,2025-02-04,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-02-04,outage,10:39:00,22:07:00,OG1 & OG2,"J02, J03",441.0
+Outage & Limitation,2025-02-04,outage,10:39:00,22:07:00,OG4,J13,441.0
+Outage & Limitation,2025-02-05,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-02-05,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-02-06,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-02-06,limitation,06:00:00,18:00:00,"STS 3, STS 4, STS 5, STS 6, STS 7, STS 8, and STS 10","J07, J08, J10, J11, J12",
+Outage & Limitation,2025-02-06,outage,10:43:00,20:10:00,OG3,J14,437.0
+Outage & Limitation,2025-02-06,outage,10:43:00,20:10:00,OG5,J11,437.0
+Outage & Limitation,2025-02-07,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-02-07,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-02-08,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-02-08,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-02-09,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-02-09,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-02-10,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-02-10,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-02-11,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-02-11,limitation,06:00:00,18:00:00,"STS 3, STS 4, and STS 5","J07, J08",
+Outage & Limitation,2025-02-18,outage,09:40:00,13:51:00,OG3,"J14, J13",251.0
+Outage & Limitation,2025-02-18,limitation,09:40:00,13:51:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-02-18,outage,09:40:00,13:51:00,OG4,"J14, J13",251.0
+Outage & Limitation,2025-02-18,outage,22:52:00,01:23:00,OG1 & Powerhouse Busbar 1,"J02, J04",0.0
+Outage & Limitation,2025-02-22,outage,13:02:00,16:00:00,"Powerhouse Busbar 1, OG1, OG2","J02, J03, J04",178.0
+Outage & Limitation,2025-02-22,limitation,13:02:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-02-22,outage,13:02:00,18:00:00,"OG1, STS 1 - STS 5",J02,298.0
+Outage & Limitation,2025-02-23,outage,15:25:00,15:52:00,OG3,J14,27.0
+Outage & Limitation,2025-02-23,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-02-23,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-02-24,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-02-24,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-02-25,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-02-25,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-02-26,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-02-26,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-02-27,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-02-27,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-02-28,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-02-28,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-01,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-01,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-02,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-02,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-03,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-03,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-04,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-04,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-05,outage,06:00:00,18:00:00,OG1,J03,720.0
+Outage & Limitation,2025-03-05,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-06,outage,06:00:00,12:23:00,OG1,J02,383.0
+Outage & Limitation,2025-03-06,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-06,outage,12:23:00,15:36:00,"GSK.2, Busbar 1 Powerhouse, Busbar 1 GI-PLTS (OG1, OG2)","J02, J03, J04, J07, J08",193.0
+Outage & Limitation,2025-03-06,outage,12:30:00,18:00:00,OG2,J03,330.0
+Outage & Limitation,2025-03-07,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-03-07,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-08,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-03-08,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-09,outage,06:00:00,10:00:00,OG2,J03,240.0
+Outage & Limitation,2025-03-09,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-09,outage,10:00:00,12:20:00,"GSK.3, Busbar 1 Powerhouse, Busbar 1 GI-PLTS (OG1, OG2)","J02, J03, J04, J07, J08",140.0
+Outage & Limitation,2025-03-09,outage,10:00:00,18:00:00,OG1,J02,480.0
+Outage & Limitation,2025-03-10,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-10,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-11,outage,06:00:00,17:02:00,OG1,J02,662.0
+Outage & Limitation,2025-03-11,limitation,06:00:00,17:02:00,STS 1 - STS 5,J02,
+Outage & Limitation,2025-03-12,outage,08:39:00,09:03:00,"OG1, STS 1 - STS 5",J02,24.0
+Outage & Limitation,2025-03-12,limitation,08:39:00,09:03:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-12,outage,08:39:00,09:03:00,"OG2, STS 1 - STS 5",J03,24.0
+Outage & Limitation,2025-03-14,outage,11:44:00,18:00:00,OG1,J02,376.0
+Outage & Limitation,2025-03-14,limitation,11:44:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-14,outage,11:44:00,12:19:00,"OG2, Busbar 1 Powerhouse","J02, J03, J04, J07, J08",35.0
+Outage & Limitation,2025-03-15,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-15,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-16,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-16,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-17,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-17,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-18,outage,06:00:00,15:32:00,OG1,J02,572.0
+Outage & Limitation,2025-03-18,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-18,outage,09:59:00,11:54:00,OG4,J13,115.0
+Outage & Limitation,2025-03-21,outage,14:20:00,18:00:00,OG1,J02,220.0
+Outage & Limitation,2025-03-21,limitation,14:20:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-22,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-22,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-23,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-23,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-24,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-24,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-24,outage,14:52:00,15:30:00,OG3,J14,38.0
+Outage & Limitation,2025-03-24,limitation,14:52:00,15:30:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-03-25,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-25,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-26,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-26,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-27,outage,06:20:00,07:26:00,OG3,J14,66.0
+Outage & Limitation,2025-03-27,limitation,06:20:00,07:26:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-03-27,outage,06:20:00,07:26:00,OG4,J13,66.0
+Outage & Limitation,2025-03-27,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-27,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-28,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-03-28,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-28,outage,08:05:00,18:00:00,"OG2, STS 1 - STS 5",J03,595.0
+Outage & Limitation,2025-03-29,outage,06:00:00,18:00:00,"OG1, STS 1 - STS 5",J03,720.0
+Outage & Limitation,2025-03-29,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-29,outage,06:00:00,18:00:00,"OG2, STS 1 - STS 5",J02,720.0
+Outage & Limitation,2025-03-30,outage,06:00:00,18:00:00,"OG2, STS 1 - STS 5",J03,720.0
+Outage & Limitation,2025-03-30,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-03-30,outage,06:00:00,19:39:00,OG1,J02,720.0
+Outage & Limitation,2025-03-31,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-03-31,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-01,outage,06:00:00,18:00:00,OG2,J03,720.0
+Outage & Limitation,2025-04-01,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-01,outage,10:59:00,18:00:00,"OG1, STS 1 - STS 5",J02,421.0
+Outage & Limitation,2025-04-02,outage,06:00:00,18:00:00,"OG1, STS 1 - STS 5",J02,720.0
+Outage & Limitation,2025-04-02,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-02,outage,06:00:00,18:00:00,"OG2, STS 1 - STS 5",J03,720.0
+Outage & Limitation,2025-04-03,outage,06:00:00,18:00:00,"OG1, STS 1 - STS 5",J02,720.0
+Outage & Limitation,2025-04-03,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-03,outage,06:00:00,18:00:00,"OG2, STS 1 - STS 5",J03,720.0
+Outage & Limitation,2025-04-04,outage,06:00:00,18:00:00,"OG1, STS 1 - STS 5",J02,720.0
+Outage & Limitation,2025-04-04,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-04,outage,06:00:00,18:00:00,"OG2, STS 1 - STS 5",J03,720.0
+Outage & Limitation,2025-04-05,outage,06:00:00,18:00:00,"OG1, STS 1 - STS 5",J02,720.0
+Outage & Limitation,2025-04-05,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-05,outage,06:00:00,18:00:00,"OG2, STS 1 - STS 5",J03,720.0
+Outage & Limitation,2025-04-06,outage,06:00:00,18:00:00,"OG1, STS 1 - STS 5",J02,720.0
+Outage & Limitation,2025-04-06,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-06,outage,06:00:00,18:00:00,"OG2, STS 1 - STS 5",J03,720.0
+Outage & Limitation,2025-04-07,outage,06:00:00,18:00:00,"OG1, STS 1 - STS 5",J02,720.0
+Outage & Limitation,2025-04-07,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-07,outage,06:00:00,18:00:00,"OG2, STS 1 - STS 5",J03,720.0
+Outage & Limitation,2025-04-08,outage,06:00:00,18:00:00,"OG1, STS 1 - STS 5",J02,720.0
+Outage & Limitation,2025-04-08,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-08,outage,06:00:00,18:00:00,"OG2, STS 1 - STS 5",J03,720.0
+Outage & Limitation,2025-04-08,outage,11:25:00,11:40:00,OG3,J14,15.0
+Outage & Limitation,2025-04-09,outage,06:00:00,18:00:00,"OG1, STS 1 - STS 5",J02,720.0
+Outage & Limitation,2025-04-09,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-09,outage,06:00:00,18:00:00,"OG2, STS 1 - STS 5",J03,720.0
+Outage & Limitation,2025-04-10,outage,06:00:00,18:00:00,"OG1, STS 1 - STS 5",J02,720.0
+Outage & Limitation,2025-04-10,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-10,outage,06:00:00,18:00:00,"OG2, STS 1 - STS 5",J03,720.0
+Outage & Limitation,2025-04-11,outage,06:00:00,18:00:00,STS 1 - STS 5,,
+Outage & Limitation,2025-04-11,outage,06:00:00,23:16:00,OG1,J02,720.0
+Outage & Limitation,2025-04-11,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-11,outage,06:00:00,23:16:00,OG2,J03,720.0
+Outage & Limitation,2025-04-12,outage,08:49:00,18:00:00,"OG1, STS 1 - STS 5",J02,551.0
+Outage & Limitation,2025-04-12,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-12,outage,08:49:00,18:00:00,"OG2, STS 1 - STS 5",J03,551.0
+Outage & Limitation,2025-04-12,outage,16:47:00,18:00:00,OG4,J13,73.0
+Outage & Limitation,2025-04-13,outage,06:00:00,12:07:00,"OG2, STS 1 - STS 5",J03,367.0
+Outage & Limitation,2025-04-13,outage,06:00:00,16:23:00,OG4,J13,623.0
+Outage & Limitation,2025-04-13,limitation,12:07:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-13,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-04-14,outage,06:00:00,18:00:00,OG1,J02,720.0
+Outage & Limitation,2025-04-14,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-15,outage,06:00:00,00:13:00,OG1,J02,720.0
+Outage & Limitation,2025-04-15,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-24,outage,06:05:00,08:00:00,OG3,J14,115.0
+Outage & Limitation,2025-04-24,limitation,06:05:00,08:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-04-25,outage,09:55:00,17:52:00,OG2,J03,477.0
+Outage & Limitation,2025-04-25,limitation,09:38:00,17:52:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-04-25,outage,10:15:00,10:35:00,OG1,J02,20.0
+Outage & Limitation,2025-04-26,outage,04:10:00,04:45:00,OG1,J02,
+Outage & Limitation,2025-04-26,outage,04:18:00,10:58:00,OG2,J03,298.0
+Outage & Limitation,2025-04-27,outage,17:30:00,18:22:00,"NST.3, NST.2, NST.5",,30.0
+Outage & Limitation,2025-04-27,outage,17:30:00,18:16:00,OG.3,J14,30.0
+Outage & Limitation,2025-04-27,outage,17:30:00,18:22:00,OG.5,J11,30.0
+Outage & Limitation,2025-04-27,outage,17:30:00,18:00:00,OG.4,J13,30.0
+Outage & Limitation,2025-04-28,outage,06:00:00,18:00:00,OG.4,J13,720.0
+Outage & Limitation,2025-04-28,limitation,06:00:00,18:00:00,STS 1 - STS 10,"J02, J03, J07, J08, J10, J11, J12",
+Outage & Limitation,2025-04-29,outage,06:00:00,18:00:00,OG.4,J13,720.0
+Outage & Limitation,2025-04-29,limitation,06:00:00,18:00:00,STS 1 - STS 10,"J02, J03, J07, J08, J10, J11, J12",
+Outage & Limitation,2025-04-29,outage,07:48:00,09:48:00,OG.5,J11,120.0
+Outage & Limitation,2025-04-30,outage,06:00:00,18:00:00,OG.4,J13,720.0
+Outage & Limitation,2025-04-30,limitation,06:00:00,18:00:00,STS 1 - STS 10,"J02, J03, J07, J08, J10, J11, J12",
+Outage & Limitation,2025-04-30,outage,19:56:00,00:00:00,OG.1,J02,
+Outage & Limitation,2025-04-30,outage,19:56:00,00:00:00,OG.2,J03,
+Outage & Limitation,2025-04-30,outage,19:56:00,00:00:00,Busbar 1 Powerhouse,"J02, J03, J04, J07, J08",
+Outage & Limitation,2025-05-01,outage,00:00:00,02:49:00,OG.2,J03,
+Outage & Limitation,2025-05-01,outage,00:00:00,02:53:00,OG.1,J02,
+Outage & Limitation,2025-05-01,outage,00:00:00,03:03:00,Busbar 1 Powerhouse,"J02, J03, J04, J07, J08",
+Outage & Limitation,2025-05-01,outage,00:00:00,06:47:00,OG.4,J13,47.0
+Outage & Limitation,2025-05-01,outage,11:17:00,21:55:00,OG.2,J03,403.0
+Outage & Limitation,2025-05-01,limitation,11:17:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-05-05,outage,08:52:00,09:22:00,"OG.1, STS 1 - STS 5",J02,30.0
+Outage & Limitation,2025-05-05,outage,08:52:00,09:22:00,GSK.2,J03,30.0
+Outage & Limitation,2025-05-05,outage,18:17:00,21:44:00,OG.1,J02,
+Outage & Limitation,2025-05-08,outage,07:47:00,08:40:00,NST.5,,
+Outage & Limitation,2025-05-08,limitation,07:47:00,08:47:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-05-08,outage,07:48:00,08:28:00,OG.4,J13,40.0
+Outage & Limitation,2025-05-08,outage,07:48:00,08:32:00,OG.5,J11,44.0
+Outage & Limitation,2025-05-08,outage,08:23:00,08:47:00,OG.3,J14,24.0
+Outage & Limitation,2025-05-14,outage,05:56:00,07:16:00,OG.1,J02,76.0
+Outage & Limitation,2025-05-14,limitation,05:56:00,13:44:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-05-14,outage,05:56:00,13:44:00,OG.2,J03,464.0
+Outage & Limitation,2025-05-20,outage,11:15:00,18:46:00,OG.1,J02,405.0
+Outage & Limitation,2025-05-20,limitation,10:41:00,18:48:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-05-20,outage,11:17:00,18:48:00,OG.2,J03,403.0
+Outage & Limitation,2025-05-29,outage,07:18:00,10:30:00,OG.5,J11,192.0
+Outage & Limitation,2025-05-29,limitation,07:21:00,09:18:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-05-29,outage,07:21:00,09:18:00,OG.4,J13,117.0
+Outage & Limitation,2025-05-29,limitation,09:18:00,10:45:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-05-29,outage,08:17:00,10:45:00,OG.3,J14,148.0
+Outage & Limitation,2025-06-03,outage,14:04:00,15:14:00,OG.4,J13,70.0
+Outage & Limitation,2025-06-03,limitation,14:04:00,15:14:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-06-03,outage,14:26:00,1900-01-01 00:00:00,OG.3,J14,214.0
+Outage & Limitation,2025-06-03,limitation,15:14:00,16:49:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-06-03,outage,14:27:00,16:49:00,OG.5,J11,142.0
+Outage & Limitation,2025-06-03,limitation,16:49:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-06-04,outage,1900-01-01 00:00:00,03:11:00,OG.3,J11,0.0
+Outage & Limitation,2025-06-08,outage,23:53:00,00:00:00,GSK.2,,0.0
+Outage & Limitation,2025-06-08,outage,23:54:00,00:00:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-06-08,outage,23:55:00,00:00:00,OG.2,J03,0.0
+Outage & Limitation,2025-06-09,outage,00:00:00,00:29:00,OG.1,J02,0.0
+Outage & Limitation,2025-06-09,outage,00:00:00,23:46:00,OG.2,J03,720.0
+Outage & Limitation,2025-06-09,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-06-09,outage,07:15:00,14:30:00,NST.3 and NST.5,,435.0
+Outage & Limitation,2025-06-09,limitation,07:15:00,14:30:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-06-12,outage,17:45:00,18:52:00,OG.4,J13,15.0
+Outage & Limitation,2025-06-14,outage,09:44:00,11:57:00,OG.4,J13,133.0
+Outage & Limitation,2025-06-14,limitation,09:10:00,12:12:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-06-15,outage,11:39:00,18:00:00,"OG.1, GSK.3",J02,381.0
+Outage & Limitation,2025-06-15,limitation,11:39:00,12:14:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-06-15,limitation,12:14:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-06-16,outage,06:00:00,18:00:00,"OG.1, GSK.3",J02,720.0
+Outage & Limitation,2025-06-16,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-06-17,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-06-17,outage,08:21:00,08:50:00,GSK.2,,29.0
+Outage & Limitation,2025-06-17,outage,06:00:00,18:00:00,"OG.1, GSK.3",J02,720.0
+Outage & Limitation,2025-06-18,outage,06:00:00,14:11:00,"OG.1, GSK.3",J02,491.0
+Outage & Limitation,2025-06-18,limitation,06:00:00,14:17:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-06-23,outage,15:18:00,15:58:00,"OG.1, GSK.3",J02,40.0
+Outage & Limitation,2025-06-23,limitation,15:18:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-06-23,outage,15:18:00,18:00:00,"OG.2, GSK.2",J03,162.0
+Outage & Limitation,2025-06-24,outage,06:00:00,18:00:00,"OG.2, GSK.2",J03,720.0
+Outage & Limitation,2025-06-24,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-06-25,outage,06:00:00,17:56:00,"OG.2, GSK.2",J03,716.0
+Outage & Limitation,2025-06-25,limitation,06:00:00,17:56:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-06-25,outage,14:00:00,18:00:00,OG.3,J14,240.0
+Outage & Limitation,2025-06-25,limitation,15:28:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-06-26,outage,06:00:00,18:00:00,OG.3,J14,720.0
+Outage & Limitation,2025-06-26,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-06-27,outage,06:00:00,18:00:00,OG.3,J14,720.0
+Outage & Limitation,2025-06-27,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-06-28,outage,06:00:00,18:00:00,OG.3,J14,720.0
+Outage & Limitation,2025-06-28,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-06-29,outage,06:00:00,18:00:00,OG.3,J14,720.0
+Outage & Limitation,2025-06-29,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-06-30,outage,06:00:00,18:00:00,OG.3,J14,720.0
+Outage & Limitation,2025-06-30,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-01,outage,06:00:00,15:04:00,OG.3,J14,544.0
+Outage & Limitation,2025-07-01,limitation,06:00:00,17:03:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-04,outage,11:23:00,11:46:00,"OG.1, GSK.3",J02,23.0
+Outage & Limitation,2025-07-04,limitation,11:23:00,11:48:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-07-04,outage,11:24:00,11:48:00,"OG.2, GSK.2",J03,24.0
+Outage & Limitation,2025-07-04,outage,18:01:00,19:37:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2025-07-04,outage,18:02:00,21:47:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2025-07-04,outage,18:03:00,20:03:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2025-07-05,outage,07:06:00,07:37:00,"OG.3, NST.5",J14,31.0
+Outage & Limitation,2025-07-05,limitation,06:22:00,07:46:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-05,outage,07:07:00,07:42:00,"OG.4, NST.2",J13,35.0
+Outage & Limitation,2025-07-05,outage,06:22:00,07:43:00,"OG.5, NST.3",J11,81.0
+Outage & Limitation,2025-07-07,outage,04:36:00,05:36:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-07-07,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-07-07,outage,04:37:00,23:23:00,"OG.2, GSK.2",J03,720.0
+Outage & Limitation,2025-07-07,outage,12:29:00,13:30:00,"OG.3, NST.5",J14,61.0
+Outage & Limitation,2025-07-07,limitation,12:29:00,13:32:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-07,outage,12:56:00,13:31:00,"OG.4, NST.2",J13,35.0
+Outage & Limitation,2025-07-07,outage,12:57:00,13:32:00,"OG.5, NST.3",J11,35.0
+Outage & Limitation,2025-07-11,outage,16:28:00,16:47:00,"OG.3, NST.5",J14,19.0
+Outage & Limitation,2025-07-11,limitation,16:28:00,16:49:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-11,outage,16:29:00,16:48:00,"OG.4, NST.2",J13,19.0
+Outage & Limitation,2025-07-11,outage,16:30:00,16:49:00,"OG.5, NST.3",J11,19.0
+Outage & Limitation,2025-07-14,outage,15:43:00,18:00:00,"OG.4, NST.2",J13,137.0
+Outage & Limitation,2025-07-14,limitation,15:37:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-14,outage,15:51:00,18:00:00,"OG.5, NST.3",J11,129.0
+Outage & Limitation,2025-07-14,outage,17:49:00,18:21:00,"OG.1, GSK.3",J02,11.0
+Outage & Limitation,2025-07-14,limitation,17:49:00,18:21:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-07-14,outage,17:49:00,23:59:00,"OG.2, GSK.2",J03,11.0
+Outage & Limitation,2025-07-15,outage,06:00:00,18:00:00,"OG.2, GSK.2",J03,720.0
+Outage & Limitation,2025-07-15,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-07-15,outage,06:00:00,18:00:00,"OG.4, NST.2",J13,720.0
+Outage & Limitation,2025-07-15,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-15,outage,06:00:00,11:35:00,"OG.5, NST.3",J11,335.0
+Outage & Limitation,2025-07-15,outage,13:06:00,17:58:00,"OG.5, NST.3",J11,292.0
+Outage & Limitation,2025-07-16,outage,06:00:00,18:00:00,"OG.2, GSK.2",J03,720.0
+Outage & Limitation,2025-07-16,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-07-16,outage,06:00:00,09:23:00,"OG.4, NST.2",J13,203.0
+Outage & Limitation,2025-07-16,limitation,06:00:00,11:51:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-16,outage,09:43:00,10:09:00,"OG.3, NST.5",J14,26.0
+Outage & Limitation,2025-07-16,outage,09:43:00,11:18:00,"OG.4, NST.2",J13,95.0
+Outage & Limitation,2025-07-16,outage,09:44:00,10:04:00,"OG.5, NST.3",J11,20.0
+Outage & Limitation,2025-07-16,outage,10:20:00,10:36:00,"OG.3, NST.5",J14,16.0
+Outage & Limitation,2025-07-16,outage,10:21:00,10:40:00,"OG.5, NST.3",J11,19.0
+Outage & Limitation,2025-07-16,limitation,14:50:00,15:41:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-16,outage,16:36:00,19:30:00,"OG.1, GSK.3",J02,84.0
+Outage & Limitation,2025-07-17,outage,06:00:00,09:07:00,"OG.2, GSK.2",J03,187.0
+Outage & Limitation,2025-07-17,limitation,06:00:00,09:19:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-07-17,limitation,10:10:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-23,limitation,14:37:00,14:49:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-07-23,outage,14:11:00,15:07:00,"OG.3, NST.5",J14,56.0
+Outage & Limitation,2025-07-23,limitation,14:38:00,15:10:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-23,outage,14:12:00,14:58:00,"OG.4, NST.2",J13,46.0
+Outage & Limitation,2025-07-23,outage,14:12:00,14:58:00,"OG.5, NST.3",J11,46.0
+Outage & Limitation,2025-07-25,limitation,10:46:00,11:35:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-07-28,limitation,14:39:00,17:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-07-30,outage,07:19:00,08:07:00,"OG.3, NST.5",J14,48.0
+Outage & Limitation,2025-07-30,limitation,07:13:00,08:17:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-30,outage,07:19:00,08:07:00,"OG.4, NST.2",J13,48.0
+Outage & Limitation,2025-07-30,outage,07:19:00,08:07:00,"OG.5, NST.3",J11,48.0
+Outage & Limitation,2025-07-31,outage,16:35:00,23:59:00,"OG.3, NST.5",J14,85.0
+Outage & Limitation,2025-07-31,limitation,16:12:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-07-31,outage,16:12:00,16:53:00,"OG.4, NST.2",J13,41.0
+Outage & Limitation,2025-07-31,outage,16:15:00,23:59:00,"OG.5, NST.3",J11,105.0
+Outage & Limitation,2025-07-31,outage,18:24:00,23:59:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2025-08-01,outage,00:00:00,17:39:00,"OG.3, NST.5",J14,699.0
+Outage & Limitation,2025-08-01,limitation,06:00:00,19:56:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-08-01,outage,00:00:00,03:01:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2025-08-01,outage,00:00:00,03:16:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2025-08-01,outage,07:16:00,07:30:00,"OG.1, GSK.3",J02,14.0
+Outage & Limitation,2025-08-01,limitation,07:16:00,10:10:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-01,outage,07:16:00,10:06:00,"OG.2, GSK.2",J03,170.0
+Outage & Limitation,2025-08-01,outage,12:34:00,12:48:00,"OG.1, GSK.3",J02,14.0
+Outage & Limitation,2025-08-01,limitation,12:34:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-01,outage,12:34:00,18:00:00,"OG.2, GSK.2",J03,326.0
+Outage & Limitation,2025-08-02,outage,06:00:00,18:00:00,"OG.2, GSK.2",J03,720.0
+Outage & Limitation,2025-08-02,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-02,outage,12:29:00,12:44:00,"OG.1, GSK.3",J02,15.0
+Outage & Limitation,2025-08-03,outage,06:00:00,19:16:00,"OG.2, GSK.2",J03,720.0
+Outage & Limitation,2025-08-03,limitation,06:00:00,20:18:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-04,limitation,14:06:00,15:08:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-05,outage,06:32:00,06:45:00,"OG.1, GSK.3",J02,13.0
+Outage & Limitation,2025-08-05,limitation,06:32:00,06:53:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-05,outage,06:32:00,06:53:00,"OG.2, GSK.2",J03,21.0
+Outage & Limitation,2025-08-07,outage,14:13:00,18:00:00,"OG.1, GSK.3",J02,227.0
+Outage & Limitation,2025-08-07,limitation,14:13:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-07,outage,14:13:00,14:24:00,"OG.2, GSK.2",J03,11.0
+Outage & Limitation,2025-08-08,outage,06:00:00,18:00:00,"OG.1, GSK.3",J02,720.0
+Outage & Limitation,2025-08-08,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-09,outage,06:00:00,18:00:00,"OG.1, GSK.3",J02,720.0
+Outage & Limitation,2025-08-09,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-09,outage,13:18:00,14:34:00,"OG.3, NST.5",J14,76.0
+Outage & Limitation,2025-08-09,limitation,13:18:00,14:56:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-08-09,outage,13:18:00,14:27:00,"OG.4, NST.2",J13,69.0
+Outage & Limitation,2025-08-09,outage,13:18:00,14:56:00,"OG.5, NST.3",J11,98.0
+Outage & Limitation,2025-08-10,outage,06:00:00,07:10:00,"OG.1, GSK.3",J02,70.0
+Outage & Limitation,2025-08-10,limitation,06:00:00,07:46:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-13,outage,11:32:00,18:54:00,"OG.3, NST.5",J14,388.0
+Outage & Limitation,2025-08-13,limitation,11:32:00,18:54:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-08-13,outage,11:32:00,18:14:00,"OG.4, NST.2",J13,388.0
+Outage & Limitation,2025-08-13,outage,11:32:00,18:15:00,"OG.5, NST.3",J11,388.0
+Outage & Limitation,2025-08-14,limitation,13:39:00,23:59:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-08-15,limitation,06:00:00,15:32:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-08-15,limitation,11:32:00,12:53:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-16,outage,18:56:00,23:59:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2025-08-16,limitation,18:56:00,23:59:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-08-16,outage,18:56:00,23:59:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2025-08-16,outage,18:56:00,23:59:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2025-08-17,outage,06:00:00,23:58:00,"OG.3, NST.5",J14,720.0
+Outage & Limitation,2025-08-17,limitation,06:00:00,23:58:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-08-17,outage,06:00:00,23:58:00,"OG.4, NST.2",J13,720.0
+Outage & Limitation,2025-08-17,outage,06:00:00,23:58:00,"OG.5, NST.3",J11,720.0
+Outage & Limitation,2025-08-19,outage,12:26:00,20:10:00,"OG.1, GSK.3",J02,334.0
+Outage & Limitation,2025-08-19,limitation,12:25:00,20:16:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-19,outage,12:25:00,12:52:00,"OG.2, GSK.2",J03,27.0
+Outage & Limitation,2025-08-19,outage,13:41:00,13:45:00,"OG.3, NST.5",J14,4.0
+Outage & Limitation,2025-08-19,limitation,13:41:00,13:45:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-08-19,outage,13:41:00,13:45:00,"OG.4, NST.2",J13,4.0
+Outage & Limitation,2025-08-19,outage,13:41:00,13:45:00,"OG.5, NST.3",J11,4.0
+Outage & Limitation,2025-08-25,outage,08:15:00,09:08:00,"OG.3, NST.5",J14,53.0
+Outage & Limitation,2025-08-25,limitation,08:15:00,09:11:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-08-25,outage,08:15:00,09:08:00,"OG.4, NST.2",J13,53.0
+Outage & Limitation,2025-08-25,outage,08:15:00,09:09:00,"OG.5, NST.3",J11,54.0
+Outage & Limitation,2025-08-27,outage,07:59:00,08:35:00,"OG.3, NST.5",J14,36.0
+Outage & Limitation,2025-08-27,limitation,07:59:00,08:48:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-08-27,outage,07:59:00,08:38:00,"OG.4, NST.2",J13,39.0
+Outage & Limitation,2025-08-27,outage,07:59:00,08:45:00,"OG.5, NST.3",J11,46.0
+Outage & Limitation,2025-08-29,outage,16:45:00,17:05:00,"OG.1, GSK.3",J02,20.0
+Outage & Limitation,2025-08-29,limitation,16:45:00,17:05:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-08-29,outage,16:45:00,17:01:00,"OG.2, GSK.2",J03,16.0
+Outage & Limitation,2025-09-02,outage,11:10:00,20:25:00,"OG.1, GSK.3",J02,410.0
+Outage & Limitation,2025-09-02,limitation,11:08:00,20:28:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-09-02,outage,11:08:00,11:32:00,"OG.2, GSK.2",J03,24.0
+Outage & Limitation,2025-09-02,outage,15:18:00,15:40:00,"OG.2, GSK.2",J03,22.0
+Outage & Limitation,2025-09-06,outage,19:17:00,23:59:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-09-07,outage,00:00:00,18:27:00,"OG.1, GSK.3",J02,720.0
+Outage & Limitation,2025-09-07,limitation,06:30:00,18:36:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-09-09,limitation,12:37:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-10,limitation,06:00:00,07:08:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-10,outage,17:40:00,18:12:00,"OG.3, NST.5",J14,20.0
+Outage & Limitation,2025-09-10,limitation,17:20:00,23:59:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-10,outage,17:40:00,18:17:00,"OG.4, NST.2",J13,20.0
+Outage & Limitation,2025-09-10,outage,17:40:00,19:45:00,"OG.5, NST.3",J11,20.0
+Outage & Limitation,2025-09-11,limitation,00:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-12,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-12,outage,11:54:00,12:20:00,"OG.3, NST.5",J14,26.0
+Outage & Limitation,2025-09-12,outage,11:54:00,12:13:00,"OG.4, NST.2",J13,19.0
+Outage & Limitation,2025-09-12,outage,11:54:00,12:16:00,"OG.5, NST.3",J11,22.0
+Outage & Limitation,2025-09-12,outage,12:46:00,13:26:00,"OG.3, NST.5",J14,40.0
+Outage & Limitation,2025-09-12,outage,12:46:00,13:00:00,"OG.4, NST.2",J13,14.0
+Outage & Limitation,2025-09-12,outage,12:46:00,13:10:00,"OG.5, NST.3",J11,24.0
+Outage & Limitation,2025-09-13,limitation,00:00:00,04:06:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-15,outage,17:41:00,17:59:00,"OG.3, NST.5",J14,18.0
+Outage & Limitation,2025-09-15,limitation,17:39:00,22:13:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-16,outage,15:19:00,15:56:00,"OG.3, NST.5",J14,37.0
+Outage & Limitation,2025-09-16,limitation,15:19:00,16:07:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-16,outage,15:19:00,15:33:00,"OG.4, NST.2",J13,14.0
+Outage & Limitation,2025-09-16,outage,15:19:00,15:48:00,"OG.5, NST.3",J11,29.0
+Outage & Limitation,2025-09-16,outage,21:59:00,23:59:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-09-17,outage,00:00:00,19:50:00,"OG.1, GSK.3",J02,720.0
+Outage & Limitation,2025-09-17,limitation,05:49:00,19:53:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-09-17,outage,13:46:00,14:07:00,"OG.3, NST.5",J14,21.0
+Outage & Limitation,2025-09-17,limitation,13:46:00,14:24:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-17,outage,13:46:00,13:56:00,"OG.4, NST.2",J13,10.0
+Outage & Limitation,2025-09-17,outage,13:46:00,14:14:00,"OG.5, NST.3",J11,28.0
+Outage & Limitation,2025-09-22,outage,12:36:00,18:00:00,"OG.1, GSK.3",J02,324.0
+Outage & Limitation,2025-09-22,limitation,12:36:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-09-22,outage,12:34:00,13:12:00,"OG.2, GSK.2",J03,38.0
+Outage & Limitation,2025-09-23,outage,06:00:00,18:00:00,"OG.1, GSK.3",J02,720.0
+Outage & Limitation,2025-09-23,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-09-23,limitation,17:33:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-24,outage,06:00:00,10:34:00,"OG.1, GSK.3",J02,274.0
+Outage & Limitation,2025-09-24,limitation,06:00:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-09-24,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-24,outage,22:15:00,23:59:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-09-24,outage,22:16:00,23:59:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2025-09-25,outage,00:00:00,00:45:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-09-25,limitation,00:00:00,00:58:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-09-25,outage,00:00:00,00:51:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2025-09-25,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-26,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-26,outage,10:57:00,13:51:00,"STS 6 - 10, STS BESS 1-3","J10, J11, J12, J13, J17/J06",174.0
+Outage & Limitation,2025-09-26,outage,11:10:00,13:45:00,Busbar 2 Powerhouse,"J10, J14",155.0
+Outage & Limitation,2025-09-26,outage,16:16:00,16:39:00,"OG.1, GSK.3",J02,23.0
+Outage & Limitation,2025-09-26,limitation,16:14:00,16:44:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-09-26,outage,16:14:00,16:44:00,"OG.2, GSK.2",J03,30.0
+Outage & Limitation,2025-09-29,outage,09:17:00,11:39:00,"STS 6 - 10, STS BESS 1-3","J10, J11, J12, J13, J17/J06",142.0
+Outage & Limitation,2025-09-29,limitation,09:13:00,11:41:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-09-29,outage,09:20:00,11:34:00,Busbar 2 Powerhouse,"J10, J14",134.0
+Outage & Limitation,2025-10-04,outage,05:59:00,07:04:00,"OG.1, GSK.3",J02,64.0
+Outage & Limitation,2025-10-04,outage,07:53:00,13:34:00,"OG.1, GSK.3",J02,341.0
+Outage & Limitation,2025-10-04,limitation,07:53:00,13:46:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-10-04,outage,07:53:00,13:35:00,"OG.2, GSK.2",J03,342.0
+Outage & Limitation,2025-10-04,outage,15:33:00,15:45:00,"OG.1, GSK.3",J02,12.0
+Outage & Limitation,2025-10-04,limitation,15:35:00,15:53:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-10-04,outage,17:05:00,23:59:00,"OG.1, GSK.3",J02,55.0
+Outage & Limitation,2025-10-04,limitation,16:17:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-10-04,outage,17:06:00,23:59:00,"OG.2, GSK.2",J03,54.0
+Outage & Limitation,2025-10-05,outage,00:00:00,01:50:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-10-05,limitation,00:00:00,02:10:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-10-05,outage,00:00:00,01:52:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2025-10-09,outage,13:38:00,23:59:00,"OG.1, GSK.3",J02,262.0
+Outage & Limitation,2025-10-09,limitation,13:38:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-10-09,outage,13:37:00,13:56:00,"OG.2, GSK.2",J03,19.0
+Outage & Limitation,2025-10-10,outage,00:00:00,07:21:00,"OG.1, GSK.3",J02,81.0
+Outage & Limitation,2025-10-10,limitation,06:00:00,07:50:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-10-12,outage,09:29:00,10:35:00,"OG.3, NST.5",J14,66.0
+Outage & Limitation,2025-10-12,limitation,09:29:00,10:48:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-10-12,outage,09:29:00,10:42:00,"OG.4, NST.2",J13,73.0
+Outage & Limitation,2025-10-12,outage,09:29:00,10:44:00,"OG.5, NST.3",J11,75.0
+Outage & Limitation,2025-10-21,outage,13:17:00,13:45:00,"OG.1, GSK.3",J02,28.0
+Outage & Limitation,2025-10-21,limitation,13:17:00,21:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-10-21,outage,13:19:00,20:27:00,"OG.2, GSK.2",J03,281.0
+Outage & Limitation,2025-10-22,outage,08:18:00,08:42:00,"OG.3, NST.5",J14,24.0
+Outage & Limitation,2025-10-22,limitation,08:18:00,08:58:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-10-22,outage,08:18:00,08:50:00,"OG.4, NST.2",J13,32.0
+Outage & Limitation,2025-10-22,outage,08:18:00,08:58:00,"OG.5, NST.3",J11,40.0
+Outage & Limitation,2025-10-22,outage,10:32:00,11:01:00,"OG.1, GSK.3",J02,29.0
+Outage & Limitation,2025-10-22,limitation,10:32:00,11:16:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-10-22,outage,10:32:00,10:56:00,"OG.2, GSK.2",J03,24.0
+Outage & Limitation,2025-11-02,outage,10:20:00,10:39:00,"OG.1, GSK.3",J02,19.0
+Outage & Limitation,2025-11-02,limitation,10:20:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-02,outage,10:20:00,23:59:00,"OG.2, GSK.2",J03,460.0
+Outage & Limitation,2025-11-02,outage,16:35:00,23:59:00,"OG.1, GSK.3",J02,85.0
+Outage & Limitation,2025-11-03,outage,00:00:00,02:10:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-11-03,limitation,00:00:00,04:43:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-03,outage,00:00:00,03:18:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2025-11-03,outage,04:25:00,04:38:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2025-11-03,limitation,15:44:00,15:57:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-11-04,outage,15:10:00,15:35:00,"OG.3, NST.5",J14,25.0
+Outage & Limitation,2025-11-04,limitation,15:15:00,16:19:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-11-04,outage,15:10:00,15:59:00,"OG.4, NST.2",J13,49.0
+Outage & Limitation,2025-11-04,outage,15:10:00,16:15:00,"OG.5, NST.3",J11,65.0
+Outage & Limitation,2025-11-04,outage,16:29:00,17:51:00,"OG.3, NST.5",J14,82.0
+Outage & Limitation,2025-11-04,limitation,16:29:00,17:58:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-11-04,outage,16:29:00,17:43:00,"OG.4, NST.2",J13,74.0
+Outage & Limitation,2025-11-04,outage,16:29:00,17:55:00,"OG.5, NST.3",J11,86.0
+Outage & Limitation,2025-11-05,outage,09:56:00,23:18:00,"OG.5, NST.3",J11,484.0
+Outage & Limitation,2025-11-05,limitation,09:56:00,23:18:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-11-07,outage,14:45:00,18:54:00,"OG.2, GSK.2",J03,195.0
+Outage & Limitation,2025-11-07,limitation,14:33:00,18:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-08,outage,09:28:00,13:17:00,"OG.1, GSK.3",J02,229.0
+Outage & Limitation,2025-11-08,limitation,09:14:00,13:24:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-10,outage,09:07:00,09:45:00,"OG.1, GSK.3",J02,38.0
+Outage & Limitation,2025-11-10,limitation,09:07:00,21:11:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-10,outage,09:07:00,21:01:00,"OG.2, GSK.2",J03,533.0
+Outage & Limitation,2025-11-10,outage,09:56:00,15:23:00,"OG.1, GSK.3",J02,327.0
+Outage & Limitation,2025-11-16,outage,14:22:00,14:58:00,"OG.1, GSK.3",J02,36.0
+Outage & Limitation,2025-11-16,limitation,14:22:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-16,outage,14:22:00,23:44:00,"OG.2, GSK.2",J03,218.0
+Outage & Limitation,2025-11-17,limitation,00:00:00,00:26:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-17,outage,22:40:00,23:03:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-11-17,limitation,22:40:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-17,outage,22:40:00,23:59:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2025-11-18,outage,00:00:00,21:42:00,"OG.2, GSK.2",J03,720.0
+Outage & Limitation,2025-11-18,limitation,00:00:00,21:42:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-18,outage,08:51:00,10:23:00,"OG.3, NST.5",J14,92.0
+Outage & Limitation,2025-11-18,limitation,08:51:00,10:32:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-11-18,outage,08:51:00,10:32:00,"OG.4, NST.2",J13,101.0
+Outage & Limitation,2025-11-18,outage,08:51:00,10:24:00,"OG.5, NST.3",J11,93.0
+Outage & Limitation,2025-11-18,outage,22:20:00,22:56:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-11-18,limitation,22:20:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-18,outage,22:20:00,23:59:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2025-11-19,outage,00:00:00,15:50:00,"OG.2, GSK.2",J03,590.0
+Outage & Limitation,2025-11-19,limitation,00:00:00,15:50:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-19,outage,16:16:00,16:41:00,"OG.1, GSK.3",J02,25.0
+Outage & Limitation,2025-11-19,limitation,16:16:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-19,outage,16:16:00,23:59:00,"OG.2, GSK.2",J03,104.0
+Outage & Limitation,2025-11-19,outage,23:16:00,23:59:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-11-20,outage,00:00:00,01:15:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2025-11-20,limitation,00:00:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-20,outage,00:00:00,01:47:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2025-11-20,outage,02:13:00,23:52:00,"OG.2, GSK.2",J03,720.0
+Outage & Limitation,2025-11-20,outage,16:25:00,23:45:00,"OG.1, GSK.3",J02,95.0
+Outage & Limitation,2025-11-21,limitation,00:00:00,00:08:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-24,outage,06:12:00,06:36:00,"OG.1, GSK.3",J02,24.0
+Outage & Limitation,2025-11-24,limitation,06:12:00,06:37:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-11-24,outage,06:12:00,06:37:00,"OG.2, GSK.2",J03,25.0
+Outage & Limitation,2025-12-02,limitation,15:00:00,16:30:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-12-04,limitation,11:38:00,12:05:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-12-07,outage,07:47:00,08:11:00,"OG.1, GSK.3",J02,24.0
+Outage & Limitation,2025-12-07,limitation,07:45:00,09:38:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-12-07,outage,07:45:00,09:38:00,"OG.2, GSK.2",J03,113.0
+Outage & Limitation,2025-12-07,outage,10:46:00,10:58:00,"OG.3, NST.5",J14,12.0
+Outage & Limitation,2025-12-07,limitation,10:46:00,11:33:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-12-07,outage,10:46:00,11:06:00,"OG.4, NST.2",J13,20.0
+Outage & Limitation,2025-12-07,outage,10:46:00,11:33:00,"OG.5, NST.3",J11,47.0
+Outage & Limitation,2025-12-13,outage,07:29:00,11:32:00,"OG.3, NST.5",J14,243.0
+Outage & Limitation,2025-12-13,limitation,07:29:00,14:52:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-12-13,outage,07:29:00,09:32:00,"OG.4, NST.2",J13,123.0
+Outage & Limitation,2025-12-13,outage,07:29:00,09:35:00,"OG.5, NST.3",J11,126.0
+Outage & Limitation,2025-12-13,outage,12:29:00,14:52:00,"OG.3, NST.5",J14,143.0
+Outage & Limitation,2025-12-13,outage,12:29:00,14:52:00,"OG.4, NST.2",J13,143.0
+Outage & Limitation,2025-12-13,outage,12:29:00,14:52:00,"OG.5, NST.3",J11,143.0
+Outage & Limitation,2025-12-22,outage,14:23:00,16:20:00,"OG.4, NST.2",J13,117.0
+Outage & Limitation,2025-12-22,limitation,14:23:00,16:20:00,STS 6 - STS 10,"J10, J11, J12",
+Outage & Limitation,2025-12-30,outage,07:18:00,07:37:00,"OG.1, GSK.3",J02,19.0
+Outage & Limitation,2025-12-30,limitation,07:16:00,07:51:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2025-12-30,outage,07:16:00,07:51:00,"OG.2, GSK.2",J03,35.0
+Outage & Limitation,2025-12-30,outage,10:05:00,23:59:00,"OG.3, NST.5",J14,475.0
+Outage & Limitation,2025-12-30,limitation,09:28:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2025-12-30,outage,10:09:00,23:59:00,"OG.4, NST.2",J13,471.0
+Outage & Limitation,2025-12-30,outage,10:11:00,23:59:00,"OG.5, NST.3",J11,469.0
+Outage & Limitation,2025-12-31,outage,00:00:00,13:41:00,"OG.3, NST.5",J14,461.0
+Outage & Limitation,2025-12-31,limitation,00:00:00,14:38:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2025-12-31,outage,00:00:00,14:38:00,"OG.4, NST.2",J13,518.0
+Outage & Limitation,2025-12-31,outage,00:00:00,12:55:00,"OG.5, NST.3",J11,415.0
+Outage & Limitation,2026-01-01,outage,23:25:00,23:39:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2026-01-01,limitation,23:25:00,23:39:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-01,outage,23:25:00,23:39:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-01-01,outage,23:25:00,23:39:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-01-02,outage,10:47:00,11:16:00,"OG.3, NST.5",J14,29.0
+Outage & Limitation,2026-01-02,limitation,10:47:00,20:22:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-02,outage,10:47:00,20:22:00,"OG.4, NST.2",J13,433.0
+Outage & Limitation,2026-01-02,outage,10:47:00,11:39:00,"OG.5, NST.3",J11,52.0
+Outage & Limitation,2026-01-03,outage,17:46:00,18:20:00,"OG.3, NST.5",J14,14.0
+Outage & Limitation,2026-01-03,limitation,17:46:00,18:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-03,outage,17:45:00,18:20:00,"OG.4, NST.2",J13,15.0
+Outage & Limitation,2026-01-03,outage,17:45:00,18:20:00,"OG.5, NST.3",J11,15.0
+Outage & Limitation,2026-01-05,limitation,16:21:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-06,limitation,00:00:00,08:12:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-06,outage,13:01:00,13:35:00,"OG.3, NST.5",J14,34.0
+Outage & Limitation,2026-01-06,limitation,13:01:00,13:35:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-07,outage,15:04:00,20:15:00,"OG.3, NST.5",J14,176.0
+Outage & Limitation,2026-01-07,limitation,15:04:00,20:15:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-07,outage,15:04:00,15:59:00,"OG.4, NST.2",J13,55.0
+Outage & Limitation,2026-01-07,outage,15:04:00,16:00:00,"OG.5, NST.3",J11,56.0
+Outage & Limitation,2026-01-09,limitation,08:51:00,14:55:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-10,outage,22:05:00,23:07:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2026-01-10,limitation,22:05:00,23:07:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-10,outage,22:05:00,23:07:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-01-10,outage,22:05:00,23:07:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-01-11,outage,02:29:00,10:16:00,"OG.3, NST.5",J14,256.0
+Outage & Limitation,2026-01-11,limitation,02:29:00,10:16:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-11,outage,02:29:00,03:09:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-01-11,outage,02:29:00,03:10:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-01-12,outage,16:38:00,23:59:00,"OG.3, NST.5",J14,82.0
+Outage & Limitation,2026-01-12,limitation,16:29:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-12,outage,16:38:00,23:59:00,"OG.4, NST.2",J13,82.0
+Outage & Limitation,2026-01-12,outage,16:39:00,23:59:00,"OG.5, NST.3",J11,81.0
+Outage & Limitation,2026-01-13,outage,00:00:00,14:45:00,"OG.3, NST.5",J14,525.0
+Outage & Limitation,2026-01-13,limitation,00:00:00,14:45:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-13,outage,00:00:00,14:10:00,"OG.4, NST.2",J13,490.0
+Outage & Limitation,2026-01-13,outage,00:00:00,14:28:00,"OG.5, NST.3",J11,508.0
+Outage & Limitation,2026-01-14,outage,10:08:00,16:11:00,"OG.3, NST.5",J14,363.0
+Outage & Limitation,2026-01-14,limitation,09:54:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-14,outage,10:08:00,11:37:00,"OG.5, NST.3",J11,89.0
+Outage & Limitation,2026-01-15,limitation,00:00:00,08:05:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-15,outage,15:04:00,16:07:00,"OG.3, NST.5",J14,63.0
+Outage & Limitation,2026-01-15,limitation,15:04:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-15,outage,15:04:00,16:09:00,"OG.4, NST.2",J13,65.0
+Outage & Limitation,2026-01-15,outage,15:04:00,23:59:00,"OG.5, NST.3",J11,176.0
+Outage & Limitation,2026-01-16,outage,00:00:00,23:59:00,"OG.5, NST.3",J11,720.0
+Outage & Limitation,2026-01-16,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-17,outage,00:00:00,08:53:00,"OG.5, NST.3",J11,173.0
+Outage & Limitation,2026-01-17,limitation,00:00:00,09:13:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-17,outage,20:31:00,23:59:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2026-01-17,limitation,20:31:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-17,outage,20:31:00,23:59:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-01-17,outage,20:31:00,23:59:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-01-18,outage,00:00:00,18:12:00,"OG.3, NST.5",J14,720.0
+Outage & Limitation,2026-01-18,limitation,00:00:00,19:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-18,outage,00:00:00,01:36:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-01-18,outage,00:00:00,01:36:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-01-18,outage,02:55:00,03:18:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-01-18,outage,02:55:00,03:18:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-01-18,outage,18:34:00,18:48:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2026-01-19,outage,09:39:00,15:11:00,"OG.5, NST.3",J11,332.0
+Outage & Limitation,2026-01-19,limitation,09:39:00,15:26:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-19,outage,17:31:00,17:53:00,"OG.3, NST.5",J14,22.0
+Outage & Limitation,2026-01-19,limitation,17:31:00,17:58:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-19,outage,17:31:00,17:38:00,"OG.4, NST.2",J13,7.0
+Outage & Limitation,2026-01-19,outage,17:31:00,17:40:00,"OG.5, NST.3",J11,9.0
+Outage & Limitation,2026-01-21,outage,09:24:00,14:20:00,"OG.4, NST.2",J13,296.0
+Outage & Limitation,2026-01-21,limitation,09:20:00,14:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-21,limitation,17:11:00,17:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-22,outage,09:17:00,16:28:00,"OG.3, NST.5",J14,431.0
+Outage & Limitation,2026-01-22,limitation,09:17:00,16:28:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-25,outage,12:58:00,13:03:00,"OG.3, NST.5",J14,5.0
+Outage & Limitation,2026-01-25,limitation,12:58:00,13:43:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-25,outage,12:58:00,13:03:00,"OG.4, NST.2",J13,5.0
+Outage & Limitation,2026-01-25,outage,12:58:00,13:03:00,"OG.5, NST.3",J11,5.0
+Outage & Limitation,2026-01-27,outage,09:12:00,09:49:00,"OG.3, NST.5",J14,37.0
+Outage & Limitation,2026-01-27,limitation,09:12:00,09:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-27,outage,09:12:00,09:59:00,"OG.4, NST.2",J13,47.0
+Outage & Limitation,2026-01-27,outage,09:12:00,09:51:00,"OG.5, NST.3",J11,39.0
+Outage & Limitation,2026-01-27,outage,12:44:00,18:19:00,"OG.1, GSK.3",J02,316.0
+Outage & Limitation,2026-01-27,limitation,12:44:00,18:19:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-01-27,outage,12:44:00,13:04:00,"OG.2, GSK.2",J03,20.0
+Outage & Limitation,2026-01-27,outage,20:32:00,23:59:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2026-01-27,limitation,20:32:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-27,outage,20:32:00,21:21:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-01-27,outage,20:32:00,21:21:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-01-27,outage,22:40:00,23:59:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-01-28,outage,00:00:00,00:10:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2026-01-28,limitation,00:00:00,00:11:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-28,outage,00:00:00,00:11:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-01-29,outage,20:39:00,21:07:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2026-01-29,limitation,20:39:00,21:17:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-01-29,outage,20:39:00,21:03:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-01-29,outage,20:39:00,21:17:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-02-03,limitation,08:10:00,09:32:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-02-03,outage,10:11:00,17:21:00,"OG.3, NST.5",J14,430.0
+Outage & Limitation,2026-02-03,limitation,09:32:00,17:41:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-03,outage,10:04:00,16:16:00,"OG.5, NST.3",J11,372.0
+Outage & Limitation,2026-02-04,outage,09:13:00,14:11:00,"OG.4, NST.2",J13,298.0
+Outage & Limitation,2026-02-04,limitation,08:48:00,14:48:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-04,outage,09:05:00,14:40:00,"OG.5, NST.3",J11,335.0
+Outage & Limitation,2026-02-05,outage,09:43:00,15:36:00,"OG.4, NST.2",J13,353.0
+Outage & Limitation,2026-02-05,limitation,09:35:00,15:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-05,outage,10:53:00,15:04:00,"OG.5, NST.3",J11,251.0
+Outage & Limitation,2026-02-05,outage,11:03:00,11:28:00,"OG.3, NST.5",J14,25.0
+Outage & Limitation,2026-02-06,outage,06:50:00,10:08:00,"OG.3, NST.5",J14,198.0
+Outage & Limitation,2026-02-06,limitation,05:02:00,10:10:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-06,outage,06:50:00,09:50:00,"OG.5, NST.3",J11,180.0
+Outage & Limitation,2026-02-06,outage,08:48:00,10:06:00,"OG.4, NST.2",J13,78.0
+Outage & Limitation,2026-02-06,outage,11:10:00,11:40:00,"OG.3, NST.5",J14,30.0
+Outage & Limitation,2026-02-06,limitation,11:10:00,11:41:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-06,outage,11:10:00,11:41:00,"OG.4, NST.2",J13,31.0
+Outage & Limitation,2026-02-06,outage,11:10:00,11:41:00,"OG.5, NST.3",J11,31.0
+Outage & Limitation,2026-02-07,outage,17:46:00,17:51:00,"OG.3, NST.5",J14,5.0
+Outage & Limitation,2026-02-07,limitation,17:46:00,22:29:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-07,outage,17:46:00,17:51:00,"OG.4, NST.2",J13,5.0
+Outage & Limitation,2026-02-07,outage,17:46:00,17:51:00,"OG.5, NST.3",J11,5.0
+Outage & Limitation,2026-02-07,outage,17:59:00,22:28:00,"OG.3, NST.5",J14,1.0
+Outage & Limitation,2026-02-07,outage,17:59:00,22:29:00,"OG.4, NST.2",J13,1.0
+Outage & Limitation,2026-02-07,outage,17:59:00,22:29:00,"OG.5, NST.3",J11,1.0
+Outage & Limitation,2026-02-08,outage,00:49:00,08:42:00,"OG.3, NST.5",J14,162.0
+Outage & Limitation,2026-02-08,limitation,00:49:00,08:51:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-08,outage,00:49:00,01:29:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-02-08,outage,00:49:00,01:29:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-02-08,limitation,19:52:00,22:30:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-24,outage,10:01:00,12:26:00,"OG.3, NST.5",J14,145.0
+Outage & Limitation,2026-02-24,limitation,09:55:00,12:36:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-25,outage,07:51:00,08:13:00,"OG.2, GSK.2",J03,22.0
+Outage & Limitation,2026-02-25,limitation,07:51:00,08:17:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-02-25,outage,22:53:00,23:18:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2026-02-25,limitation,22:53:00,23:21:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-02-25,outage,22:53:00,23:13:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2026-02-26,outage,08:25:00,09:03:00,"OG.1, GSK.3",J02,38.0
+Outage & Limitation,2026-02-26,limitation,08:25:00,09:12:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-02-26,outage,08:25:00,09:02:00,"OG.2, GSK.2",J03,37.0
+Outage & Limitation,2026-02-26,limitation,09:19:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-27,limitation,06:00:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-28,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-02-28,outage,01:22:00,23:59:00,"OG.1, GSK.3",J02,720.0
+Outage & Limitation,2026-02-28,limitation,01:36:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-03-01,outage,00:00:00,01:00:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2026-03-01,limitation,00:00:00,01:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-03-01,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-03-02,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-03-03,outage,04:34:00,04:51:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2026-03-03,limitation,04:34:00,04:52:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-03-03,outage,04:34:00,04:52:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2026-03-03,limitation,00:00:00,23:03:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-03-06,outage,05:44:00,15:11:00,"OG.3, NST.5",J14,551.0
+Outage & Limitation,2026-03-06,limitation,05:24:00,19:17:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-03-06,outage,05:44:00,17:27:00,"OG.4, NST.2",J13,687.0
+Outage & Limitation,2026-03-06,outage,05:44:00,15:12:00,"OG.5, NST.3",J11,552.0
+Outage & Limitation,2026-03-14,outage,08:19:00,09:49:00,"OG.3, NST.5",J14,90.0
+Outage & Limitation,2026-03-14,limitation,08:19:00,09:49:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-03-14,outage,08:19:00,09:16:00,"OG.5, NST.3",J11,57.0
+Outage & Limitation,2026-03-15,outage,03:29:00,03:50:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2026-03-15,limitation,03:27:00,03:50:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-03-15,outage,03:27:00,03:41:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2026-03-17,outage,18:10:00,20:38:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2026-03-17,limitation,18:10:00,20:43:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-03-17,outage,18:10:00,20:39:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-03-17,outage,18:10:00,20:39:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-03-18,outage,21:33:00,22:00:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2026-03-18,limitation,21:33:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-03-18,outage,21:33:00,23:59:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2026-03-19,outage,00:00:00,15:19:00,"OG.2, GSK.2",J03,559.0
+Outage & Limitation,2026-03-19,limitation,00:00:00,15:19:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-03-22,outage,14:06:00,23:59:00,"OG.1, GSK.3",J02,234.0
+Outage & Limitation,2026-03-22,limitation,14:03:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-03-22,outage,14:03:00,14:17:00,"OG.2, GSK.2",J03,14.0
+Outage & Limitation,2026-03-23,outage,00:00:00,04:55:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2026-03-23,limitation,00:00:00,05:04:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-03-23,outage,09:17:00,10:18:00,"OG.3, NST.5",J14,61.0
+Outage & Limitation,2026-03-23,limitation,09:17:00,10:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-03-23,outage,09:17:00,10:19:00,"OG.4, NST.2",J13,62.0
+Outage & Limitation,2026-03-23,outage,09:17:00,10:20:00,"OG.5, NST.3",J11,63.0
+Outage & Limitation,2026-03-23,outage,11:20:00,12:08:00,"OG.3, NST.5",J14,48.0
+Outage & Limitation,2026-03-23,limitation,11:20:00,12:09:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-03-23,outage,11:20:00,12:09:00,"OG.4, NST.2",J13,49.0
+Outage & Limitation,2026-03-23,outage,11:20:00,12:09:00,"OG.5, NST.3",J11,49.0
+Outage & Limitation,2026-03-26,outage,04:57:00,21:28:00,"OG.3, NST.5",J14,720.0
+Outage & Limitation,2026-03-26,limitation,04:57:00,21:28:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-03-26,outage,04:57:00,10:38:00,"OG.4, NST.2",J13,278.0
+Outage & Limitation,2026-03-26,outage,04:57:00,10:48:00,"OG.5, NST.3",J11,288.0
+Outage & Limitation,2026-03-27,outage,10:09:00,10:21:00,"OG.4, NST.2",J13,12.0
+Outage & Limitation,2026-03-27,outage,10:22:00,18:34:00,"OG.5, NST.3",J11,458.0
+Outage & Limitation,2026-04-01,outage,05:20:00,13:23:00,"OG.1, GSK.3",J02,443.0
+Outage & Limitation,2026-04-01,limitation,05:48:00,13:23:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-04-02,outage,01:50:00,02:04:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2026-04-02,limitation,01:50:00,02:04:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-02,outage,01:50:00,02:04:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-04-02,outage,01:50:00,02:04:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-04-05,limitation,08:06:00,08:21:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-06,outage,14:53:00,15:12:00,"OG.1, GSK.3",J02,19.0
+Outage & Limitation,2026-04-06,limitation,14:53:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-04-06,outage,14:53:00,23:59:00,"OG.2, GSK.2",J03,187.0
+Outage & Limitation,2026-04-06,outage,15:18:00,15:50:00,"OG.3, NST.5",J14,32.0
+Outage & Limitation,2026-04-06,limitation,15:18:00,22:29:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-06,outage,15:18:00,21:46:00,"OG.4, NST.2",J13,162.0
+Outage & Limitation,2026-04-06,outage,15:18:00,16:20:00,"OG.5, NST.3",J11,62.0
+Outage & Limitation,2026-04-06,outage,17:18:00,21:28:00,"OG.3, NST.5",J14,42.0
+Outage & Limitation,2026-04-06,outage,17:18:00,21:47:00,"OG.5, NST.3",J11,42.0
+Outage & Limitation,2026-04-06,outage,22:07:00,22:22:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-04-07,outage,00:00:00,00:48:00,"OG.2, GSK.2",J03,0.0
+Outage & Limitation,2026-04-07,limitation,00:00:00,00:57:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-04-09,outage,09:08:00,21:32:00,"OG.1, GSK.3",J02,532.0
+Outage & Limitation,2026-04-09,limitation,09:06:00,21:57:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-04-09,outage,09:06:00,09:24:00,"OG.2, GSK.2",J03,18.0
+Outage & Limitation,2026-04-10,outage,10:02:00,10:17:00,"OG.1, GSK.3",J02,15.0
+Outage & Limitation,2026-04-10,limitation,10:02:00,10:18:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-04-10,outage,10:02:00,10:18:00,"OG.2, GSK.2",J03,16.0
+Outage & Limitation,2026-04-12,outage,09:04:00,09:29:00,"OG.1, GSK.3",J02,25.0
+Outage & Limitation,2026-04-12,limitation,09:04:00,16:22:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-04-12,outage,09:04:00,16:22:00,"OG.2, GSK.2",J03,438.0
+Outage & Limitation,2026-04-14,outage,19:30:00,20:13:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2026-04-14,limitation,17:37:00,20:17:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-04-14,outage,17:42:00,19:23:00,"OG.2, GSK.2",J03,18.0
+Outage & Limitation,2026-04-15,outage,09:44:00,23:59:00,"OG.3, NST.5",J14,496.0
+Outage & Limitation,2026-04-15,limitation,09:44:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-15,outage,09:44:00,23:59:00,"OG.4, NST.2",J13,496.0
+Outage & Limitation,2026-04-15,outage,09:44:00,12:41:00,"OG.5, NST.3",J11,177.0
+Outage & Limitation,2026-04-15,outage,20:13:00,23:59:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-04-16,outage,00:00:00,23:59:00,"OG.3, NST.5",J14,720.0
+Outage & Limitation,2026-04-16,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-16,outage,00:00:00,04:12:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-04-16,outage,00:00:00,03:54:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-04-16,outage,21:24:00,21:37:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-04-16,outage,21:24:00,21:37:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-04-17,outage,00:00:00,23:59:00,"OG.3, NST.5",J14,720.0
+Outage & Limitation,2026-04-17,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-18,outage,00:00:00,17:42:00,"OG.3, NST.5",J14,702.0
+Outage & Limitation,2026-04-18,limitation,00:00:00,17:50:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-19,outage,13:23:00,13:24:00,"OG.1, GSK.3",J02,1.0
+Outage & Limitation,2026-04-19,limitation,13:23:00,13:24:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-04-19,outage,13:23:00,13:24:00,"OG.2, GSK.2",J03,1.0
+Outage & Limitation,2026-04-20,outage,17:54:00,18:20:00,"OG.3, NST.5",J14,6.0
+Outage & Limitation,2026-04-20,limitation,17:54:00,18:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-20,outage,17:54:00,18:12:00,"OG.4, NST.2",J13,6.0
+Outage & Limitation,2026-04-20,outage,17:54:00,18:12:00,"OG.5, NST.3",J11,6.0
+Outage & Limitation,2026-04-22,outage,08:10:00,14:16:00,"OG.4, NST.2",J13,366.0
+Outage & Limitation,2026-04-22,limitation,08:10:00,09:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-22,outage,11:25:00,11:41:00,"OG.3, NST.5",J14,16.0
+Outage & Limitation,2026-04-22,limitation,11:25:00,11:50:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-22,outage,11:25:00,11:50:00,"OG.5, NST.3",J11,25.0
+Outage & Limitation,2026-04-22,outage,12:28:00,12:42:00,"OG.1, GSK.3",J02,14.0
+Outage & Limitation,2026-04-22,limitation,12:28:00,12:46:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-04-22,outage,12:28:00,12:46:00,"OG.2, GSK.2",J03,18.0
+Outage & Limitation,2026-04-22,outage,13:31:00,13:56:00,"OG.3, NST.5",J14,25.0
+Outage & Limitation,2026-04-22,limitation,12:08:00,14:16:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-22,outage,13:31:00,13:57:00,"OG.5, NST.3",J11,26.0
+Outage & Limitation,2026-04-23,outage,13:44:00,14:02:00,"OG.3, NST.5",J14,18.0
+Outage & Limitation,2026-04-23,limitation,08:18:00,15:33:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-23,outage,13:44:00,14:02:00,"OG.4, NST.2",J13,18.0
+Outage & Limitation,2026-04-23,outage,08:18:00,15:33:00,"OG.5, NST.3",J11,435.0
+Outage & Limitation,2026-04-23,outage,14:03:00,19:57:00,"OG.1, GSK.3",J02,237.0
+Outage & Limitation,2026-04-23,limitation,12:28:00,12:46:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-04-23,outage,14:01:00,14:23:00,"OG.2, GSK.2",J03,22.0
+Outage & Limitation,2026-04-24,outage,07:05:00,14:17:00,"OG.3, NST.5",J14,432.0
+Outage & Limitation,2026-04-24,limitation,06:37:00,14:40:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-24,outage,17:07:00,23:59:00,"OG.3, NST.5",J14,53.0
+Outage & Limitation,2026-04-24,limitation,17:07:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-24,outage,19:56:00,20:45:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-04-24,outage,19:56:00,20:52:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-04-24,outage,21:03:00,21:37:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-04-24,outage,21:03:00,21:42:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-04-25,outage,06:00:00,15:57:00,"OG.3, NST.5",J14,597.0
+Outage & Limitation,2026-04-25,limitation,06:00:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-26,limitation,06:00:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-27,limitation,06:00:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-04-28,limitation,06:00:00,10:10:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-05-02,outage,16:12:00,16:31:00,"OG.3, NST.5",J14,19.0
+Outage & Limitation,2026-05-02,limitation,16:12:00,17:04:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-05-02,outage,16:13:00,16:40:00,"OG.4, NST.2",J13,27.0
+Outage & Limitation,2026-05-04,outage,22:38:00,23:59:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2026-05-04,limitation,22:38:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-05-05,outage,00:00:00,20:17:00,"OG.1, GSK.3",J02,720.0
+Outage & Limitation,2026-05-05,limitation,00:00:00,20:46:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-05-05,outage,11:36:00,12:05:00,"OG.3, NST.5",J14,29.0
+Outage & Limitation,2026-05-05,limitation,11:36:00,12:21:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-05-05,outage,11:36:00,11:49:00,"OG.4, NST.2",J13,13.0
+Outage & Limitation,2026-05-05,outage,11:36:00,12:09:00,"OG.5, NST.3",J11,33.0
+Outage & Limitation,2026-05-09,outage,10:57:00,21:36:00,"OG.1, GSK.3",J02,423.0
+Outage & Limitation,2026-05-09,limitation,10:57:00,21:38:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-05-11,outage,20:42:00,23:59:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2026-05-11,limitation,20:42:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-05-11,outage,20:42:00,23:59:00,"OG.4, NST.2",J13,0.0
+Outage & Limitation,2026-05-11,outage,20:42:00,23:59:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-05-12,outage,00:00:00,15:52:00,"OG.3, NST.5",J14,592.0
+Outage & Limitation,2026-05-12,limitation,00:00:00,16:30:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-05-12,outage,00:00:00,16:30:00,"OG.4, NST.2",J13,630.0
+Outage & Limitation,2026-05-12,outage,00:00:00,15:18:00,"OG.5, NST.3",J11,558.0
+Outage & Limitation,2026-05-12,outage,13:48:00,14:09:00,"OG.1, GSK.3",J02,21.0
+Outage & Limitation,2026-05-12,limitation,13:48:00,14:11:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-05-12,outage,13:48:00,14:11:00,"OG.2, GSK.2",J03,23.0
+Outage & Limitation,2026-05-19,outage,08:37:00,09:01:00,"OG.1, GSK.3",J02,24.0
+Outage & Limitation,2026-05-19,limitation,08:37:00,09:01:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-05-19,outage,08:37:00,08:56:00,"OG.2, GSK.2",J03,19.0
+Outage & Limitation,2026-05-20,outage,11:51:00,12:27:00,"OG.1, GSK.3",J02,36.0
+Outage & Limitation,2026-05-20,limitation,11:51:00,21:38:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-05-20,outage,11:51:00,20:33:00,"OG.2, GSK.2",J03,369.0
+Outage & Limitation,2026-05-20,outage,20:48:00,21:38:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2026-05-27,outage,13:06:00,22:40:00,"OG.1, GSK.3",J02,294.0
+Outage & Limitation,2026-05-27,limitation,13:06:00,22:40:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-05-29,outage,20:13:00,23:59:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2026-05-29,limitation,20:21:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-05-30,outage,00:00:00,16:00:00,"OG.1, GSK.3",J02,600.0
+Outage & Limitation,2026-05-30,limitation,00:00:00,16:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-05-30,outage,13:32:00,16:00:00,"OG.2, GSK.2",J03,148.0
+Outage & Limitation,2026-06-04,outage,09:22:00,13:34:00,"OG.4, NST.2",J13,252.0
+Outage & Limitation,2026-06-04,limitation,09:01:00,13:39:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-06-05,outage,09:45:00,10:41:00,"OG.3, NST.5",J14,56.0
+Outage & Limitation,2026-06-05,limitation,09:45:00,20:23:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-06-05,outage,09:45:00,20:23:00,"OG.4, NST.2",J13,495.0
+Outage & Limitation,2026-06-05,outage,09:56:00,10:48:00,"OG.5, NST.3",J11,52.0
+Outage & Limitation,2026-06-05,outage,16:02:00,17:34:00,"OG.5, NST.3",J11,92.0
+Outage & Limitation,2026-06-10,outage,17:39:00,19:17:00,"OG.3, NST.5",J14,21.0
+Outage & Limitation,2026-06-10,limitation,17:00:00,21:24:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-06-10,outage,17:14:00,21:09:00,"OG.4, NST.2",J13,46.0
+Outage & Limitation,2026-06-10,outage,19:22:00,20:46:00,"OG.5, NST.3",J11,0.0
+Outage & Limitation,2026-06-14,outage,10:42:00,17:08:00,"OG.1, GSK.3",J02,386.0
+Outage & Limitation,2026-06-14,limitation,10:34:00,17:09:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-06-14,outage,10:42:00,17:09:00,"OG.2, GSK.2",J03,387.0
+Outage & Limitation,2026-06-18,outage,12:00:00,12:36:00,"OG.3, NST.5",J14,36.0
+Outage & Limitation,2026-06-18,limitation,12:00:00,12:58:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-06-18,outage,12:00:00,12:58:00,"OG.4, NST.2",J13,58.0
+Outage & Limitation,2026-06-18,outage,12:00:00,12:48:00,"OG.5, NST.3",J11,48.0
+Outage & Limitation,2026-06-19,outage,19:25:00,19:36:00,"OG.3, NST.5",J14,0.0
+Outage & Limitation,2026-06-19,limitation,19:25:00,19:36:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-06-20,limitation,11:24:00,11:38:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Outage & Limitation,2026-06-27,outage,07:22:00,07:49:00,"OG.3, NST.5",J14,27.0
+Outage & Limitation,2026-06-27,limitation,07:22:00,07:49:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Outage & Limitation,2026-06-27,outage,07:22:00,07:49:00,"OG.4, NST.2",J13,27.0
+Outage & Limitation,2026-06-29,outage,18:52:00,19:28:00,"OG.1, GSK.3",J02,0.0
+Outage & Limitation,2026-06-29,limitation,18:27:00,19:31:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2026,2026-06-04,outage,09:22:00,13:34:00,"OG.4, NST.2",J13,252.0
+Juni 2026,2026-06-04,limitation,09:01:00,13:39:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Juni 2026,2026-06-05,outage,09:45:00,10:41:00,"OG.3, NST.5",J14,56.0
+Juni 2026,2026-06-05,limitation,09:45:00,20:23:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Juni 2026,2026-06-05,outage,09:45:00,20:23:00,"OG.4, NST.2",J13,495.0
+Juni 2026,2026-06-05,outage,09:56:00,10:48:00,"OG.5, NST.3",J11,52.0
+Juni 2026,2026-06-05,outage,16:02:00,17:34:00,"OG.5, NST.3",J11,92.0
+Juni 2026,2026-06-10,outage,17:39:00,19:17:00,"OG.3, NST.5",J14,21.0
+Juni 2026,2026-06-10,limitation,17:00:00,21:24:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Juni 2026,2026-06-10,outage,17:14:00,21:09:00,"OG.4, NST.2",J13,46.0
+Juni 2026,2026-06-10,outage,19:22:00,20:46:00,"OG.5, NST.3",J11,0.0
+Juni 2026,2026-06-14,outage,10:42:00,17:08:00,"OG.1, GSK.3",J02,386.0
+Juni 2026,2026-06-14,limitation,10:34:00,17:09:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2026,2026-06-14,outage,10:42:00,17:09:00,"OG.2, GSK.2",J03,387.0
+Juni 2026,2026-06-18,outage,12:00:00,12:36:00,"OG.3, NST.5",J14,36.0
+Juni 2026,2026-06-18,limitation,12:00:00,12:58:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Juni 2026,2026-06-18,outage,12:00:00,12:58:00,"OG.4, NST.2",J13,58.0
+Juni 2026,2026-06-18,outage,12:00:00,12:48:00,"OG.5, NST.3",J11,48.0
+Juni 2026,2026-06-19,outage,19:25:00,19:36:00,"OG.3, NST.5",J14,0.0
+Juni 2026,2026-06-19,limitation,19:25:00,19:36:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Juni 2026,2026-06-20,limitation,11:24:00,11:38:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2026,2026-06-27,outage,07:22:00,07:49:00,"OG.3, NST.5",J14,27.0
+Juni 2026,2026-06-27,limitation,07:22:00,07:49:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Juni 2026,2026-06-27,outage,07:22:00,07:49:00,"OG.4, NST.2",J13,27.0
+Juni 2026,2026-06-29,outage,18:52:00,19:28:00,"OG.1, GSK.3",J02,0.0
+Juni 2026,2026-06-29,limitation,18:27:00,19:31:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Mei 2026,2026-05-02,outage,16:12:00,16:31:00,"OG.3, NST.5",J14,19.0
+Mei 2026,2026-05-02,limitation,16:12:00,17:04:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Mei 2026,2026-05-02,outage,16:13:00,16:40:00,"OG.4, NST.2",J13,27.0
+Mei 2026,2026-05-04,outage,22:38:00,23:59:00,"OG.1, GSK.3",J02,0.0
+Mei 2026,2026-05-04,limitation,22:38:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Mei 2026,2026-05-05,outage,00:00:00,20:17:00,"OG.1, GSK.3",J02,720.0
+Mei 2026,2026-05-05,limitation,00:00:00,20:46:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Mei 2026,2026-05-05,outage,11:36:00,12:05:00,"OG.3, NST.5",J14,29.0
+Mei 2026,2026-05-05,limitation,11:36:00,12:21:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Mei 2026,2026-05-05,outage,11:36:00,11:49:00,"OG.4, NST.2",J13,13.0
+Mei 2026,2026-05-05,outage,11:36:00,12:09:00,"OG.5, NST.3",J11,33.0
+Mei 2026,2026-05-09,outage,10:57:00,21:36:00,"OG.1, GSK.3",J02,423.0
+Mei 2026,2026-05-09,limitation,10:57:00,21:38:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Mei 2026,2026-05-11,outage,20:42:00,23:59:00,"OG.3, NST.5",J14,0.0
+Mei 2026,2026-05-11,limitation,20:42:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Mei 2026,2026-05-11,outage,20:42:00,23:59:00,"OG.4, NST.2",J13,0.0
+Mei 2026,2026-05-11,outage,20:42:00,23:59:00,"OG.5, NST.3",J11,0.0
+Mei 2026,2026-05-12,outage,00:00:00,15:52:00,"OG.3, NST.5",J14,592.0
+Mei 2026,2026-05-12,limitation,00:00:00,16:30:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Mei 2026,2026-05-12,outage,00:00:00,16:30:00,"OG.4, NST.2",J13,630.0
+Mei 2026,2026-05-12,outage,00:00:00,15:18:00,"OG.5, NST.3",J11,558.0
+Mei 2026,2026-05-12,outage,13:48:00,14:09:00,"OG.1, GSK.3",J02,21.0
+Mei 2026,2026-05-12,limitation,13:48:00,14:11:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Mei 2026,2026-05-12,outage,13:48:00,14:11:00,"OG.2, GSK.2",J03,23.0
+Mei 2026,2026-05-19,outage,08:37:00,09:01:00,"OG.1, GSK.3",J02,24.0
+Mei 2026,2026-05-19,limitation,08:37:00,09:01:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Mei 2026,2026-05-19,outage,08:37:00,08:56:00,"OG.2, GSK.2",J03,19.0
+Mei 2026,2026-05-20,outage,11:51:00,12:27:00,"OG.1, GSK.3",J02,36.0
+Mei 2026,2026-05-20,limitation,11:51:00,21:38:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Mei 2026,2026-05-20,outage,11:51:00,20:33:00,"OG.2, GSK.2",J03,369.0
+Mei 2026,2026-05-20,outage,20:48:00,21:38:00,"OG.1, GSK.3",J02,0.0
+Mei 2026,2026-05-27,outage,13:06:00,22:40:00,"OG.1, GSK.3",J02,294.0
+Mei 2026,2026-05-27,limitation,13:06:00,22:40:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Mei 2026,2026-05-29,outage,20:13:00,23:59:00,"OG.1, GSK.3",J02,0.0
+Mei 2026,2026-05-29,limitation,20:21:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Mei 2026,2026-05-30,outage,00:00:00,16:00:00,"OG.1, GSK.3",J02,600.0
+Mei 2026,2026-05-30,limitation,00:00:00,16:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Mei 2026,2026-05-30,outage,13:32:00,16:00:00,"OG.2, GSK.2",J03,148.0
+April 2026,2026-04-01,outage,05:20:00,13:23:00,"OG.1, GSK.3",J02,443.0
+April 2026,2026-04-01,limitation,05:48:00,13:23:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026,2026-04-02,outage,01:50:00,02:04:00,"OG.3, NST.5",J14,0.0
+April 2026,2026-04-02,limitation,01:50:00,02:04:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-02,outage,01:50:00,02:04:00,"OG.4, NST.2",J13,0.0
+April 2026,2026-04-02,outage,01:50:00,02:04:00,"OG.5, NST.3",J11,0.0
+April 2026,2026-04-05,limitation,08:06:00,08:21:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-06,outage,14:53:00,15:12:00,"OG.1, GSK.3",J02,19.0
+April 2026,2026-04-06,limitation,14:53:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026,2026-04-06,outage,14:53:00,23:59:00,"OG.2, GSK.2",J03,187.0
+April 2026,2026-04-06,outage,15:18:00,15:50:00,"OG.3, NST.5",J14,32.0
+April 2026,2026-04-06,limitation,15:18:00,22:29:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-06,outage,15:18:00,21:46:00,"OG.4, NST.2",J13,162.0
+April 2026,2026-04-06,outage,15:18:00,16:20:00,"OG.5, NST.3",J11,62.0
+April 2026,2026-04-06,outage,17:18:00,21:28:00,"OG.3, NST.5",J14,42.0
+April 2026,2026-04-06,outage,17:18:00,21:47:00,"OG.5, NST.3",J11,42.0
+April 2026,2026-04-06,outage,22:07:00,22:22:00,"OG.4, NST.2",J13,0.0
+April 2026,2026-04-07,outage,00:00:00,00:48:00,"OG.2, GSK.2",J03,0.0
+April 2026,2026-04-07,limitation,00:00:00,00:57:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026,2026-04-09,outage,09:08:00,21:32:00,"OG.1, GSK.3",J02,532.0
+April 2026,2026-04-09,limitation,09:06:00,21:57:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026,2026-04-09,outage,09:06:00,09:24:00,"OG.2, GSK.2",J03,18.0
+April 2026,2026-04-10,outage,10:02:00,10:17:00,"OG.1, GSK.3",J02,15.0
+April 2026,2026-04-10,limitation,10:02:00,10:18:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026,2026-04-10,outage,10:02:00,10:18:00,"OG.2, GSK.2",J03,16.0
+April 2026,2026-04-12,outage,09:04:00,09:29:00,"OG.1, GSK.3",J02,25.0
+April 2026,2026-04-12,limitation,09:04:00,16:22:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026,2026-04-12,outage,09:04:00,16:22:00,"OG.2, GSK.2",J03,438.0
+April 2026,2026-04-14,outage,19:30:00,20:13:00,"OG.1, GSK.3",J02,0.0
+April 2026,2026-04-14,limitation,17:37:00,20:17:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026,2026-04-14,outage,17:42:00,19:23:00,"OG.2, GSK.2",J03,18.0
+April 2026,2026-04-15,outage,09:44:00,23:59:00,"OG.3, NST.5",J14,496.0
+April 2026,2026-04-15,limitation,09:44:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-15,outage,09:44:00,23:59:00,"OG.4, NST.2",J13,496.0
+April 2026,2026-04-15,outage,09:44:00,12:41:00,"OG.5, NST.3",J11,177.0
+April 2026,2026-04-15,outage,20:13:00,23:59:00,"OG.5, NST.3",J11,0.0
+April 2026,2026-04-16,outage,00:00:00,23:59:00,"OG.3, NST.5",J14,720.0
+April 2026,2026-04-16,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-16,outage,00:00:00,04:12:00,"OG.4, NST.2",J13,0.0
+April 2026,2026-04-16,outage,00:00:00,03:54:00,"OG.5, NST.3",J11,0.0
+April 2026,2026-04-16,outage,21:24:00,21:37:00,"OG.4, NST.2",J13,0.0
+April 2026,2026-04-16,outage,21:24:00,21:37:00,"OG.5, NST.3",J11,0.0
+April 2026,2026-04-17,outage,00:00:00,23:59:00,"OG.3, NST.5",J14,720.0
+April 2026,2026-04-17,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-18,outage,00:00:00,17:42:00,"OG.3, NST.5",J14,702.0
+April 2026,2026-04-18,limitation,00:00:00,17:50:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-19,outage,13:23:00,13:24:00,"OG.1, GSK.3",J02,1.0
+April 2026,2026-04-19,limitation,13:23:00,13:24:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026,2026-04-19,outage,13:23:00,13:24:00,"OG.2, GSK.2",J03,1.0
+April 2026,2026-04-20,outage,17:54:00,18:20:00,"OG.3, NST.5",J14,6.0
+April 2026,2026-04-20,limitation,17:54:00,18:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-20,outage,17:54:00,18:12:00,"OG.4, NST.2",J13,6.0
+April 2026,2026-04-20,outage,17:54:00,18:12:00,"OG.5, NST.3",J11,6.0
+April 2026,2026-04-22,outage,08:10:00,14:16:00,"OG.4, NST.2",J13,366.0
+April 2026,2026-04-22,limitation,08:10:00,09:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-22,outage,11:25:00,11:41:00,"OG.3, NST.5",J14,16.0
+April 2026,2026-04-22,limitation,11:25:00,11:50:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-22,outage,11:25:00,11:50:00,"OG.5, NST.3",J11,25.0
+April 2026,2026-04-22,outage,12:28:00,12:42:00,"OG.1, GSK.3",J02,14.0
+April 2026,2026-04-22,limitation,12:28:00,12:46:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026,2026-04-22,outage,12:28:00,12:46:00,"OG.2, GSK.2",J03,18.0
+April 2026,2026-04-22,outage,13:31:00,13:56:00,"OG.3, NST.5",J14,25.0
+April 2026,2026-04-22,limitation,12:08:00,14:16:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-22,outage,13:31:00,13:57:00,"OG.5, NST.3",J11,26.0
+April 2026,2026-04-23,outage,13:44:00,14:02:00,"OG.3, NST.5",J14,18.0
+April 2026,2026-04-23,limitation,08:18:00,15:33:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-23,outage,13:44:00,14:02:00,"OG.4, NST.2",J13,18.0
+April 2026,2026-04-23,outage,08:18:00,15:33:00,"OG.5, NST.3",J11,435.0
+April 2026,2026-04-23,outage,14:03:00,19:57:00,"OG.1, GSK.3",J02,237.0
+April 2026,2026-04-23,limitation,12:28:00,12:46:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026,2026-04-23,outage,14:01:00,14:23:00,"OG.2, GSK.2",J03,22.0
+April 2026,2026-04-24,outage,07:05:00,14:17:00,"OG.3, NST.5",J14,432.0
+April 2026,2026-04-24,limitation,06:37:00,14:40:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-24,outage,17:07:00,23:59:00,"OG.3, NST.5",J14,53.0
+April 2026,2026-04-24,limitation,17:07:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-24,outage,19:56:00,20:45:00,"OG.4, NST.2",J13,0.0
+April 2026,2026-04-24,outage,19:56:00,20:52:00,"OG.5, NST.3",J11,0.0
+April 2026,2026-04-24,outage,21:03:00,21:37:00,"OG.4, NST.2",J13,0.0
+April 2026,2026-04-24,outage,21:03:00,21:42:00,"OG.5, NST.3",J11,0.0
+April 2026,2026-04-25,outage,06:00:00,15:57:00,"OG.3, NST.5",J14,597.0
+April 2026,2026-04-25,limitation,06:00:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-26,limitation,06:00:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-27,limitation,06:00:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026,2026-04-28,limitation,06:00:00,10:10:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-01,outage,05:20:00,13:23:00,"OG.1, GSK.3",J02,443.0
+April 2026 (v1),2026-04-01,limitation,05:48:00,13:23:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026 (v1),2026-04-02,outage,01:50:00,02:04:00,"OG.3, NST.5",J14,0.0
+April 2026 (v1),2026-04-02,limitation,01:50:00,02:04:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-02,outage,01:50:00,02:04:00,"OG.4, NST.2",J13,0.0
+April 2026 (v1),2026-04-02,outage,01:50:00,02:04:00,"OG.5, NST.3",J11,0.0
+April 2026 (v1),2026-04-05,limitation,08:06:00,08:21:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-06,outage,14:53:00,15:12:00,"OG.1, GSK.3",J02,19.0
+April 2026 (v1),2026-04-06,limitation,14:53:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026 (v1),2026-04-06,outage,14:53:00,23:59:00,"OG.2, GSK.2",J03,187.0
+April 2026 (v1),2026-04-06,outage,15:18:00,15:50:00,"OG.3, NST.5",J14,32.0
+April 2026 (v1),2026-04-06,limitation,15:18:00,22:29:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-06,outage,15:18:00,21:46:00,"OG.4, NST.2",J13,162.0
+April 2026 (v1),2026-04-06,outage,15:18:00,16:20:00,"OG.5, NST.3",J11,62.0
+April 2026 (v1),2026-04-06,outage,17:18:00,21:28:00,"OG.3, NST.5",J14,42.0
+April 2026 (v1),2026-04-06,outage,17:18:00,21:47:00,"OG.5, NST.3",J11,42.0
+April 2026 (v1),2026-04-06,outage,22:07:00,22:22:00,"OG.4, NST.2",J13,0.0
+April 2026 (v1),2026-04-07,outage,00:00:00,00:48:00,"OG.2, GSK.2",J03,0.0
+April 2026 (v1),2026-04-07,limitation,00:00:00,00:57:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026 (v1),2026-04-09,outage,09:08:00,21:32:00,"OG.1, GSK.3",J02,532.0
+April 2026 (v1),2026-04-09,limitation,09:06:00,21:57:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026 (v1),2026-04-09,outage,09:06:00,09:24:00,"OG.2, GSK.2",J03,18.0
+April 2026 (v1),2026-04-10,outage,10:02:00,10:17:00,"OG.1, GSK.3",J02,15.0
+April 2026 (v1),2026-04-10,limitation,10:02:00,10:18:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026 (v1),2026-04-10,outage,10:02:00,10:18:00,"OG.2, GSK.2",J03,16.0
+April 2026 (v1),2026-04-12,outage,09:04:00,09:29:00,"OG.1, GSK.3",J02,25.0
+April 2026 (v1),2026-04-12,limitation,09:04:00,16:22:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026 (v1),2026-04-12,outage,09:04:00,16:22:00,"OG.2, GSK.2",J03,438.0
+April 2026 (v1),2026-04-14,outage,19:30:00,20:13:00,"OG.1, GSK.3",J02,0.0
+April 2026 (v1),2026-04-14,limitation,17:37:00,20:17:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026 (v1),2026-04-14,outage,17:42:00,19:23:00,"OG.2, GSK.2",J03,18.0
+April 2026 (v1),2026-04-15,outage,09:44:00,23:59:00,"OG.3, NST.5",J14,496.0
+April 2026 (v1),2026-04-15,limitation,09:44:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-15,outage,09:44:00,23:59:00,"OG.4, NST.2",J13,496.0
+April 2026 (v1),2026-04-15,outage,09:44:00,12:41:00,"OG.5, NST.3",J11,177.0
+April 2026 (v1),2026-04-15,outage,20:13:00,23:59:00,"OG.5, NST.3",J11,0.0
+April 2026 (v1),2026-04-16,outage,00:00:00,23:59:00,"OG.3, NST.5",J14,720.0
+April 2026 (v1),2026-04-16,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-16,outage,00:00:00,04:12:00,"OG.4, NST.2",J13,0.0
+April 2026 (v1),2026-04-16,outage,00:00:00,03:54:00,"OG.5, NST.3",J11,0.0
+April 2026 (v1),2026-04-16,outage,21:24:00,21:37:00,"OG.4, NST.2",J13,0.0
+April 2026 (v1),2026-04-16,outage,21:24:00,21:37:00,"OG.5, NST.3",J11,0.0
+April 2026 (v1),2026-04-17,outage,00:00:00,23:59:00,"OG.3, NST.5",J14,720.0
+April 2026 (v1),2026-04-17,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-18,outage,00:00:00,17:42:00,"OG.3, NST.5",J14,702.0
+April 2026 (v1),2026-04-18,limitation,00:00:00,17:50:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-19,outage,13:23:00,13:24:00,"OG.1, GSK.3",J02,1.0
+April 2026 (v1),2026-04-19,limitation,13:23:00,13:24:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026 (v1),2026-04-19,outage,13:23:00,13:24:00,"OG.2, GSK.2",J03,1.0
+April 2026 (v1),2026-04-20,outage,17:54:00,18:20:00,"OG.3, NST.5",J14,6.0
+April 2026 (v1),2026-04-20,limitation,17:54:00,18:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-20,outage,17:54:00,18:12:00,"OG.4, NST.2",J13,6.0
+April 2026 (v1),2026-04-20,outage,17:54:00,18:12:00,"OG.5, NST.3",J11,6.0
+April 2026 (v1),2026-04-22,outage,08:10:00,14:16:00,"OG.4, NST.2",J13,366.0
+April 2026 (v1),2026-04-22,limitation,08:10:00,09:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-22,outage,11:25:00,11:41:00,"OG.3, NST.5",J14,16.0
+April 2026 (v1),2026-04-22,limitation,11:25:00,11:50:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-22,outage,11:25:00,11:50:00,"OG.5, NST.3",J11,25.0
+April 2026 (v1),2026-04-22,outage,12:28:00,12:42:00,"OG.1, GSK.3",J02,14.0
+April 2026 (v1),2026-04-22,limitation,12:28:00,12:46:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026 (v1),2026-04-22,outage,12:28:00,12:46:00,"OG.2, GSK.2",J03,18.0
+April 2026 (v1),2026-04-22,outage,13:31:00,13:56:00,"OG.3, NST.5",J14,25.0
+April 2026 (v1),2026-04-22,limitation,12:08:00,14:16:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-22,outage,13:31:00,13:57:00,"OG.5, NST.3",J11,26.0
+April 2026 (v1),2026-04-23,outage,13:44:00,14:02:00,"OG.3, NST.5",J14,18.0
+April 2026 (v1),2026-04-23,limitation,08:18:00,15:33:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-23,outage,13:44:00,14:02:00,"OG.4, NST.2",J13,18.0
+April 2026 (v1),2026-04-23,outage,08:18:00,15:33:00,"OG.5, NST.3",J11,435.0
+April 2026 (v1),2026-04-23,outage,14:03:00,19:57:00,"OG.1, GSK.3",J02,237.0
+April 2026 (v1),2026-04-23,limitation,12:28:00,12:46:00,STS 1 - STS 5,"J02, J03, J07, J08",
+April 2026 (v1),2026-04-23,outage,14:01:00,14:23:00,"OG.2, GSK.2",J03,22.0
+April 2026 (v1),2026-04-24,outage,07:05:00,14:17:00,"OG.3, NST.5",J14,432.0
+April 2026 (v1),2026-04-24,limitation,06:37:00,14:40:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-24,outage,17:07:00,23:59:00,"OG.3, NST.5",J14,53.0
+April 2026 (v1),2026-04-24,limitation,17:07:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-24,outage,19:56:00,20:45:00,"OG.4, NST.2",J13,0.0
+April 2026 (v1),2026-04-24,outage,19:56:00,20:52:00,"OG.5, NST.3",J11,0.0
+April 2026 (v1),2026-04-24,outage,21:03:00,21:37:00,"OG.4, NST.2",J13,0.0
+April 2026 (v1),2026-04-24,outage,21:03:00,21:42:00,"OG.5, NST.3",J11,0.0
+April 2026 (v1),2026-04-25,outage,06:00:00,15:57:00,"OG.3, NST.5",J14,597.0
+April 2026 (v1),2026-04-25,limitation,06:00:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-26,limitation,06:00:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-27,limitation,06:00:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+April 2026 (v1),2026-04-28,limitation,06:00:00,10:10:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Maret 2026,2026-03-01,outage,00:00:00,01:00:00,"OG.1, GSK.3",J02,0.0
+Maret 2026,2026-03-01,limitation,00:00:00,01:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Maret 2026,2026-03-01,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Maret 2026,2026-03-02,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Maret 2026,2026-03-03,outage,04:34:00,04:51:00,"OG.1, GSK.3",J02,0.0
+Maret 2026,2026-03-03,limitation,04:34:00,04:52:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Maret 2026,2026-03-03,outage,04:34:00,04:52:00,"OG.2, GSK.2",J03,0.0
+Maret 2026,2026-03-03,limitation,00:00:00,23:03:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Maret 2026,2026-03-06,outage,05:44:00,15:11:00,"OG.3, NST.5",J14,551.0
+Maret 2026,2026-03-06,limitation,05:24:00,19:17:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Maret 2026,2026-03-06,outage,05:44:00,17:27:00,"OG.4, NST.2",J13,687.0
+Maret 2026,2026-03-06,outage,05:44:00,15:12:00,"OG.5, NST.3",J11,552.0
+Maret 2026,2026-03-14,outage,08:19:00,09:49:00,"OG.3, NST.5",J14,90.0
+Maret 2026,2026-03-14,limitation,08:19:00,09:49:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Maret 2026,2026-03-14,outage,08:19:00,09:16:00,"OG.5, NST.3",J11,57.0
+Maret 2026,2026-03-15,outage,03:29:00,03:50:00,"OG.1, GSK.3",J02,0.0
+Maret 2026,2026-03-15,limitation,03:27:00,03:50:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Maret 2026,2026-03-15,outage,03:27:00,03:41:00,"OG.2, GSK.2",J03,0.0
+Maret 2026,2026-03-17,outage,18:10:00,20:38:00,"OG.3, NST.5",J14,0.0
+Maret 2026,2026-03-17,limitation,18:10:00,20:43:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Maret 2026,2026-03-17,outage,18:10:00,20:39:00,"OG.4, NST.2",J13,0.0
+Maret 2026,2026-03-17,outage,18:10:00,20:39:00,"OG.5, NST.3",J11,0.0
+Maret 2026,2026-03-18,outage,21:33:00,22:00:00,"OG.1, GSK.3",J02,0.0
+Maret 2026,2026-03-18,limitation,21:33:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Maret 2026,2026-03-18,outage,21:33:00,23:59:00,"OG.2, GSK.2",J03,0.0
+Maret 2026,2026-03-19,outage,00:00:00,15:19:00,"OG.2, GSK.2",J03,559.0
+Maret 2026,2026-03-19,limitation,00:00:00,15:19:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Maret 2026,2026-03-22,outage,14:06:00,23:59:00,"OG.1, GSK.3",J02,234.0
+Maret 2026,2026-03-22,limitation,14:03:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Maret 2026,2026-03-22,outage,14:03:00,14:17:00,"OG.2, GSK.2",J03,14.0
+Maret 2026,2026-03-23,outage,00:00:00,04:55:00,"OG.1, GSK.3",J02,0.0
+Maret 2026,2026-03-23,limitation,00:00:00,05:04:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Maret 2026,2026-03-23,outage,09:17:00,10:18:00,"OG.3, NST.5",J14,61.0
+Maret 2026,2026-03-23,limitation,09:17:00,10:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Maret 2026,2026-03-23,outage,09:17:00,10:19:00,"OG.4, NST.2",J13,62.0
+Maret 2026,2026-03-23,outage,09:17:00,10:20:00,"OG.5, NST.3",J11,63.0
+Maret 2026,2026-03-23,outage,11:20:00,12:08:00,"OG.3, NST.5",J14,48.0
+Maret 2026,2026-03-23,limitation,11:20:00,12:09:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Maret 2026,2026-03-23,outage,11:20:00,12:09:00,"OG.4, NST.2",J13,49.0
+Maret 2026,2026-03-23,outage,11:20:00,12:09:00,"OG.5, NST.3",J11,49.0
+Maret 2026,2026-03-26,outage,04:57:00,21:28:00,"OG.3, NST.5",J14,720.0
+Maret 2026,2026-03-26,limitation,04:57:00,21:28:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Maret 2026,2026-03-26,outage,04:57:00,10:38:00,"OG.4, NST.2",J13,278.0
+Maret 2026,2026-03-26,outage,04:57:00,10:48:00,"OG.5, NST.3",J11,288.0
+Maret 2026,2026-03-27,outage,10:09:00,10:21:00,"OG.4, NST.2",J13,12.0
+Maret 2026,2026-03-27,outage,10:22:00,18:34:00,"OG.5, NST.3",J11,458.0
+Februari 2026,2026-02-03,limitation,08:10:00,09:32:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Februari 2026,2026-02-03,outage,10:11:00,17:21:00,"OG.3, NST.5",J14,430.0
+Februari 2026,2026-02-03,limitation,09:32:00,17:41:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-03,outage,10:04:00,16:16:00,"OG.5, NST.3",J11,372.0
+Februari 2026,2026-02-04,outage,09:13:00,14:11:00,"OG.4, NST.2",J13,298.0
+Februari 2026,2026-02-04,limitation,08:48:00,14:48:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-04,outage,09:05:00,14:40:00,"OG.5, NST.3",J11,335.0
+Februari 2026,2026-02-05,outage,09:43:00,15:36:00,"OG.4, NST.2",J13,353.0
+Februari 2026,2026-02-05,limitation,09:35:00,15:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-05,outage,10:53:00,15:04:00,"OG.5, NST.3",J11,251.0
+Februari 2026,2026-02-05,outage,11:03:00,11:28:00,"OG.3, NST.5",J14,25.0
+Februari 2026,2026-02-06,outage,06:50:00,10:08:00,"OG.3, NST.5",J14,198.0
+Februari 2026,2026-02-06,limitation,05:02:00,10:10:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-06,outage,06:50:00,09:50:00,"OG.5, NST.3",J11,180.0
+Februari 2026,2026-02-06,outage,08:48:00,10:06:00,"OG.4, NST.2",J13,78.0
+Februari 2026,2026-02-06,outage,11:10:00,11:40:00,"OG.3, NST.5",J14,30.0
+Februari 2026,2026-02-06,limitation,11:10:00,11:41:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-06,outage,11:10:00,11:41:00,"OG.4, NST.2",J13,31.0
+Februari 2026,2026-02-06,outage,11:10:00,11:41:00,"OG.5, NST.3",J11,31.0
+Februari 2026,2026-02-07,outage,17:46:00,17:51:00,"OG.3, NST.5",J14,14.0
+Februari 2026,2026-02-07,limitation,17:46:00,22:29:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-07,outage,17:46:00,17:51:00,"OG.4, NST.2",J13,14.0
+Februari 2026,2026-02-07,outage,17:46:00,17:51:00,"OG.5, NST.3",J11,14.0
+Februari 2026,2026-02-07,outage,17:59:00,22:28:00,"OG.3, NST.5",J14,1.0
+Februari 2026,2026-02-07,outage,17:59:00,22:29:00,"OG.4, NST.2",J13,1.0
+Februari 2026,2026-02-07,outage,17:59:00,22:29:00,"OG.5, NST.3",J11,1.0
+Februari 2026,2026-02-08,outage,00:49:00,08:42:00,"OG.3, NST.5",J14,162.0
+Februari 2026,2026-02-08,limitation,00:49:00,08:51:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-08,outage,00:49:00,01:29:00,"OG.4, NST.2",J13,0.0
+Februari 2026,2026-02-08,outage,00:49:00,01:29:00,"OG.5, NST.3",J11,0.0
+Februari 2026,2026-02-08,limitation,19:52:00,22:30:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-24,outage,10:01:00,12:26:00,"OG.3, NST.5",J14,145.0
+Februari 2026,2026-02-24,limitation,09:55:00,12:36:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-25,outage,07:51:00,08:13:00,"OG.2, GSK.2",J03,22.0
+Februari 2026,2026-02-25,limitation,07:51:00,08:17:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Februari 2026,2026-02-25,outage,22:53:00,23:18:00,"OG.1, GSK.3",J02,0.0
+Februari 2026,2026-02-25,limitation,22:53:00,23:21:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Februari 2026,2026-02-25,outage,22:53:00,23:13:00,"OG.2, GSK.2",J03,0.0
+Februari 2026,2026-02-26,outage,08:25:00,09:03:00,"OG.1, GSK.3",J02,38.0
+Februari 2026,2026-02-26,limitation,08:25:00,09:12:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Februari 2026,2026-02-26,outage,08:25:00,09:02:00,"OG.2, GSK.2",J03,37.0
+Februari 2026,2026-02-26,limitation,09:19:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-27,limitation,06:00:00,18:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-28,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Februari 2026,2026-02-28,outage,01:22:00,23:59:00,"OG.1, GSK.3",J02,720.0
+Februari 2026,2026-02-28,limitation,01:36:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Januari 2026,2026-01-01,outage,23:25:00,23:39:00,"OG.3, NST.5",J14,0.0
+Januari 2026,2026-01-01,limitation,23:25:00,23:39:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-01,outage,23:25:00,23:39:00,"OG.4, NST.2",J13,0.0
+Januari 2026,2026-01-01,outage,23:25:00,23:39:00,"OG.5, NST.3",J11,0.0
+Januari 2026,2026-01-02,outage,10:47:00,11:16:00,"OG.3, NST.5",J14,29.0
+Januari 2026,2026-01-02,limitation,10:47:00,20:22:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-02,outage,10:47:00,20:22:00,"OG.4, NST.2",J13,433.0
+Januari 2026,2026-01-02,outage,10:47:00,11:39:00,"OG.5, NST.3",J11,52.0
+Januari 2026,2026-01-03,outage,17:46:00,18:20:00,"OG.3, NST.5",J14,14.0
+Januari 2026,2026-01-03,limitation,17:46:00,18:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-03,outage,17:45:00,18:20:00,"OG.4, NST.2",J13,15.0
+Januari 2026,2026-01-03,outage,17:45:00,18:20:00,"OG.5, NST.3",J11,15.0
+Januari 2026,2026-01-05,limitation,16:21:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-06,limitation,00:00:00,08:12:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-06,outage,13:01:00,13:35:00,"OG.3, NST.5",J14,34.0
+Januari 2026,2026-01-06,limitation,13:01:00,13:35:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-07,outage,15:04:00,20:15:00,"OG.3, NST.5",J14,176.0
+Januari 2026,2026-01-07,limitation,15:04:00,20:15:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-07,outage,15:04:00,15:59:00,"OG.4, NST.2",J13,55.0
+Januari 2026,2026-01-07,outage,15:04:00,16:00:00,"OG.5, NST.3",J11,56.0
+Januari 2026,2026-01-09,limitation,08:51:00,14:55:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-10,outage,22:05:00,23:07:00,"OG.3, NST.5",J14,0.0
+Januari 2026,2026-01-10,limitation,22:05:00,23:07:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-10,outage,22:05:00,23:07:00,"OG.4, NST.2",J13,0.0
+Januari 2026,2026-01-10,outage,22:05:00,23:07:00,"OG.5, NST.3",J11,0.0
+Januari 2026,2026-01-11,outage,02:29:00,10:16:00,"OG.3, NST.5",J14,256.0
+Januari 2026,2026-01-11,limitation,02:29:00,10:16:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-11,outage,02:29:00,03:09:00,"OG.4, NST.2",J13,0.0
+Januari 2026,2026-01-11,outage,02:29:00,03:10:00,"OG.5, NST.3",J11,0.0
+Januari 2026,2026-01-12,outage,16:38:00,23:59:00,"OG.3, NST.5",J14,82.0
+Januari 2026,2026-01-12,limitation,16:29:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-12,outage,16:38:00,23:59:00,"OG.4, NST.2",J13,82.0
+Januari 2026,2026-01-12,outage,16:39:00,23:59:00,"OG.5, NST.3",J11,81.0
+Januari 2026,2026-01-13,outage,00:00:00,14:45:00,"OG.3, NST.5",J14,525.0
+Januari 2026,2026-01-13,limitation,00:00:00,14:45:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-13,outage,00:00:00,14:10:00,"OG.4, NST.2",J13,490.0
+Januari 2026,2026-01-13,outage,00:00:00,14:28:00,"OG.5, NST.3",J11,508.0
+Januari 2026,2026-01-14,outage,10:08:00,16:11:00,"OG.3, NST.5",J14,363.0
+Januari 2026,2026-01-14,limitation,09:54:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-14,outage,10:08:00,11:37:00,"OG.5, NST.3",J11,89.0
+Januari 2026,2026-01-15,limitation,00:00:00,08:05:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-15,outage,15:04:00,16:07:00,"OG.3, NST.5",J14,63.0
+Januari 2026,2026-01-15,limitation,15:04:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-15,outage,15:04:00,16:09:00,"OG.4, NST.2",J13,65.0
+Januari 2026,2026-01-15,outage,15:04:00,23:59:00,"OG.5, NST.3",J11,176.0
+Januari 2026,2026-01-16,outage,00:00:00,23:59:00,"OG.5, NST.3",J11,720.0
+Januari 2026,2026-01-16,limitation,00:00:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-17,outage,00:00:00,08:53:00,"OG.5, NST.3",J11,173.0
+Januari 2026,2026-01-17,limitation,00:00:00,09:13:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-17,outage,20:31:00,23:59:00,"OG.3, NST.5",J14,0.0
+Januari 2026,2026-01-17,limitation,20:31:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-17,outage,20:31:00,23:59:00,"OG.4, NST.2",J13,0.0
+Januari 2026,2026-01-17,outage,20:31:00,23:59:00,"OG.5, NST.3",J11,0.0
+Januari 2026,2026-01-18,outage,00:00:00,18:12:00,"OG.3, NST.5",J14,720.0
+Januari 2026,2026-01-18,limitation,00:00:00,19:00:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-18,outage,00:00:00,01:36:00,"OG.4, NST.2",J13,0.0
+Januari 2026,2026-01-18,outage,00:00:00,01:36:00,"OG.5, NST.3",J11,0.0
+Januari 2026,2026-01-18,outage,02:55:00,03:18:00,"OG.4, NST.2",J13,0.0
+Januari 2026,2026-01-18,outage,02:55:00,03:18:00,"OG.5, NST.3",J11,0.0
+Januari 2026,2026-01-18,outage,18:34:00,18:48:00,"OG.3, NST.5",J14,0.0
+Januari 2026,2026-01-19,outage,09:39:00,15:11:00,"OG.5, NST.3",J11,332.0
+Januari 2026,2026-01-19,limitation,09:39:00,15:26:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-19,outage,17:31:00,17:53:00,"OG.3, NST.5",J14,22.0
+Januari 2026,2026-01-19,limitation,17:31:00,17:58:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-19,outage,17:31:00,17:38:00,"OG.4, NST.2",J13,7.0
+Januari 2026,2026-01-19,outage,17:31:00,17:40:00,"OG.5, NST.3",J11,9.0
+Januari 2026,2026-01-21,outage,09:24:00,14:20:00,"OG.4, NST.2",J13,296.0
+Januari 2026,2026-01-21,limitation,09:20:00,14:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-21,limitation,17:11:00,17:20:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-22,outage,09:17:00,16:28:00,"OG.3, NST.5",J14,431.0
+Januari 2026,2026-01-22,limitation,09:17:00,16:28:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-25,outage,12:58:00,13:03:00,"OG.3, NST.5",J14,5.0
+Januari 2026,2026-01-25,limitation,12:58:00,13:43:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-25,outage,12:58:00,13:03:00,"OG.4, NST.2",J13,5.0
+Januari 2026,2026-01-25,outage,12:58:00,13:03:00,"OG.5, NST.3",J11,5.0
+Januari 2026,2026-01-27,outage,09:12:00,09:49:00,"OG.3, NST.5",J14,37.0
+Januari 2026,2026-01-27,limitation,09:12:00,09:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-27,outage,09:12:00,09:59:00,"OG.4, NST.2",J13,47.0
+Januari 2026,2026-01-27,outage,09:12:00,09:51:00,"OG.5, NST.3",J11,39.0
+Januari 2026,2026-01-27,outage,12:44:00,18:19:00,"OG.1, GSK.3",J02,316.0
+Januari 2026,2026-01-27,limitation,12:44:00,18:19:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Januari 2026,2026-01-27,outage,12:44:00,13:04:00,"OG.2, GSK.2",J03,20.0
+Januari 2026,2026-01-27,outage,20:32:00,23:59:00,"OG.3, NST.5",J14,0.0
+Januari 2026,2026-01-27,limitation,20:32:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-27,outage,20:32:00,21:21:00,"OG.4, NST.2",J13,0.0
+Januari 2026,2026-01-27,outage,20:32:00,21:21:00,"OG.5, NST.3",J11,0.0
+Januari 2026,2026-01-27,outage,22:40:00,23:59:00,"OG.5, NST.3",J11,0.0
+Januari 2026,2026-01-28,outage,00:00:00,00:10:00,"OG.3, NST.5",J14,0.0
+Januari 2026,2026-01-28,limitation,00:00:00,00:11:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-28,outage,00:00:00,00:11:00,"OG.5, NST.3",J11,0.0
+Januari 2026,2026-01-29,outage,20:39:00,21:07:00,"OG.3, NST.5",J14,0.0
+Januari 2026,2026-01-29,limitation,20:39:00,21:17:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Januari 2026,2026-01-29,outage,20:39:00,21:03:00,"OG.4, NST.2",J13,0.0
+Januari 2026,2026-01-29,outage,20:39:00,21:17:00,"OG.5, NST.3",J11,0.0
+Desember 2025,2025-12-02,limitation,15:00:00,16:30:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Desember 2025,2025-12-04,limitation,11:38:00,12:05:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Desember 2025,2025-12-07,outage,07:47:00,08:11:00,"OG.1, GSK.3",J02,24.0
+Desember 2025,2025-12-07,limitation,07:45:00,09:38:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Desember 2025,2025-12-07,outage,07:45:00,09:38:00,"OG.2, GSK.2",J03,113.0
+Desember 2025,2025-12-07,outage,10:46:00,10:58:00,"OG.3, NST.5",J14,12.0
+Desember 2025,2025-12-07,limitation,10:46:00,11:33:00,STS 6 - STS 10,"J10, J11, J12",
+Desember 2025,2025-12-07,outage,10:46:00,11:06:00,"OG.4, NST.2",J13,20.0
+Desember 2025,2025-12-07,outage,10:46:00,11:33:00,"OG.5, NST.3",J11,47.0
+Desember 2025,2025-12-13,outage,07:29:00,11:32:00,"OG.3, NST.5",J14,243.0
+Desember 2025,2025-12-13,limitation,07:29:00,14:52:00,STS 6 - STS 10,"J10, J11, J12",
+Desember 2025,2025-12-13,outage,07:29:00,09:32:00,"OG.4, NST.2",J13,123.0
+Desember 2025,2025-12-13,outage,07:29:00,09:35:00,"OG.5, NST.3",J11,126.0
+Desember 2025,2025-12-13,outage,12:29:00,14:52:00,"OG.3, NST.5",J14,143.0
+Desember 2025,2025-12-13,outage,12:29:00,14:52:00,"OG.4, NST.2",J13,143.0
+Desember 2025,2025-12-13,outage,12:29:00,14:52:00,"OG.5, NST.3",J11,143.0
+Desember 2025,2025-12-22,outage,14:23:00,16:20:00,"OG.4, NST.2",J13,117.0
+Desember 2025,2025-12-22,limitation,14:23:00,16:20:00,STS 6 - STS 10,"J10, J11, J12",
+Desember 2025,2025-12-30,outage,07:18:00,07:37:00,"OG.1, GSK.3",J02,
+Desember 2025,2025-12-30,limitation,07:16:00,07:51:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Desember 2025,2025-12-30,outage,07:16:00,07:51:00,"OG.2, GSK.2",J03,
+Desember 2025,2025-12-30,outage,10:05:00,23:59:00,"OG.3, NST.5",J14,
+Desember 2025,2025-12-30,limitation,09:28:00,23:59:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Desember 2025,2025-12-30,outage,10:09:00,23:59:00,"OG.4, NST.2",J13,
+Desember 2025,2025-12-30,outage,10:11:00,23:59:00,"OG.5, NST.3",J11,
+Desember 2025,2025-12-31,outage,00:00:00,13:41:00,"OG.3, NST.5",J14,
+Desember 2025,2025-12-31,limitation,00:00:00,14:38:00,"STS 6 - STS 10, STS BESS 1 - STS BESS 3","J10, J11, J12, J13, J17/J06",
+Desember 2025,2025-12-31,outage,00:00:00,14:38:00,"OG.4, NST.2",J13,
+Desember 2025,2025-12-31,outage,00:00:00,12:55:00,"OG.5, NST.3",J11,
+November (2),2025-11-02,outage,10:20:00,10:39:00,"OG.1, GSK.3",J02,279.0
+November (2),2025-11-02,limitation,10:20:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-02,outage,10:20:00,23:59:00,"OG.2, GSK.2",J03,720.0
+November (2),2025-11-02,outage,16:35:00,23:59:00,"OG.1, GSK.3",J02,720.0
+November (2),2025-11-03,outage,00:00:00,02:10:00,"OG.1, GSK.3",J02,0.0
+November (2),2025-11-03,limitation,00:00:00,04:43:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-03,outage,00:00:00,03:18:00,"OG.2, GSK.2",J03,0.0
+November (2),2025-11-03,outage,04:25:00,04:38:00,"OG.2, GSK.2",J03,0.0
+November (2),2025-11-03,limitation,15:44:00,15:57:00,STS 6 - STS 10,"J10, J11, J12",
+November (2),2025-11-04,outage,15:10:00,15:35:00,"OG.3, NST.5",J14,575.0
+November (2),2025-11-04,limitation,15:15:00,16:19:00,STS 6 - STS 10,"J10, J11, J12",
+November (2),2025-11-04,outage,15:10:00,15:59:00,"OG.4, NST.2",J13,599.0
+November (2),2025-11-04,outage,15:10:00,16:15:00,"OG.5, NST.3",J11,615.0
+November (2),2025-11-04,outage,16:29:00,17:51:00,"OG.3, NST.5",J14,711.0
+November (2),2025-11-04,limitation,16:29:00,17:58:00,STS 6 - STS 10,"J10, J11, J12",
+November (2),2025-11-04,outage,16:29:00,17:43:00,"OG.4, NST.2",J13,703.0
+November (2),2025-11-04,outage,16:29:00,17:55:00,"OG.5, NST.3",J11,715.0
+November (2),2025-11-05,outage,09:56:00,23:18:00,"OG.5, NST.3",J11,720.0
+November (2),2025-11-05,limitation,09:56:00,23:18:00,STS 6 - STS 10,"J10, J11, J12",
+November (2),2025-11-07,outage,14:45:00,18:54:00,"OG.2, GSK.2",J03,720.0
+November (2),2025-11-07,limitation,14:33:00,18:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-08,outage,09:28:00,13:17:00,"OG.1, GSK.3",J02,437.0
+November (2),2025-11-08,limitation,09:14:00,13:24:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-10,outage,09:07:00,09:45:00,"OG.1, GSK.3",J02,225.0
+November (2),2025-11-10,limitation,09:07:00,21:11:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-10,outage,09:07:00,21:01:00,"OG.2, GSK.2",J03,720.0
+November (2),2025-11-10,outage,09:56:00,15:23:00,"OG.1, GSK.3",J02,563.0
+November (2),2025-11-16,outage,14:22:00,14:58:00,"OG.1, GSK.3",J02,538.0
+November (2),2025-11-16,limitation,14:22:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-16,outage,14:22:00,23:44:00,"OG.2, GSK.2",J03,720.0
+November (2),2025-11-17,outage,22:40:00,23:03:00,"OG.1, GSK.3",J02,0.0
+November (2),2025-11-17,limitation,22:40:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-17,outage,22:40:00,23:59:00,"OG.2, GSK.2",J03,0.0
+November (2),2025-11-18,outage,00:00:00,21:42:00,"OG.2, GSK.2",J03,720.0
+November (2),2025-11-18,limitation,00:00:00,21:42:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-18,outage,08:51:00,10:23:00,"OG.3, NST.5",J14,92.0
+November (2),2025-11-18,limitation,08:51:00,10:32:00,STS 6 - STS 10,"J10, J11, J12",
+November (2),2025-11-18,outage,08:51:00,10:32:00,"OG.4, NST.2",J13,101.0
+November (2),2025-11-18,outage,08:51:00,10:24:00,"OG.5, NST.3",J11,93.0
+November (2),2025-11-18,outage,22:20:00,22:56:00,"OG.1, GSK.3",J02,0.0
+November (2),2025-11-18,limitation,22:20:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-18,outage,22:20:00,23:59:00,"OG.2, GSK.2",J03,0.0
+November (2),2025-11-19,outage,00:00:00,15:50:00,"OG.2, GSK.2",J03,590.0
+November (2),2025-11-19,limitation,00:00:00,15:50:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-19,outage,16:16:00,16:41:00,"OG.1, GSK.3",J02,25.0
+November (2),2025-11-19,limitation,16:16:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-19,outage,16:16:00,23:59:00,"OG.2, GSK.2",J03,104.0
+November (2),2025-11-19,outage,23:16:00,23:59:00,"OG.1, GSK.3",J02,0.0
+November (2),2025-11-20,outage,00:00:00,01:15:00,"OG.1, GSK.3",J02,0.0
+November (2),2025-11-20,limitation,00:00:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-20,outage,00:00:00,01:47:00,"OG.2, GSK.2",J03,0.0
+November (2),2025-11-20,outage,02:13:00,23:52:00,"OG.2, GSK.2",J03,720.0
+November (2),2025-11-20,outage,16:25:00,23:45:00,"OG.1, GSK.3",J02,720.0
+November (2),2025-11-21,limitation,00:00:00,00:08:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-24,outage,06:12:00,06:36:00,"OG.1, GSK.3",J02,36.0
+November (2),2025-11-24,limitation,06:12:00,06:37:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November (2),2025-11-24,outage,06:12:00,06:37:00,"OG.2, GSK.2",J03,37.0
+November 2025,2025-11-02,outage,10:20:00,10:39:00,"OG.1, GSK.3",J02,19.0
+November 2025,2025-11-02,limitation,10:20:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-02,outage,10:20:00,23:59:00,"OG.2, GSK.2",J03,460.0
+November 2025,2025-11-02,outage,16:35:00,23:59:00,"OG.1, GSK.3",J02,85.0
+November 2025,2025-11-03,outage,00:00:00,02:10:00,"OG.1, GSK.3",J02,0.0
+November 2025,2025-11-03,limitation,00:00:00,04:43:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-03,outage,00:00:00,03:18:00,"OG.2, GSK.2",J03,0.0
+November 2025,2025-11-03,outage,04:25:00,04:38:00,"OG.2, GSK.2",J03,0.0
+November 2025,2025-11-03,limitation,15:44:00,15:57:00,STS 6 - STS 10,"J10, J11, J12",
+November 2025,2025-11-04,outage,15:10:00,15:35:00,"OG.3, NST.5",J14,25.0
+November 2025,2025-11-04,limitation,15:15:00,16:19:00,STS 6 - STS 10,"J10, J11, J12",
+November 2025,2025-11-04,outage,15:10:00,15:59:00,"OG.4, NST.2",J13,49.0
+November 2025,2025-11-04,outage,15:10:00,16:15:00,"OG.5, NST.3",J11,65.0
+November 2025,2025-11-04,outage,16:29:00,17:51:00,"OG.3, NST.5",J14,82.0
+November 2025,2025-11-04,limitation,16:29:00,17:58:00,STS 6 - STS 10,"J10, J11, J12",
+November 2025,2025-11-04,outage,16:29:00,17:43:00,"OG.4, NST.2",J13,74.0
+November 2025,2025-11-04,outage,16:29:00,17:55:00,"OG.5, NST.3",J11,86.0
+November 2025,2025-11-05,outage,09:56:00,23:18:00,"OG.5, NST.3",J11,484.0
+November 2025,2025-11-05,limitation,09:56:00,23:18:00,STS 6 - STS 10,"J10, J11, J12",
+November 2025,2025-11-07,outage,14:45:00,18:54:00,"OG.2, GSK.2",J03,195.0
+November 2025,2025-11-07,limitation,14:33:00,18:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-08,outage,09:28:00,13:17:00,"OG.1, GSK.3",J02,229.0
+November 2025,2025-11-08,limitation,09:14:00,13:24:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-10,outage,09:07:00,09:45:00,"OG.1, GSK.3",J02,38.0
+November 2025,2025-11-10,limitation,09:07:00,21:11:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-10,outage,09:07:00,21:01:00,"OG.2, GSK.2",J03,533.0
+November 2025,2025-11-10,outage,09:56:00,15:23:00,"OG.1, GSK.3",J02,327.0
+November 2025,2025-11-16,outage,14:22:00,14:58:00,"OG.1, GSK.3",J02,36.0
+November 2025,2025-11-16,limitation,14:22:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-16,outage,14:22:00,23:44:00,"OG.2, GSK.2",J03,218.0
+November 2025,2025-11-17,outage,22:40:00,23:03:00,"OG.1, GSK.3",J02,0.0
+November 2025,2025-11-17,limitation,22:40:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-17,outage,22:40:00,23:59:00,"OG.2, GSK.2",J03,0.0
+November 2025,2025-11-18,outage,00:00:00,21:42:00,"OG.2, GSK.2",J03,720.0
+November 2025,2025-11-18,limitation,00:00:00,21:42:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-18,outage,08:51:00,10:23:00,"OG.3, NST.5",J14,92.0
+November 2025,2025-11-18,limitation,08:51:00,10:32:00,STS 6 - STS 10,"J10, J11, J12",
+November 2025,2025-11-18,outage,08:51:00,10:32:00,"OG.4, NST.2",J13,101.0
+November 2025,2025-11-18,outage,08:51:00,10:24:00,"OG.5, NST.3",J11,93.0
+November 2025,2025-11-18,outage,22:20:00,22:56:00,"OG.1, GSK.3",J02,0.0
+November 2025,2025-11-18,limitation,22:20:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-18,outage,22:20:00,23:59:00,"OG.2, GSK.2",J03,0.0
+November 2025,2025-11-19,outage,00:00:00,15:50:00,"OG.2, GSK.2",J03,590.0
+November 2025,2025-11-19,limitation,00:00:00,15:50:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-19,outage,16:16:00,16:41:00,"OG.1, GSK.3",J02,25.0
+November 2025,2025-11-19,limitation,16:16:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-19,outage,16:16:00,23:59:00,"OG.2, GSK.2",J03,104.0
+November 2025,2025-11-19,outage,23:16:00,23:59:00,"OG.1, GSK.3",J02,0.0
+November 2025,2025-11-20,outage,00:00:00,01:15:00,"OG.1, GSK.3",J02,0.0
+November 2025,2025-11-20,limitation,00:00:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-20,outage,00:00:00,01:47:00,"OG.2, GSK.2",J03,0.0
+November 2025,2025-11-20,outage,02:13:00,23:52:00,"OG.2, GSK.2",J03,720.0
+November 2025,2025-11-20,outage,16:25:00,23:45:00,"OG.1, GSK.3",J02,95.0
+November 2025,2025-11-21,limitation,00:00:00,00:08:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-24,outage,06:12:00,06:36:00,"OG.1, GSK.3",J02,24.0
+November 2025,2025-11-24,limitation,06:12:00,06:37:00,STS 1 - STS 5,"J02, J03, J07, J08",
+November 2025,2025-11-24,outage,06:12:00,06:37:00,"OG.2, GSK.2",J03,25.0
+Oktober 2025,2025-10-04,outage,05:59:00,J02,59,,
+Oktober 2025,2025-10-04,outage,07:54:00,J02,340,07:53:00,
+Oktober 2025,2025-10-04,limitation,STS 1 - STS 5,"J02, J03, J07, J08",353,,
+Oktober 2025,2025-10-04,outage,07:54:00,J03,341,,
+Oktober 2025,2025-10-04,outage,15:34:00,J02,11,15:35:00,
+Oktober 2025,2025-10-04,limitation,STS 1 - STS 5,"J02, J03, J07, J08",18,,
+Oktober 2025,2025-10-04,outage,17:05:00,J02,55,16:17:00,
+Oktober 2025,2025-10-04,limitation,STS 1 - STS 5,"J02, J03, J07, J08",103,,
+Oktober 2025,2025-10-04,outage,17:06:00,J03,54,,
+Oktober 2025,2025-10-05,outage,00:00:00,J02,0,00:00:00,
+Oktober 2025,2025-10-05,limitation,STS 1 - STS 5,"J02, J03, J07, J08",0,,
+Oktober 2025,2025-10-05,outage,00:00:00,J03,0,,
+Oktober 2025,2025-10-09,outage,13:38:00,J02,262,13:38:00,
+Oktober 2025,2025-10-09,limitation,STS 1 - STS 5,"J02, J03, J07, J08",262,,
+Oktober 2025,2025-10-09,outage,13:37:00,J03,19,,
+Oktober 2025,2025-10-10,outage,00:00:00,J02,81,06:00:00,
+Oktober 2025,2025-10-10,limitation,STS 1 - STS 5,"J02, J03, J07, J08",110,,
+Oktober 2025,2025-10-12,outage,09:29:00,J14,66,09:29:00,
+Oktober 2025,2025-10-12,limitation,STS 6 - STS 10,"J10, J11, J12",79,,
+Oktober 2025,2025-10-12,outage,09:29:00,J13,73,,
+Oktober 2025,2025-10-12,outage,09:29:00,,,,
+Oktober 2025,2025-10-21,outage,13:17:00,J02,28,13:17:00,
+Oktober 2025,2025-10-21,limitation,STS 1 - STS 5,"J02, J03, J07, J08",283,,
+Oktober 2025,2025-10-21,outage,13:19:00,J03,281,,
+Oktober 2025,2025-10-22,outage,08:18:00,J14,17,08:18:00,
+Oktober 2025,2025-10-22,limitation,STS 6 - STS 10,"J10, J11, J12",40,,
+Oktober 2025,2025-10-22,outage,08:18:00,J13,21,,
+Oktober 2025,2025-10-22,outage,08:18:00,J11,36,,
+Oktober 2025,2025-10-22,outage,10:32:00,J02,29,10:32:00,
+Oktober 2025,2025-10-22,limitation,STS 1 - STS 5,"J02, J03, J07, J08",44,,
+Oktober 2025,2025-10-22,outage,10:32:00,J03,24,,
+September 2025,2025-09-02,outage,11:10:00,20:25:00,"OG.1, GSK.3",J02,410.0
+September 2025,2025-09-02,limitation,11:08:00,20:28:00,STS 1 - STS 5,"J02, J03, J07, J08",
+September 2025,2025-09-02,outage,11:08:00,11:32:00,"OG.2, GSK.2",J03,24.0
+September 2025,2025-09-02,outage,15:18:00,15:40:00,"OG.2, GSK.2",J03,22.0
+September 2025,2025-09-06,outage,19:18:00,23:59:00,"OG.1, GSK.3",J02,0.0
+September 2025,2025-09-07,outage,00:00:00,18:27:00,"OG.1, GSK.3",J02,720.0
+September 2025,2025-09-07,limitation,06:30:00,18:36:00,STS 1 - STS 5,"J02, J03, J07, J08",
+September 2025,2025-09-09,limitation,12:37:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-10,limitation,06:00:00,07:08:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-10,outage,17:40:00,18:12:00,"OG.3, NST.5",J14,20.0
+September 2025,2025-09-10,limitation,17:20:00,23:59:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-10,outage,17:40:00,18:17:00,"OG.4, NST.2",J13,20.0
+September 2025,2025-09-10,outage,17:40:00,19:45:00,"OG.5, NST.3",J11,20.0
+September 2025,2025-09-11,limitation,00:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-12,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-12,outage,11:54:00,12:20:00,"OG.3, NST.5",J14,26.0
+September 2025,2025-09-12,outage,11:54:00,12:13:00,"OG.4, NST.2",J13,19.0
+September 2025,2025-09-12,outage,11:54:00,12:16:00,"OG.5, NST.3",J11,22.0
+September 2025,2025-09-12,outage,12:46:00,13:26:00,"OG.3, NST.5",J14,40.0
+September 2025,2025-09-12,outage,12:46:00,13:00:00,"OG.4, NST.2",J13,14.0
+September 2025,2025-09-12,outage,12:46:00,13:10:00,"OG.5, NST.3",J11,24.0
+September 2025,2025-09-13,limitation,00:00:00,04:06:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-15,outage,17:41:00,17:59:00,"OG.3, NST.5",J14,18.0
+September 2025,2025-09-15,limitation,17:39:00,22:13:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-16,outage,15:19:00,15:56:00,"OG.3, NST.5",J14,37.0
+September 2025,2025-09-16,limitation,15:19:00,16:07:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-16,outage,15:19:00,15:33:00,"OG.4, NST.2",J13,14.0
+September 2025,2025-09-16,outage,15:19:00,15:48:00,"OG.5, NST.3",J11,29.0
+September 2025,2025-09-16,outage,21:59:00,23:59:00,"OG.1, GSK.3",J02,0.0
+September 2025,2025-09-17,outage,00:00:00,19:50:00,"OG.1, GSK.3",J02,720.0
+September 2025,2025-09-17,limitation,05:49:00,19:53:00,STS 1 - STS 5,"J02, J03, J07, J08",
+September 2025,2025-09-17,outage,13:46:00,14:07:00,"OG.3, NST.5",J14,21.0
+September 2025,2025-09-17,limitation,13:46:00,14:24:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-17,outage,13:46:00,13:56:00,"OG.4, NST.2",J13,10.0
+September 2025,2025-09-17,outage,13:46:00,14:14:00,"OG.5, NST.3",J11,28.0
+September 2025,2025-09-22,outage,12:36:00,18:00:00,"OG.1, GSK.3",J02,324.0
+September 2025,2025-09-22,limitation,12:36:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+September 2025,2025-09-22,outage,12:34:00,13:12:00,"OG.2, GSK.2",J03,38.0
+September 2025,2025-09-23,outage,06:00:00,18:00:00,"OG.1, GSK.3",J02,720.0
+September 2025,2025-09-23,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+September 2025,2025-09-24,outage,06:00:00,10:34:00,"OG.1, GSK.3",J02,274.0
+September 2025,2025-09-24,limitation,06:00:00,23:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+September 2025,2025-09-24,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-24,outage,22:15:00,23:59:00,"OG.1, GSK.3",J02,0.0
+September 2025,2025-09-24,outage,22:16:00,23:59:00,"OG.2, GSK.2",J03,0.0
+September 2025,2025-09-25,outage,00:00:00,00:45:00,"OG.1, GSK.3",J02,0.0
+September 2025,2025-09-25,limitation,00:00:00,00:58:00,STS 1 - STS 5,"J02, J03, J07, J08",
+September 2025,2025-09-25,outage,00:00:00,00:51:00,"OG.2, GSK.2",J03,0.0
+September 2025,2025-09-25,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-26,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-26,outage,10:57:00,13:51:00,"STS 6 - 10, STS BESS 1-3","J10, J11, J12, J13, J17/J06",174.0
+September 2025,2025-09-26,outage,11:10:00,13:45:00,Busbar 2 Powerhouse,"J10, J14",155.0
+September 2025,2025-09-26,outage,16:16:00,16:39:00,"OG.1, GSK.3",J02,23.0
+September 2025,2025-09-26,limitation,16:14:00,16:44:00,STS 1 - STS 5,"J02, J03, J07, J08",
+September 2025,2025-09-26,outage,16:14:00,16:44:00,"OG.2, GSK.2",J03,30.0
+September 2025,2025-09-29,outage,09:17:00,11:39:00,"STS 6 - 10, STS BESS 1-3","J10, J11, J12, J13, J17/J06",142.0
+September 2025,2025-09-29,limitation,09:13:00,11:41:00,STS 6 - STS 10,"J10, J11, J12",
+September 2025,2025-09-29,outage,09:20:00,11:34:00,Busbar 2 Powerhouse,"J10, J14",134.0
+Agustus 2025,2025-08-01,outage,00:00:00,17:39:00,"OG.3, NST.5",J14,699.0
+Agustus 2025,2025-08-01,limitation,06:00:00,19:56:00,STS 6 - STS 10,"J10, J11, J12",
+Agustus 2025,2025-08-01,outage,00:00:00,03:01:00,"OG.4, NST.2",J13,0.0
+Agustus 2025,2025-08-01,outage,00:00:00,03:16:00,"OG.5, NST.3",J11,0.0
+Agustus 2025,2025-08-01,outage,07:16:00,07:30:00,"OG.1, GSK.3",J02,14.0
+Agustus 2025,2025-08-01,limitation,07:16:00,10:10:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-01,outage,07:16:00,10:06:00,"OG.2, GSK.2",J03,170.0
+Agustus 2025,2025-08-01,outage,12:34:00,12:48:00,"OG.1, GSK.3",J02,14.0
+Agustus 2025,2025-08-01,outage,12:34:00,18:00:00,"OG.2, GSK.2",J03,326.0
+Agustus 2025,2025-08-02,outage,06:00:00,18:00:00,"OG.2, GSK.2",J03,720.0
+Agustus 2025,2025-08-02,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-02,outage,12:29:00,12:44:00,"OG.1, GSK.3 & OG.2 (bus 1 loss voltage)",J02,15.0
+Agustus 2025,2025-08-03,outage,06:00:00,19:16:00,"OG.2, GSK.2",J03,720.0
+Agustus 2025,2025-08-03,limitation,06:00:00,20:18:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-04,limitation,14:06:00,15:08:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-05,outage,06:32:00,06:45:00,"OG.1, GSK.3",J02,13.0
+Agustus 2025,2025-08-05,limitation,06:32:00,06:53:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-05,outage,06:32:00,06:53:00,"OG.2, GSK.2",J03,21.0
+Agustus 2025,2025-08-07,outage,14:13:00,18:00:00,"OG.1, GSK.3",J02,227.0
+Agustus 2025,2025-08-07,limitation,14:13:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-07,outage,14:13:00,14:24:00,"OG.2, GSK.2",J03,11.0
+Agustus 2025,2025-08-08,outage,06:00:00,18:00:00,"OG.1, GSK.3",J02,720.0
+Agustus 2025,2025-08-08,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-09,outage,06:00:00,18:00:00,"OG.1, GSK.3",J02,720.0
+Agustus 2025,2025-08-09,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-09,outage,13:18:00,14:34:00,"OG.3, NST.5",J14,76.0
+Agustus 2025,2025-08-09,outage,13:18:00,14:27:00,"OG.4, NST.2",J13,69.0
+Agustus 2025,2025-08-09,outage,13:18:00,14:56:00,"OG.5, NST.3",J11,98.0
+Agustus 2025,2025-08-10,outage,06:00:00,07:10:00,"OG.1, GSK.3",J02,70.0
+Agustus 2025,2025-08-10,limitation,06:00:00,07:46:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-13,outage,11:32:00,18:54:00,"OG.3, NST.5",J14,344.0
+Agustus 2025,2025-08-13,limitation,11:32:00,18:54:00,STS 6 - STS 10,"J10, J11, J12",
+Agustus 2025,2025-08-13,outage,11:32:00,18:14:00,"OG.4, NST.2",J13,342.0
+Agustus 2025,2025-08-13,outage,11:32:00,18:15:00,"OG.5, NST.3",J11,330.0
+Agustus 2025,2025-08-14,limitation,13:39:00,23:59:00,STS 6 - STS 10,"J10, J11, J12",
+Agustus 2025,2025-08-15,limitation,06:00:00,15:32:00,STS 6 - STS 10,"J10, J11, J12",
+Agustus 2025,2025-08-15,limitation,11:32:00,12:53:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-16,outage,18:56:00,23:59:00,"OG.3, NST.5",J14,0.0
+Agustus 2025,2025-08-16,limitation,18:56:00,23:59:00,STS 6 - STS 10,"J10, J11, J12",
+Agustus 2025,2025-08-16,outage,18:56:00,23:59:00,"OG.4, NST.2",J13,0.0
+Agustus 2025,2025-08-16,outage,18:56:00,23:59:00,"OG.5, NST.3",J11,0.0
+Agustus 2025,2025-08-17,outage,06:00:00,23:58:00,"OG.3, NST.5",J14,720.0
+Agustus 2025,2025-08-17,limitation,06:00:00,23:58:00,STS 6 - STS 10,"J10, J11, J12",
+Agustus 2025,2025-08-17,outage,06:00:00,23:58:00,"OG.4, NST.2",J13,720.0
+Agustus 2025,2025-08-17,outage,06:00:00,23:58:00,"OG.5, NST.3",J11,720.0
+Agustus 2025,2025-08-19,outage,12:26:00,20:10:00,"OG.1, GSK.3",J02,334.0
+Agustus 2025,2025-08-19,limitation,12:25:00,20:16:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-19,outage,12:25:00,12:52:00,"OG.2, GSK.2",J03,27.0
+Agustus 2025,2025-08-19,outage,13:41:00,13:45:00,"OG.3, NST.5",J14,4.0
+Agustus 2025,2025-08-19,limitation,13:41:00,13:45:00,STS 6 - STS 10,"J10, J11, J12",
+Agustus 2025,2025-08-19,outage,13:41:00,13:45:00,"OG.4, NST.2",J13,4.0
+Agustus 2025,2025-08-19,outage,13:41:00,13:45:00,"OG.5, NST.3",J11,4.0
+Agustus 2025,2025-08-25,outage,08:15:00,09:08:00,"OG.3, NST.5",J14,53.0
+Agustus 2025,2025-08-25,limitation,08:15:00,09:11:00,STS 6 - STS 10,"J10, J11, J12",
+Agustus 2025,2025-08-25,outage,08:15:00,09:08:00,"OG.4, NST.2",J13,53.0
+Agustus 2025,2025-08-25,outage,08:15:00,09:09:00,"OG.5, NST.3",J11,54.0
+Agustus 2025,2025-08-27,outage,07:59:00,08:35:00,"OG.3, NST.5",J14,36.0
+Agustus 2025,2025-08-27,limitation,07:59:00,08:48:00,STS 6 - STS 10,"J10, J11, J12",
+Agustus 2025,2025-08-27,outage,07:59:00,08:38:00,"OG.4, NST.2",J13,39.0
+Agustus 2025,2025-08-27,outage,07:59:00,08:45:00,"OG.5, NST.3",J11,46.0
+Agustus 2025,2025-08-29,outage,16:45:00,17:05:00,"OG.1, GSK.3",J02,20.0
+Agustus 2025,2025-08-29,limitation,16:45:00,17:05:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Agustus 2025,2025-08-29,outage,16:45:00,17:01:00,"OG.2, GSK.2",J03,16.0
+Juli 2025,2025-07-01,outage,06:00:00,15:04:00,OG.3,J14,544.0
+Juli 2025,2025-07-01,limitation,06:00:00,17:03:00,STS 6 - STS 10,"J10, J11, J12",
+Juli 2025,2025-07-04,outage,11:23:00,11:46:00,"OG.1, GSK.3",J02,23.0
+Juli 2025,2025-07-04,limitation,11:23:00,11:48:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juli 2025,2025-07-04,outage,11:24:00,11:48:00,"OG.2, GSK.2",J03,24.0
+Juli 2025,2025-07-04,outage,18:01:00,19:37:00,"OG.3, NST.5",J14,0.0
+Juli 2025,2025-07-04,outage,18:02:00,21:47:00,"OG.4, NST.2",J13,0.0
+Juli 2025,2025-07-04,outage,18:03:00,20:03:00,"OG.5, NST.3",J11,0.0
+Juli 2025,2025-07-05,outage,06:22:00,07:42:00,"OG.3, NST.5",J14,80.0
+Juli 2025,2025-07-05,limitation,06:22:00,07:46:00,STS 6 - STS 10,"J10, J11, J12",
+Juli 2025,2025-07-05,outage,06:22:00,07:42:00,"OG.4, NST.2",J13,80.0
+Juli 2025,2025-07-05,outage,06:22:00,07:37:00,"OG.5, NST.3",J11,75.0
+Juli 2025,2025-07-07,outage,04:36:00,05:36:00,"OG.1, GSK.3",J02,0.0
+Juli 2025,2025-07-07,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juli 2025,2025-07-07,outage,04:37:00,23:23:00,"OG.2, GSK.2",J03,720.0
+Juli 2025,2025-07-07,outage,12:29:00,13:30:00,"OG.3, NST.5",J14,61.0
+Juli 2025,2025-07-07,limitation,12:29:00,13:32:00,STS 6 - STS 10,"J10, J11, J12",
+Juli 2025,2025-07-07,outage,12:56:00,13:31:00,"OG.4, NST.2",J13,35.0
+Juli 2025,2025-07-07,outage,12:57:00,13:32:00,"OG.5, NST.3",J11,35.0
+Juli 2025,2025-07-11,outage,16:28:00,16:47:00,"OG.3, NST.5",J14,19.0
+Juli 2025,2025-07-11,limitation,16:28:00,16:49:00,STS 6 - STS 10,"J10, J11, J12",
+Juli 2025,2025-07-11,outage,16:29:00,16:48:00,"OG.4, NST.2",J13,19.0
+Juli 2025,2025-07-11,outage,16:30:00,16:49:00,"OG.5, NST.3",J11,19.0
+Juli 2025,2025-07-14,outage,15:43:00,18:00:00,"OG.4, NST.2",J13,137.0
+Juli 2025,2025-07-14,limitation,15:37:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Juli 2025,2025-07-14,outage,15:51:00,18:00:00,"OG.5, NST.3",J11,129.0
+Juli 2025,2025-07-14,outage,17:49:00,18:21:00,"OG.1, GSK.3",J02,11.0
+Juli 2025,2025-07-14,limitation,17:49:00,18:21:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juli 2025,2025-07-14,outage,17:49:00,23:59:00,"OG.2, GSK.2",J03,11.0
+Juli 2025,2025-07-15,outage,00:00:00,18:00:00,"OG.2, GSK.2",J03,720.0
+Juli 2025,2025-07-15,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juli 2025,2025-07-15,outage,06:00:00,18:00:00,"OG.4, NST.2",J13,720.0
+Juli 2025,2025-07-15,outage,06:00:00,11:35:00,"OG.5, NST.3",J11,335.0
+Juli 2025,2025-07-15,outage,13:06:00,17:58:00,"OG.5, NST.3",J11,292.0
+Juli 2025,2025-07-16,outage,06:00:00,18:00:00,"OG.2, GSK.2",J03,720.0
+Juli 2025,2025-07-16,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juli 2025,2025-07-16,outage,06:00:00,09:23:00,"OG.4, NST.2",J13,203.0
+Juli 2025,2025-07-16,outage,09:43:00,10:09:00,"OG.3, NST.5",J14,26.0
+Juli 2025,2025-07-16,outage,09:43:00,11:18:00,"OG.4, NST.2",J13,95.0
+Juli 2025,2025-07-16,outage,09:44:00,10:04:00,"OG.5, NST.3",J11,20.0
+Juli 2025,2025-07-16,outage,10:20:00,10:36:00,"OG.3, NST.5",J14,16.0
+Juli 2025,2025-07-16,outage,10:21:00,10:40:00,"OG.5, NST.3",J11,19.0
+Juli 2025,2025-07-16,outage,16:36:00,19:30:00,OG.1 - GSK.3 & OG.2 - GSK.2 (busbar 1 loss voltage),J02,84.0
+Juli 2025,2025-07-16,limitation,06:00:00,11:51:00,STS 6 - STS 10,"J10, J11, J12",
+Juli 2025,2025-07-16,limitation,14:50:00,15:41:00,STS 6 - STS 10,"J10, J11, J12",
+Juli 2025,2025-07-17,outage,06:00:00,09:07:00,"OG.2, GSK.2",J03,187.0
+Juli 2025,2025-07-17,limitation,06:00:00,09:19:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juli 2025,2025-07-17,limitation,10:10:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Juli 2025,2025-07-23,limitation,14:37:00,14:49:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juli 2025,2025-07-23,outage,14:11:00,15:07:00,"OG.3, NST.5",J14,56.0
+Juli 2025,2025-07-23,outage,14:12:00,14:58:00,"OG.4, NST.2",J13,46.0
+Juli 2025,2025-07-23,limitation,14:38:00,15:10:00,STS 6 - STS 10,"J10, J11, J12",
+Juli 2025,2025-07-23,outage,14:12:00,14:58:00,"OG.5, NST.3",J11,46.0
+Juli 2025,2025-07-25,limitation,10:46:00,11:35:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juli 2025,2025-07-28,limitation,14:39:00,17:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juli 2025,2025-07-30,outage,07:19:00,08:07:00,"OG.3, NST.5",J14,48.0
+Juli 2025,2025-07-30,limitation,07:13:00,08:17:00,STS 6 - STS 10,"J10, J11, J12",
+Juli 2025,2025-07-30,outage,07:19:00,08:07:00,"OG.4, NST.2",J13,48.0
+Juli 2025,2025-07-30,outage,07:19:00,08:07:00,"OG.5, NST.3",J11,48.0
+Juli 2025,2025-07-30,outage,17:27:00,17:42:00,"OG.3, NST.5",J14,15.0
+Juli 2025,2025-07-31,limitation,16:12:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Juli 2025,2025-07-31,outage,16:12:00,23:59:00,"OG.3, NST.5",,
+Juli 2025,2025-07-31,outage,16:12:00,16:53:00,"OG.4, NST.2",J13,41.0
+Juli 2025,2025-07-31,outage,16:15:00,23:59:00,"OG.5, NST.3",J11,105.0
+Juli 2025,2025-07-31,outage,18:24:00,23:59:00,"OG.4, NST.2",J13,0.0
+Juni 2025,2025-06-03,outage,14:04:00,15:14:00,OG.4 - NST.2,J13,70.0
+Juni 2025,2025-06-03,limitation,14:04:00,15:14:00,STS 6 - STS 10,"J10, J11, J12",
+Juni 2025,2025-06-03,outage,14:26:00,1900-01-01 00:00:00,OG.3 - NST.5,J14,214.0
+Juni 2025,2025-06-03,limitation,15:14:00,16:49:00,STS 6 - STS 10,"J10, J11, J12",
+Juni 2025,2025-06-03,outage,14:27:00,16:49:00,OG.5 - NST.3,J11,142.0
+Juni 2025,2025-06-03,limitation,16:49:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Juni 2025,2025-06-04,outage,1900-01-01 00:00:00,03:11:00,OG.3 - NST.5,J11,0.0
+Juni 2025,2025-06-08,outage,23:53:00,00:00:00,GSK.2,,0.0
+Juni 2025,2025-06-08,outage,23:54:00,00:00:00,"OG.1, GSK.3",J02,0.0
+Juni 2025,2025-06-08,outage,23:55:00,00:00:00,OG.2,J03,0.0
+Juni 2025,2025-06-09,outage,00:00:00,00:29:00,OG.1,J02,0.0
+Juni 2025,2025-06-09,outage,00:00:00,23:46:00,OG.2,J03,720.0
+Juni 2025,2025-06-09,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2025,2025-06-09,outage,07:15:00,14:30:00,OG.5 - NST.3,,435.0
+Juni 2025,2025-06-09,limitation,07:15:00,14:30:00,STS 6 - STS 10,"J10, J11, J12",
+Juni 2025,2025-06-12,outage,17:45:00,18:52:00,OG.4,J13,15.0
+Juni 2025,2025-06-14,outage,09:44:00,11:57:00,OG.4,J13,133.0
+Juni 2025,2025-06-14,limitation,09:10:00,12:12:00,STS 6 - STS 10,"J10, J11, J12",
+Juni 2025,2025-06-15,outage,11:39:00,12:15:00,"OG.1, OG.2 (busbar 1 loss voltage)",,
+Juni 2025,2025-06-15,outage,11:39:00,18:00:00,"OG.1, GSK.3",J02,381.0
+Juni 2025,2025-06-15,limitation,11:39:00,12:14:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2025,2025-06-15,limitation,12:14:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2025,2025-06-16,outage,06:00:00,18:00:00,"OG.1, GSK.3",J02,720.0
+Juni 2025,2025-06-16,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2025,2025-06-17,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2025,2025-06-17,outage,08:21:00,08:50:00,"OG.2 - GSK.2, OG.1 - GSK.3 (busbar 1 loss voltage)",,29.0
+Juni 2025,2025-06-17,outage,06:00:00,18:00:00,"OG.1, GSK.3",J02,720.0
+Juni 2025,2025-06-18,outage,06:00:00,14:11:00,"OG.1, GSK.3",J02,491.0
+Juni 2025,2025-06-18,limitation,06:00:00,14:17:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2025,2025-06-23,outage,15:18:00,15:58:00,"OG.1, GSK.3",J02,40.0
+Juni 2025,2025-06-23,limitation,15:18:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2025,2025-06-23,outage,15:18:00,18:00:00,"OG.2, GSK.2",J03,162.0
+Juni 2025,2025-06-24,outage,06:00:00,18:00:00,"OG.2, GSK.2",J03,720.0
+Juni 2025,2025-06-24,limitation,06:00:00,18:00:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2025,2025-06-25,outage,06:00:00,17:56:00,"OG.2, GSK.2",J03,716.0
+Juni 2025,2025-06-25,limitation,06:00:00,17:56:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Juni 2025,2025-06-25,outage,14:00:00,18:00:00,OG.3 - NST.5,J14,240.0
+Juni 2025,2025-06-25,limitation,15:28:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Juni 2025,2025-06-26,outage,06:00:00,18:00:00,OG.3,,
+Juni 2025,2025-06-27,outage,06:00:00,18:00:00,OG.3 - NST.5,J14,720.0
+Juni 2025,2025-06-27,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Juni 2025,2025-06-28,outage,06:00:00,18:00:00,OG.3 - NST.5,J14,720.0
+Juni 2025,2025-06-28,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Juni 2025,2025-06-29,outage,06:00:00,18:00:00,OG.3 - NST.5,J14,720.0
+Juni 2025,2025-06-29,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Juni 2025,2025-06-30,outage,06:00:00,18:00:00,OG.3 - NST.5,J14,720.0
+Juni 2025,2025-06-30,limitation,06:00:00,18:00:00,STS 6 - STS 10,"J10, J11, J12",
+Mei 2025,2025-05-01,outage,00:00:00,02:49:00,OG.2,J03,0.0
+Mei 2025,2025-05-01,limitation,07:00:00,10:59:00,STS 1 - STS 5,"J02, J03, J07, J08",
+Mei 2025,2025-05-01,outage,00:00:00,02:53:00,OG.1,J02,0.0
+Mei 2025,2025-05-01,outage,00:00:00,03:03:00,Busbar 1 Powerhouse,"J02, J03, J04, J07, J08",0.0
+Mei 2025,2025-05-01,outage,00:00:00,06:47:00,OG.4,J13,47.0
+Mei 2025,2025-05-01,outage,11:17:00,21:55:00,OG.2,J03,403.0
+Mei 2025,2025-05-05,outage,08:52:00,09:22:00,"OG.1, STS 1 - STS 5",J02,30.0
+Mei 2025,2025-05-05,outage,08:52:00,09:22:00,GSK.2 (OG.2 internal outage),J03,30.0
+Mei 2025,2025-05-05,outage,18:17:00,21:44:00,OG.1,J02,0.0
+Mei 2025,2025-05-08,outage,07:47:00,08:40:00,NST.5,,
+Mei 2025,2025-05-08,outage,07:48:00,08:28:00,OG.4 - NST.2,J13,40.0
+Mei 2025,2025-05-08,outage,07:48:00,08:32:00,OG.5 - NST.3,J11,44.0
+Mei 2025,2025-05-08,outage,08:23:00,08:47:00,OG.3 - NST.5,J14,49.0
+Mei 2025,2025-05-14,outage,05:56:00,07:16:00,"OG.1, OG.2 (busbar 1 loss voltage)",J02,76.0
+Mei 2025,2025-05-14,outage,07:16:00,13:44:00,OG.2,J03,388.0
+Mei 2025,2025-05-20,outage,11:15:00,18:30:00,OG.1,J02,405.0
+Mei 2025,2025-05-20,outage,11:17:00,18:48:00,OG.2,J03,403.0
+Mei 2025,2025-05-29,outage,07:18:00,10:30:00,OG.5 - NST.3,J11,192.0
+Mei 2025,2025-05-29,outage,07:21:00,09:18:00,OG.4 - NST.2,J13,117.0
+Mei 2025,2025-05-29,outage,07:33:00,10:45:00,OG.3 - NST.5,J14,192.0
+April 2025,2025-04-01,limitation,07:00:00,10:59:00,STS 1 - STS 5,"J02, J03, J07, J08",

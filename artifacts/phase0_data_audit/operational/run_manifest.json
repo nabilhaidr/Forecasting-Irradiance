@@ -1,0 +1,13 @@
+{
+  "artifact_sha256": {
+    "curtailment_periods.csv": "86ddf05fe7d66f0f831e69947b565597d9ccb5a6cdb9d713f85fa951db359a03",
+    "dcm_outage_limitation.csv": "0331a37089f42ed4a9e839dccf3f192ee40f9f0deda9b277b85d69a1e430f075",
+    "maintenance_periods.csv": "c6a1f32e75b97aed09778cceaecac8cb78113954b8036ca0cea2b3a422c08301",
+    "operational_source_manifest.csv": "80e736418352fdfaca132701b45b2cd06b31c67e4634fd4c26f140204c58773b"
+  },
+  "curtailment_row_count": 47,
+  "dcm_interval_count": 1784,
+  "maintenance_row_count": 1212,
+  "timezone_caveat": "historian timezone/clock offset is unconfirmed (S0-2 open item); every local-time claim below - daylight hours, months, seasonal regime - is provisional under the Asia/Makassar (WITA) working assumption.",
+  "weather_station_maintenance_count": 20
+}

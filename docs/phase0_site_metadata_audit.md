@@ -117,7 +117,7 @@ and the SR30 brochure recommends a **2-year recalibration interval**.
 
 | Channel | Instrument | Mounting | Open items |
 |---|---|---|---|
-| GHI | SR20-D2 (WS-1..4), SR30-M2-D1 (WS-5) | horizontal | serials/calibration; WS-3 GHI reported shut down from March 2026 |
+| GHI | SR20-D2 (WS-1..4), SR30-M2-D1 (WS-5) | horizontal | serials/calibration; WS-3 GHI reported down March 2025 → 2025-06-25 (operator correction 2026-07-18) |
 | DHI | SR20-D2 assumed (shaded, on tracker) | horizontal | shading configuration not explicitly documented |
 | DNI·cosZ | DR20 pyrheliometer + HQB-TG1 tracker | tracker | pyrheliometer ISO class not extracted (scanned attachment); serials/calibration |
 | POA (front) | SR20-D2 assumed; heads WS1.4–WS4.4 | co-planar, 10°/0° | serials/calibration |
@@ -129,17 +129,21 @@ and the SR30 brochure recommends a **2-year recalibration interval**.
 |---|---|---|---|---|---|
 | WS1.1 / WS1.2 / WS1.3 | WB09-INV07-ST15 | 1.76 / 1.96 / 1.74 | 1.47 / 1.67 / 1.45 | 9 | — |
 | WS2.1 / WS2.2 / WS2.3 | WB05-INV02-ST13 | 1.22 / 1.25 / 1.30 | 0.93 / 0.96 / 1.01 | 10 | — |
-| WS3.1 / WS3.2 / WS3.3 | WB06-INV18-ST01 | 1.71 / 1.73 / 1.73 | — | 10 | WS3.1 reported removed ~2026-06-25 during WS-3 GHI troubleshooting; WS3.2/3.3 heights not recorded |
-| WS4.1 / WS4.2 / WS4.3 | WB04-INV15-ST11 | 1.11 / 1.04 / 0.97 | 0.82 / 0.75 / — | 9 | WS4.3 reported moved to replace a failed WS-5 pyranometer, then failed again after an STS-2 overcurrent event |
+| WS3.1 / WS3.2 / WS3.3 | WB06-INV18-ST01 | 1.71 / 1.73 / 1.73 | — | 10 | all three reported removed 2025-06-30 (operator correction 2026-07-18); WS3.2/3.3 heights not recorded |
+| WS4.1 / WS4.2 / WS4.3 | WB04-INV15-ST11 | 1.11 / 1.04 / 0.97 | 0.82 / 0.75 / — | 9 | WS4.1 reported removed 2025-09-01 and WS4.2 removed 2026-01-05 (operator correction 2026-07-18); earlier record attributed the WS-5 replacement move (and later STS-2 overcurrent failure) to WS4.3 — attribution unresolved (owner: O&M) |
 
 The RSI representativeness caveat stands: these are single-point sensors and
 are **not** an array-average rear irradiance (FR-020).
 
 ### Operational findings forwarded to S0-5
 
-- WS-3 GHI pyranometer reported shut down from March 2026 (troubleshooting
-  around 2026-06-25) — expect a WS-3 GHI coverage hole in the historical audit.
-- WS3.1 and WS4.3 RSI heads reported removed/failed — expect RSI channel gaps.
+- WS-3 GHI pyranometer reported shut down from March 2025 and back to normal
+  since 2025-06-25 (operator correction 2026-07-18; the earlier survey remark
+  misdated this as March 2026) — expect a WS-3 GHI coverage hole over
+  March–June 2025 in the historical audit.
+- RSI heads reported removed: WS3.1/WS3.2/WS3.3 on 2025-06-30, WS4.1 on
+  2025-09-01, WS4.2 on 2026-01-05 (operator correction 2026-07-18) — expect
+  stepwise RSI channel loss; which head served WS-5 remains unresolved.
 
 ## SCADA tag mapping (hypothesis, unconfirmed)
 

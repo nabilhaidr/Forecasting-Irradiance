@@ -1,0 +1,144 @@
+name: S0-5 Historical Coverage Audit
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: s0-5-data-audit-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    env:
+      S05_WORK_ROOT: /tmp/s0-5-data-audit
+      RAW_SOURCE: "gdrive:raw_data"
+      HISTORICAL_SOURCE: "gdrive:Data Weather Station"
+      EXPECTED_RAW_ZIP_COUNT: "145"
+      EXPECTED_RAW_BYTES: "23776109"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0
+        with:
+          persist-credentials: false
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            requirements-nwp.txt
+            requirements-cov.txt
+
+      - name: Install and verify S0-5 code
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          python -m pip install --disable-pip-version-check -r requirements-nwp.txt
+          python -m pip install --disable-pip-version-check -r requirements-cov.txt
+          python -m pytest -q
+
+      - name: Install pinned rclone
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          archive="${RUNNER_TEMP}/rclone-v1.74.4-linux-amd64.zip"
+          curl --fail --silent --show-error --location \
+            --output "${archive}" \
+            "https://downloads.rclone.org/v1.74.4/rclone-v1.74.4-linux-amd64.zip"
+          echo "fe435e0c36228e7c2f116a8701f01127bb1f694005fc11d1f27186c8bca4115d  ${archive}" |
+            sha256sum --check
+          unzip -q "${archive}" -d "${RUNNER_TEMP}/rclone"
+          rclone_dir="${RUNNER_TEMP}/rclone/rclone-v1.74.4-linux-amd64"
+          chmod 755 "${rclone_dir}/rclone"
+          echo "${rclone_dir}" >> "${GITHUB_PATH}"
+
+      - name: Reconstruct rclone configuration
+        env:
+          RCLONE_CONFIG_B64: ${{ secrets.RCLONE_CONFIG_B64 }}
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          umask 077
+          config_dir="${RUNNER_TEMP}/s05-rclone"
+          config_path="${config_dir}/rclone.conf"
+          install -d -m 700 "${config_dir}"
+          printf '%s' "${RCLONE_CONFIG_B64}" | base64 --decode > "${config_path}"
+          test -s "${config_path}"
+          chmod 600 "${config_path}"
+          printf 'RCLONE_CONFIG=%s\n' "${config_path}" >> "${GITHUB_ENV}"
+
+      - name: Download and verify audited source inventories
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          raw_dir="${S05_WORK_ROOT}/raw"
+          xlsx_dir="${S05_WORK_ROOT}/xlsx"
+          install -d "${raw_dir}" "${xlsx_dir}"
+          rclone copy "${RAW_SOURCE}" "${raw_dir}" \
+            --max-depth 1 \
+            --include '*.zip' \
+            --checkers 8 \
+            --transfers 8
+          # Stage every instantaneous irradiance channel at any folder depth,
+          # excluding all accumulation workbooks. Basename includes survive the
+          # per-era folder layout drift on the Drive.
+          rclone copy "${HISTORICAL_SOURCE}" "${xlsx_dir}" \
+            --filter '- **/*Accum*.xlsx' \
+            --filter '+ **/GHI_PLTS-IKN_WS-?_*.xlsx' \
+            --filter '+ **/DHI_PLTS-IKN_WS-?_*.xlsx' \
+            --filter '+ **/DNIcosZ_PLTS-IKN_WS-?_*.xlsx' \
+            --filter '+ **/POA_PLTS-IKN_WS-?_*.xlsx' \
+            --filter '+ **/RSI_0?_PLTS-IKN_WS-?_*.xlsx' \
+            --filter '+ **/Total_Irradiance_PLTS-IKN_WS-?_*.xlsx' \
+            --filter '+ **/GHI WS-? PLTS IKN*.xlsx' \
+            --filter '+ **/DHI WS-? PLTS IKN*.xlsx' \
+            --filter '+ **/DNI cosZ WS-? PLTS IKN*.xlsx' \
+            --filter '+ **/POA WS-? PLTS IKN*.xlsx' \
+            --filter '+ **/RSI 0? WS-? PLTS IKN*.xlsx' \
+            --filter '+ **/Total Irradiance WS-? PLTS IKN*.xlsx' \
+            --filter '- **' \
+            --checkers 16 \
+            --transfers 16
+          raw_count="$(find "${raw_dir}" -maxdepth 1 -type f -name '*.zip' | wc -l)"
+          raw_bytes="$(find "${raw_dir}" -maxdepth 1 -type f -name '*.zip' -printf '%s\n' | awk '{total += $1} END {print total + 0}')"
+          xlsx_count="$(find "${xlsx_dir}" -type f -name '*.xlsx' | wc -l)"
+          test "${raw_count}" = "${EXPECTED_RAW_ZIP_COUNT}"
+          test "${raw_bytes}" = "${EXPECTED_RAW_BYTES}"
+          test "${xlsx_count}" -gt 0
+          printf 'verified raw_zip_count=%s raw_bytes=%s staged_xlsx_count=%s\n' \
+            "${raw_count}" "${raw_bytes}" "${xlsx_count}"
+
+      - name: Run S0-5 irradiance coverage audit
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          python -m src.characterisation.data_audit_cli \
+            --scope irradiance \
+            --xlsx-root "${S05_WORK_ROOT}/xlsx" \
+            --cov-dir "${S05_WORK_ROOT}/raw" \
+            --site-config configs/site_plts-ikn.yaml \
+            --output-dir "${S05_WORK_ROOT}/artifacts"
+
+      - name: Upload deterministic evidence only
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: s0-5-data-audit-evidence
+          path: /tmp/s0-5-data-audit/artifacts
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Cleanup credentials and source data
+        if: always()
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          rm -f -- "${RCLONE_CONFIG:-${RUNNER_TEMP}/s05-rclone/rclone.conf}"
+          rm -rf -- "${RUNNER_TEMP}/s05-rclone"
+          rm -rf -- "${S05_WORK_ROOT}"
